@@ -6,3 +6,7 @@ ref/
 *.png
 *.sgm
 *.pdf
+
+__pycache__/
+
+implementation/algorithm/test.ipynb
