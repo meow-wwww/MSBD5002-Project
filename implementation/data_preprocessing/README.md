@@ -10,7 +10,7 @@
 ## API
 
 ```import
-mat, label = cifar10.load_data()
+mat, label = cifar10.read_data()
 # mat: a numpy array with shape (NumberOfSamples, Dimension)
 # label: a numpy array with shape (NumberOfSamples, )
 ```
