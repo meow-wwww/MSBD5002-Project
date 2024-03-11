@@ -11,8 +11,8 @@
 
 ```import
 mat, label = cifar10.load_data()
-mat: a numpy array with shape (NumberOfSamples, Dimension)
-label: a numpy array with shape (NumberOfSamples, )
+# mat: a numpy array with shape (NumberOfSamples, Dimension)
+# label: a numpy array with shape (NumberOfSamples, )
 ```
 
 完整使用实例参见 [./test.ipynb](./test.ipynb)
