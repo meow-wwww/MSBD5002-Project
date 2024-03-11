@@ -1,0 +1,8 @@
+dataset/
+Symmetric-Matrix-Factorization-main/
+ref/
+
+*.jpg
+*.png
+*.sgm
+*.pdf

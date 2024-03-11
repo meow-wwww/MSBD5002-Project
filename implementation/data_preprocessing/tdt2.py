@@ -30,6 +30,6 @@ def read_data(top_topics=30):
     assert new_matrix.shape[0] == new_labels.shape[0] and new_matrix.shape[0] == 9394
     assert new_matrix.shape[1] == 36771
     
-    return new_matrix, new_labels
+    return new_matrix, new_labels.reshape(-1)
 
 
