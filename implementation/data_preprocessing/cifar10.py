@@ -2,7 +2,7 @@
 import pickle
 import numpy as np
 import typing
-import random
+import random, os
 
 NUM_OF_CLASS = 10
 SAMPLES_PER_CLASS = 300
@@ -16,7 +16,9 @@ def unpickle(file):
 
 # %%
 def read_data_core():
-    cifar10 = unpickle('../../dataset/cifar-10-batches-py/test_batch')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, '../../dataset/cifar-10-batches-py/test_batch')
+    cifar10 = unpickle(data_path)
     # download from: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
     label = np.array(cifar10[b'labels'])
     label_sort_idx = np.argsort(label)

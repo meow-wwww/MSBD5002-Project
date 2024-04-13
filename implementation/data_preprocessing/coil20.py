@@ -3,6 +3,7 @@ from scipy.io import loadmat
 import numpy as np
 import typing
 import random
+import os
 
 NUM_OF_CLASS = 20
 SAMPLES_PER_CLASS = 72
@@ -10,7 +11,9 @@ FEATURE_DIM = 1024
 
 # %%
 def read_data_core():
-    coil20 = loadmat('../../dataset/COIL20.mat')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, '../../dataset/COIL20.mat')
+    coil20 = loadmat(data_path)
     # download from: http://www.cad.zju.edu.cn/home/dengcai/Data/COIL20/COIL20.mat
     
     data = coil20['fea']

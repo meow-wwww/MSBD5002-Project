@@ -4,6 +4,7 @@ from scipy.io import loadmat
 import numpy as np
 from collections import Counter
 import typing
+import os
 
 NUM_OF_CLASS = 41
 FEATURE_DIM = 18933
@@ -15,7 +16,9 @@ def read_data_core():
     The returned data has already been preprocessed, so that the dimensionality matches exactly the one used in the paper.
     '''
     print('Reading reuters21578 dataset...')
-    reuters21578 = loadmat('../../dataset/reuters21578.mat') 
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, '../../dataset/reuters21578.mat')
+    reuters21578 = loadmat(data_path) 
     # download from: http://www.cad.zju.edu.cn/home/dengcai/Data/Reuters21578/Reuters21578.mat
     
     print('Counting the number of occurrences of each topic...')

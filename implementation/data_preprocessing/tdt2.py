@@ -4,6 +4,7 @@ from scipy.io import loadmat
 import numpy as np
 from collections import Counter
 import typing
+import os
 
 NUM_OF_CLASS = 30
 # SAMPLES_PER_CLASS = 72
@@ -14,7 +15,9 @@ def read_data_core(top_topics=30):
     Read the reuters21578 dataset and return the matrix and labels.
     The returned data has already been preprocessed, so that the dimensionality matches exactly the one used in the paper.
     '''
-    tdt2 = loadmat('../../dataset/TDT2_all.mat') 
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_dir, '../../dataset/TDT2_all.mat')
+    tdt2 = loadmat(data_path) 
     # download from: http://www.cad.zju.edu.cn/home/dengcai/Data/TDT2/TDT2_all.mat
     
     # count the occurrences of each class
