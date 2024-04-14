@@ -24,7 +24,9 @@ def read_data_core():
     return data, label # data and label are sorted by label
 
 
-def read_data(num_of_class: int = NUM_OF_CLASS, random_choose_class: bool = False, random_shuffle: bool = False) -> typing.Tuple[np.ndarray, np.ndarray]:
+def read_data(num_of_class: int = NUM_OF_CLASS, 
+              random_choose_class: bool = False, choose_class: typing.List[int] = None,
+              random_shuffle: bool = False) -> typing.Tuple[np.ndarray, np.ndarray]:
     '''
     Read the cifar10 dataset and return the matrix and labels.
 
@@ -44,7 +46,14 @@ def read_data(num_of_class: int = NUM_OF_CLASS, random_choose_class: bool = Fals
         label_chosen = np.random.choice(all_distinct_label, num_of_class, replace=False)
         label_chosen.sort()
     else:
-        label_chosen = all_distinct_label[:num_of_class]
+        if choose_class is None:
+            label_chosen = all_distinct_label[:num_of_class]
+        else:
+            assert len(choose_class) == num_of_class, 'The length of choose_class should be equal to num_of_class'
+            assert np.all(np.isin(choose_class, all_distinct_label)), 'choose_class should be a subset of all_distinct_label'
+            label_chosen = np.array(choose_class)
+            
+        # label_chosen = all_distinct_label[:num_of_class]
     assert np.all(np.diff(label_chosen) > 0)
     
     # cut the corresponding data and label
