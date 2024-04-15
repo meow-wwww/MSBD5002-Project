@@ -3,6 +3,25 @@
 import numpy as np
 import time 
 def matrixFac_col(X, itr, H, lmbda, tol):
+    """
+    -------------
+    Parameters
+    -------------
+    X: Symmetric input matrix of size (n, n)
+    itr: Number of iterations for the factorization
+    H: Initial matrix H of shape (n, k)
+    lmbda: Regularization parameter
+    tol: Tolerance to determine convergence
+    -------------
+    Output
+    -------------
+    H: Learned matrix H of shape (n, k)
+    P: Learned matrix P of shape (n, k)
+    losses: Loss values at each iteration
+    losses_pure: Pure reconstruction loss values at each iteration
+    times: Time elapsed at each iteration
+    H_list: List of H matrices at each iteration
+    """
     losses = np.zeros(itr)
     losses_pure = np.zeros(itr)
     H_list = [None] * itr
