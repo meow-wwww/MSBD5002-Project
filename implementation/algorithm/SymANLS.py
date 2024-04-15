@@ -12,6 +12,25 @@ def ClusteringMeasure(true_labels, pred_labels):
 
 # Symmetric Alternating Nonnegative Least Squares
 def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
+    """
+    -------------
+    Input
+    -------------
+    X: Symmetric input matrix of size (n, n)
+    U,V: result of factorization with size (n,r)
+    maxitr: # of iterations
+    lmbda_: regularization param
+    truelabel: the true label of the matrix U/V
+    -------------
+    Output
+    -------------
+    U,V: result of factorization with size (n,r)
+    e: iteration error
+    t: running time
+    diff: difference between U and V
+    nmi: measurement
+    """
+    
     # convert V if necessary
     if V.shape[0] < V.shape[1]:
         V = V.T
@@ -67,7 +86,6 @@ def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
             t.append(time.time() - etime)
 
             if truelabel is not None:
-                #_, label = pairwise_distances_argmin_min(V, metric = 'euclidean')
                 label = np.argmax(V, axis=1)
                 tempacc = ClusteringMeasure(truelabel, label)
                 nmi.append(tempacc[0])
