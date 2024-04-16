@@ -40,7 +40,24 @@ def kmeans(X, n_clusters, max_iter=100, tol=1e-4):
         for i in range(n_clusters):
             centers[i] = X[labels == i].mean(axis=0)
     if _ == max_iter - 1:
-        raise Exception("K-means algorithm did not converge")
+        print(f"K-means algorithm did not converge in {max_iter} iterations")
+        return None, None
+        # raise Exception("K-means algorithm did not converge")
     logging.info(f"K-means algorithm converged in {_} iterations")
     
     return labels, centers
+
+
+def kmeans_optimal(X, n_clusters, max_iter=200, tol=1e-4, turns=20):
+    minimal_distance = np.inf
+    
+    for _ in range(turns):
+        labels, centers = kmeans(X, n_clusters, max_iter, tol)
+        if labels is None:
+            continue
+        distance = np.linalg.norm(X - centers[labels])
+        if distance < minimal_distance:
+            minimal_distance = distance
+            best_labels = labels
+            best_centers = centers
+    return best_labels, best_centers
