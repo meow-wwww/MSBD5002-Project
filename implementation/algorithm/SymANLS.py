@@ -82,6 +82,7 @@ def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
         # evaluation of the error e at time t
         if e is not None:
             e.append(0.5 * np.linalg.norm(X - np.dot(U, V.T), 'fro') ** 2 / np.linalg.norm(X, 'fro') ** 2)
+            print(f'iteration {iter}, error = {e[-1]}')
             diff.append(np.linalg.norm(U - V, 'fro') ** 2)
             t.append(time.time() - etime)
 
