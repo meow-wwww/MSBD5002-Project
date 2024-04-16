@@ -48,11 +48,11 @@ def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
     diff.append(np.linalg.norm(U - V, 'fro') ** 2)
     t.append(0)
 
-    nmi = []
+    NMI = []
     if truelabel is not None:
         label = np.argmax(V, axis=1)
         tempacc = ClusteringMeasure(truelabel, label)
-        nmi.append(tempacc[0])
+        NMI.append(tempacc[0])
 
 
     while iter <= maxiter:
@@ -88,11 +88,11 @@ def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
             if truelabel is not None:
                 label = np.argmax(V, axis=1)
                 tempacc = ClusteringMeasure(truelabel, label)
-                nmi.append(tempacc[0])
+                NMI.append(tempacc[0])
 
         iter += 1
 
-    return U, V, e, t, diff, nmi
+    return U, V, e, t, diff, NMI
 
 
 
