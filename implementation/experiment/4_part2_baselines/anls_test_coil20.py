@@ -1,3 +1,8 @@
+import sys
+sys.path.append('../../data_preprocessing')
+sys.path.append('../../algorithm')
+from importlib import reload
+
 import coil20
 import numpy as np
 from SymANLS import SymANLS
@@ -19,7 +24,7 @@ X = mat_normalized @ mat_normalized.T
 U0 = np.random.rand(X.shape[0], r)
 V0 = U0.copy()
 
-
+reload(SymANLS)
 U, V, e, t, diff, NMI = SymANLS(X, U0, V0, maxiter, lambda_, truelabel)
 
 
