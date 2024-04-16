@@ -94,14 +94,7 @@ def SymANLS(X, U, V, maxiter, lambda_, truelabel = None):
 
     return U, V, e, t, diff, nmi
 
-#may need check error Ek in the article
-#checking optimality(FOR PHASE TRASITION ONLY)
-#     E_U = max(U - (U*V'-X)*V + lambda*(U-V), 0) - U;
-#     E_V = max(V - (U*V'-X)'*U + lambda*(V-U), 0) - V;
-#     if norm([E_U;E_V],'fro')< 1e-8
-#         disp('get optimality');
-#         break;
-#     end
+
 
 
 
