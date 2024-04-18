@@ -5,8 +5,8 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         AtA = A
         AtB = B
     else:
-        AtA = np.dot(A.T, A) #test_random (10, 10), init(10, 100)
-        AtB = np.dot(A.T, B) #test_random (10, 100)
+        AtA = A.T @ A #test_random (10, 10), init(10, 100)
+        AtB = A.T @ B #test_random (10, 100)
     
     n, k = AtB.shape
     MAX_BIG_ITER = n * 5
@@ -24,13 +24,13 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         Y = AtA @ X - AtB #test_random (10, 100)
 
     pbar = 3
-    P = np.ones(k) * pbar
-    Ninf = np.ones(k) * (n + 1)
+    P = np.full(k, pbar) #P = np.ones(k) * pbar
+    Ninf = np.full(k, n + 1)
     
     NonOptSet = (Y < 0) & ~PassiveSet # non-optimal #bool，True: Y<0& PassiveSet False  #test_random (10, 100)
     InfeaSet = (X < 0) & PassiveSet # infeasible ? nonnegative  #test_random (10, 100)
-    NotGood = np.sum(NonOptSet) + np.sum(InfeaSet) #test_random 181
-    NotOptCols = NotGood > 0
+    NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axis = 0) #test_random (100,)
+    NotOptCols = NotGood > 0 #test_random (100,)
     
     bigIter = 0
     success = 0
@@ -41,22 +41,24 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
             success = 1
             break
         
-        Cols1 = NotOptCols & (NotGood < Ninf) #test_random (100,) False
-        Cols2 = NotOptCols & (NotGood >= Ninf) & (P >= 1) #test_random (100,) True
-        Cols3Ix = np.where(NotOptCols & ~Cols1 & ~Cols2)[0] #[]
+        Cols1 = NotOptCols & (NotGood < Ninf) #test_random (100,) 
+        Cols2 = NotOptCols & (NotGood >= Ninf) & (P >= 1) #test_random (100,) 
+        Cols3Ix = np.where(NotOptCols & ~Cols1 & ~Cols2)[0] #[] (0,)
         
         if np.any(Cols1):
             P[Cols1] = pbar
             Ninf[Cols1] = NotGood[Cols1]
-            PassiveSet[NonOptSet & np.tile(Cols1, (n, 1))] = True
-            PassiveSet[InfeaSet & np.tile(Cols1, (n, 1))] = False
+            PassiveSet[:, Cols1] = (NonOptSet[:, Cols1] | PassiveSet[:, Cols1]) & ~InfeaSet[:, Cols1]
+            #PassiveSet[NonOptSet & np.tile(Cols1, (n, 1))] = True
+            #PassiveSet[InfeaSet & np.tile(Cols1, (n, 1))] = False
         
         if np.any(Cols2):
             P[Cols2] -= 1
-            PassiveSet[NonOptSet & np.tile(Cols2, (n, 1))] = True
-            PassiveSet[InfeaSet & np.tile(Cols2, (n, 1))] = False
+            PassiveSet[:, Cols2] = (NonOptSet[:, Cols2] | PassiveSet[:, Cols2]) & ~InfeaSet[:, Cols2]
+            #PassiveSet[NonOptSet & np.tile(Cols2, (n, 1))] = True
+            #PassiveSet[InfeaSet & np.tile(Cols2, (n, 1))] = False
         
-        if len(Cols3Ix) > 0:
+        if Cols3Ix.size > 0:
             for i in range(len(Cols3Ix)):
                 Ix = Cols3Ix[i]
                 toChange = np.max(np.where(NonOptSet[:, Ix] | InfeaSet[:, Ix]))
@@ -76,7 +78,7 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         NotOptMask = np.tile(NotOptCols, (n, 1))
         NonOptSet = NotOptMask & (Y < 0) & ~PassiveSet
         InfeaSet = NotOptMask & (X < 0) & PassiveSet
-        NotGood = np.sum(NonOptSet) + np.sum(InfeaSet)
+        NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axios = 0)
         NotOptCols = NotGood > 0
     
     return X, Y, success, numChol, numEq
@@ -88,14 +90,14 @@ def normalEqComb(AtA, AtB, PassSet = None):
         numChol = 0
         numEq = 0
         #return np.array([]), 0, 0
-    elif PassSet is None or np.all(PassSet): # 1st:PassSet(10, 100) is None or all True; 2nd (10,1,100)?
+    elif PassSet is None or np.all(PassSet): # 1st:PassSet(10, 100) is None or all True; 2nd (10,97)
         Z = np.linalg.solve(AtA, AtB) #test_random (10, 100)
         numChol = 1
         numEq = AtB.shape[1]
     else:
         #Z = np.zeros(AtB.shape)
         Z = np.zeros_like(AtB)
-        m, k1, k2= PassSet.shape
+        n, k1 = PassSet.shape #10, 97
 
         if k1 == 1:
             if np.any(PassSet):
@@ -108,13 +110,17 @@ def normalEqComb(AtA, AtB, PassSet = None):
         else:
             #sortedPassSet = np.sort(PassSet.T, axis=0)
             #sortedPassSet, sortIx = np.sort(PassSet.T, axis=0).T
-            sortIx = np.lexsort(PassSet.T)
-            sortedPassSet = PassSet[sortIx, :]
-
+            sortIx = np.argsort(PassSet.T, axis=0) #test_random (97, 10)
+            #sortIx = np.argsort(PassSet, axis=0)
+            #sortedPassSet = PassSet.T[sortIx, np.arange(k1)] # test (10,97)
+            sortedPassSet = PassSet.T[sortIx].T #test_random (10, 10, 97)
+            #sortedPassSet = PassSet.T[sortIx].T
+            #sortedPassSet = PassSet[sortIx, :]
             breaks = np.any(np.diff(sortedPassSet, axis=0), axis=1)
-            breakIx = np.concatenate(([0], np.where(breaks)[0] + 1, [k1]))
+            #breaks = np.any(np.diff(sortedPassSet, axis=0), axis=0) #test (9,97) 
+            breakIx = np.concatenate(([0], np.where(breaks)[0] + 1, [k1])) #(830,)
 
-            if np.any(sortedPassSet[0] == 0):
+            if np.any(sortedPassSet[0, :] == 0):
                 startIx = 2
             else:
                 startIx = 1
@@ -125,13 +131,15 @@ def normalEqComb(AtA, AtB, PassSet = None):
             for k in range(startIx, len(breakIx) - 1):
                 #cols = np.argsort(sortedPassSet[breakIx[k]:breakIx[k+1], :].T, axis=0)
                 #vars = sortedPassSet[breakIx[k]:breakIx[k+1], cols]
-                cols = sortIx[breakIx[k]:breakIx[k + 1]]
-                vars = sortedPassSet[breakIx[k]+1, :].T
+                cols = sortIx[breakIx[k]:breakIx[k + 1]] #test_random (0, 10)
+                #vars = sortedPassSet[breakIx[k]+1, :].T
+                vars = sortedPassSet[breakIx[k], :] #test_random (10,97)
                 #vars = sortedPassSet[breakIx[k]:breakIx[k + 1]].T
+                
                 Z[vars, cols] = np.linalg.solve(AtA[vars, vars], AtB[vars, cols])
+                #Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
+                #Z[np.ix_(vars, cols)] = np.linalg.solve(AtA[np.ix_(vars, vars)], AtB[np.ix_(vars, cols)])
                 numChol += 1
                 #numEq += breakIx[k+1] - breakIx[k]
 
     return Z, numChol, numEq
-            
-            
