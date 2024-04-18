@@ -1,10 +1,10 @@
+import sys
+sys.path.append('D:/hkust/class/5002Data Mining/project/clone_git/MSBD5002-Project')
+#sys.path.append('../..')
 import numpy as np
-from SymANLS import SymANLS
-from SymANLS_pivot import SymANLS_pivot
+from implementation.algorithm.SymANLS import SymANLS
+from implementation.algorithm.SymANLS_pivot import SymANLS_pivot
 import matplotlib.pyplot as plt
-#from sklearn.preprocessing import LabelEncoder
-
-#label_encoder = LabelEncoder()
 
 
 if __name__ == "__main__":
@@ -14,8 +14,6 @@ if __name__ == "__main__":
     r = 10
     
     X = np.random.rand(n, n)
-    #U0 = np.random.uniform(0, 1, size=(n, r))
-    #V0 = np.random.uniform(0, 1, size=(n, r))
     U0 = np.random.rand(n, r)
     V0 = U0.copy()
     maxiter = 100
@@ -23,35 +21,16 @@ if __name__ == "__main__":
     #lambda_values = [0.01, 0.1, 0.5, 1, 5, 10, 39.9]
 
     truelabel = np.random.randint(0, 3, size=100)
-    #discrete_labels = label_encoder.fit_transform(truelabel)
-    '''
-    e_values = []
-    # Run SymANLS algorithm
-    for lambda_ in lambda_values:
-        U, V, e, t, diff, acc = SymANLS_pivot(X, U0, V0, maxiter, lambda_, truelabel)
-        e_values.append(e)
-    '''
+    
     #U, V, e, t, diff, NMI = SymANLS(X, U0, V0, maxiter, lambda_, truelabel)
     U, V, e, t, diff, NMI = SymANLS_pivot(X, U0, V0, maxiter, lambda_, truelabel)
 
-    '''
-    iterations = range(0, 102)  # len(e) = 102
-
-    plt.figure()
-    for i, e in enumerate(e_values):
-        plt.plot(iterations, e, label=f"lambda = {lambda_values[i]}")
-
-    plt.xlabel('Iteration k')
-    plt.ylabel('Error E_k')
-    plt.legend()
-    plt.show()
-    '''
-      
+    
     # Print the results
     #("U:", U)
     #print("V:", V)
     print("Error:", e)
     print("Time:", t)
-    print("Difference:", diff)
+    #print("Difference:", diff)
     print("nmi:", NMI)
 
