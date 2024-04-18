@@ -1,10 +1,12 @@
+import sys
+#sys.path.append('../../eval_metrics')
+sys.path.append('D:/hkust/class/5002Data Mining/project/clone_git/MSBD5002-Project')
 import numpy as np
 #from sklearn.metrics import normalized_mutual_info_score
 import time
 #import cvxpy as cp
-from nmi import nmi
-#from ac import ac
-from nnlsm_blockpivot import nnlsm_blockpivot
+from implementation.eval_metrics.nmi import nmi
+from implementation.algorithm.nnlsm_blockpivot import nnlsm_blockpivot
 
 '''
 def ClusteringMeasure(true_labels, pred_labels):
@@ -46,24 +48,12 @@ def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
         # update U
         A = np.concatenate((V, np.sqrt(lambda_) * np.eye(r))) #test_random (110, 10)
         B = np.concatenate((X.T, np.sqrt(lambda_) * V.T)) #test_random (110, 100)
-        #UT_optimal = cp.Variable((U.T).shape, nonneg=True)
-        #object1 = cp.Minimize(cp.sum_squares(A @ UT_optimal - B))
-        #constraint1 = []
-        #prob1 = cp.Problem(object1, constraint1)
-        #prob1.solve() # solver = SCS
-        #UT = UT_optimal.value
         UT = nnlsm_blockpivot(A, B, 0, U.T)
         U = UT.T
 
         # update V
         C = np.concatenate((U, np.sqrt(lambda_) * np.eye(r)))
         D = np.concatenate((X, np.sqrt(lambda_) * U.T))
-        #VT_optimal = cp.Variable((V.T).shape, nonneg=True)
-        #object2 = cp.Minimize(cp.sum_squares(C @ VT_optimal - D))
-        #constraint2 = []
-        #prob2 = cp.Problem(object2, constraint2)
-        #prob2.solve() # solver = SCS
-        #VT = VT_optimal.value
         VT = nnlsm_blockpivot(C, D, 0, V.T)
         V = VT.T
 
