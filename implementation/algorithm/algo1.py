@@ -1,6 +1,8 @@
 # Author: zrb
 
 import numpy as np
+import torch
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import time 
 def matrixFac_col(X, itr, H, lmbda, tol):
     """
@@ -27,8 +29,8 @@ def matrixFac_col(X, itr, H, lmbda, tol):
     H_list = [None] * itr
     etime = time.time()
     times = np.zeros(itr)
-    M = X.copy()
-    P = H.copy()
+    M = X.clone()
+    P = H.clone()
     _, k = H.shape
     func_def = lambda a, b: np.dot(a, b.T)
     times[0] = 0
@@ -38,12 +40,12 @@ def matrixFac_col(X, itr, H, lmbda, tol):
         for i in range(k):
             C = func_def(H, P)
             M_bar = M - (C - np.outer(H[:, i], P[:, i]))
-            H[:, i] = np.dot((M_bar + lmbda * np.eye(M_bar.shape[0])), P[:, i]) / (np.linalg.norm(P[:, i])**2 + lmbda)
-            P[:, i] = np.dot((M_bar + lmbda * np.eye(M_bar.shape[0])), H[:, i]) / (np.linalg.norm(H[:, i])**2 + lmbda)
+            H[:, i] = torch.from_numpy(np.dot((M_bar + lmbda * np.eye(M_bar.shape[0])), P[:, i]) / (np.linalg.norm(P[:, i])**2 + lmbda)).to(device)
+            P[:, i] = torch.from_numpy(np.dot((M_bar + lmbda * np.eye(M_bar.shape[0])), H[:, i]) / (np.linalg.norm(H[:, i])**2 + lmbda)).to(device)
         losses[t+1] = 0.5 * (np.linalg.norm(X - np.dot(H, P.T), 'fro')**2 + lmbda * np.linalg.norm(H - P, 'fro')**2) / np.linalg.norm(X, 'fro')**2
         losses_pure[t+1] = 0.5 * (np.linalg.norm(X - np.dot(H, P.T), 'fro')**2) / np.linalg.norm(X, 'fro')**2
         times[t+1] = time.time() - etime
-        H_list[t] = H.copy()
+        H_list[t] = H.clone()
         if t > 0:
             if losses_pure[t-1] - losses_pure[t] < tol:
                 break
