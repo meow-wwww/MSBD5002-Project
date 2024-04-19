@@ -29,6 +29,10 @@ def kmeans(X, n_clusters, max_iter=100, tol=1e-4):
         The centers of the clusters.
     """
     n_samples, n_features = X.shape
+    
+    # set random seed as time
+    
+    
     centers = X[np.random.choice(n_samples, n_clusters, replace=False)]
     labels = np.zeros(n_samples, dtype=int)
     for _ in range(max_iter):
