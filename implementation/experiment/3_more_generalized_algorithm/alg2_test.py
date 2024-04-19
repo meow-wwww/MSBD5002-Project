@@ -14,9 +14,9 @@ from importlib import reload
 reload(coil20)
 
 # training process
-import algorithm.alg2 as alg2
+import algorithm.algo2 as algo2
 
-reload(alg2)
+reload(algo2)
 from loss_function import origin
 
 # evaluation
@@ -80,20 +80,20 @@ H.to(device)
 H.requires_grad = True
 learning_rate = LEARNING_RATE
 
-H_out = alg2.matrixFac(A=A, H=H,
+H_out = algo2.matrixFac(A=A, H=H,
                        lamda=LAMBDA,
                        max_iter=3000,
                        print_every=100)
 # Non-negative constraint
 '''
-H_out = alg2.matrixFacNonNegative(A=A, H=H,
+H_out = algo2.matrixFacNonNegative(A=A, H=H,
                                   lamda=LAMBDA,
                                   K=3000,
                                   print_every=100)
 '''
 # Unit 2-norm constraint
 '''
-H_out = alg2.matrixFacUnit(A=A, H=H,
+H_out = algo2.matrixFacUnit(A=A, H=H,
                            lamda=LAMBDA,
                            K=3000,
                            print_every=100)
