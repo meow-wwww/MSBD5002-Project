@@ -5,8 +5,8 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         AtA = A
         AtB = B
     else:
-        AtA = A.T @ A #test_random (10, 10), init(10, 100)
-        AtB = A.T @ B #test_random (10, 100)
+        AtA = A.T @ A #test_random (5, 5), init(5, 20)
+        AtB = A.T @ B #test_random (5, 20)
     
     n, k = AtB.shape
     MAX_BIG_ITER = n * 5
@@ -18,19 +18,19 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         numChol = 0
         numEq = 0
     else:
-        PassiveSet = init > 0
-        X, numChol, numEq = normalEqComb(AtA, AtB, PassiveSet) # X test_random (10, 100)
+        PassiveSet = init > 0 #test_random (5, 20)
+        X, numChol, numEq = normalEqComb(AtA, AtB, PassiveSet) # test_random X(5, 20) PassiveSet(5, 20)
         #Y = np.dot(AtA, X) - AtB
-        Y = AtA @ X - AtB #test_random (10, 100)
+        Y = AtA @ X - AtB #Y(5, 20)
 
     pbar = 3
-    P = np.full(k, pbar) #P = np.ones(k) * pbar
-    Ninf = np.full(k, n + 1)
+    P = np.full(k, pbar) #P = np.ones(k) * pbar #（20，）
+    Ninf = np.full(k, n + 1) #（20，）
     
-    NonOptSet = (Y < 0) & ~PassiveSet # non-optimal #bool，True: Y<0& PassiveSet False  #test_random (10, 100)
-    InfeaSet = (X < 0) & PassiveSet # infeasible ? nonnegative  #test_random (10, 100)
-    NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axis = 0) #test_random (100,)
-    NotOptCols = NotGood > 0 #test_random (100,)
+    NonOptSet = (Y < 0) & ~PassiveSet # non-optimal #bool，True: Y<0& PassiveSet False  # NonOptSet(5, 20)
+    InfeaSet = (X < 0) & PassiveSet # infeasible ? nonnegative  # InfeaSet(5, 20)
+    NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axis = 0) # NotGood(20,)
+    NotOptCols = NotGood > 0 # NotOptCols(20,)
     
     bigIter = 0
     success = 0
@@ -41,9 +41,9 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
             success = 1
             break
         
-        Cols1 = NotOptCols & (NotGood < Ninf) #test_random (100,) 
-        Cols2 = NotOptCols & (NotGood >= Ninf) & (P >= 1) #test_random (100,) 
-        Cols3Ix = np.where(NotOptCols & ~Cols1 & ~Cols2)[0] #[] (0,)
+        Cols1 = NotOptCols & (NotGood < Ninf) # Cols1(20,) 
+        Cols2 = NotOptCols & (NotGood >= Ninf) & (P >= 1) # Cols2(20,) 
+        Cols3Ix = np.where(NotOptCols & ~Cols1 & ~Cols2)[0] # Cols3Ix[] (0,)
         
         if np.any(Cols1):
             P[Cols1] = pbar
@@ -68,7 +68,7 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
                 else:
                     PassiveSet[toChange, Ix] = True
         
-        X[:, NotOptCols], tempChol, tempEq = normalEqComb(AtA, AtB[:, NotOptCols], PassiveSet[:, NotOptCols])
+        X[:, NotOptCols], tempChol, tempEq = normalEqComb(AtA, AtB[:, NotOptCols], PassiveSet[:, NotOptCols]) #PassiveSet(5,20) AtB(5,20)
         numChol += tempChol
         numEq += tempEq
         X[np.abs(X) < 1e-12] = 0 #One can uncomment this line for numerical stability
@@ -78,7 +78,7 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
         NotOptMask = np.tile(NotOptCols, (n, 1))
         NonOptSet = NotOptMask & (Y < 0) & ~PassiveSet
         InfeaSet = NotOptMask & (X < 0) & PassiveSet
-        NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axios = 0)
+        NotGood = NonOptSet.sum(axis = 0) + InfeaSet.sum(axis = 0)
         NotOptCols = NotGood > 0
     
     return X, Y, success, numChol, numEq
@@ -90,18 +90,20 @@ def normalEqComb(AtA, AtB, PassSet = None):
         numChol = 0
         numEq = 0
         #return np.array([]), 0, 0
-    elif PassSet is None or np.all(PassSet): # 1st:PassSet(10, 100) is None or all True; 2nd (10,97)
-        Z = np.linalg.solve(AtA, AtB) #test_random (10, 100)
+    elif PassSet is None or np.all(PassSet): # 1st:PassSet(5, 20) ; 2nd ATB(5,8) PassSet(5,8)
+        Z = np.linalg.solve(AtA, AtB) #test_random (5, 8)
         numChol = 1
         numEq = AtB.shape[1]
     else:
         #Z = np.zeros(AtB.shape)
-        Z = np.zeros_like(AtB)
-        n, k1 = PassSet.shape #10, 97
+        Z = np.zeros_like(AtB)  # Z(5, 8)
+        n, k1 = PassSet.shape #5, 8
 
         if k1 == 1:
             if np.any(PassSet):
-                Z[PassSet] = np.linalg.solve(AtA[PassSet, PassSet], AtB[PassSet])
+                #Z[PassSet] = np.linalg.solve(AtA[PassSet, PassSet], AtB[PassSet]) #PassSet(5, 1) ##not match dimension
+                Z[PassSet] = np.linalg.solve(AtA[PassSet][:, PassSet], AtB[PassSet])
+                #Z[PassSet] = np.linalg.solve(AtA[PassSet,:][:,PassSet], AtB[PassSet])
                 numChol = 1
                 numEq = 1
             else:
@@ -110,17 +112,26 @@ def normalEqComb(AtA, AtB, PassSet = None):
         else:
             #sortedPassSet = np.sort(PassSet.T, axis=0)
             #sortedPassSet, sortIx = np.sort(PassSet.T, axis=0).T
-            sortIx = np.argsort(PassSet.T, axis=0) #test_random (97, 10)
+            #sortIx = np.argsort(PassSet.T, axis=0) #test_random (8, 5)
             #sortIx = np.argsort(PassSet, axis=0)
             #sortedPassSet = PassSet.T[sortIx, np.arange(k1)] # test (10,97)
-            sortedPassSet = PassSet.T[sortIx].T #test_random (10, 10, 97)
+            #sortedPassSet = PassSet.T[sortIx].T #test_random (5, 5, 8)
             #sortedPassSet = PassSet.T[sortIx].T
             #sortedPassSet = PassSet[sortIx, :]
-            breaks = np.any(np.diff(sortedPassSet, axis=0), axis=1)
+            sorted_indices = np.lexsort(tuple(PassSet.T[:, i] for i in range(PassSet.shape[0]-1, -1, -1)))
+            sortIx = sorted_indices #sortIx(8,)
+            sortedPassSet = PassSet.T[sortIx] #sortedPassSet(8, 5)
+            
+            diff_sortedPassSet = np.diff(sortedPassSet, axis=0)
+            breaks = np.any(diff_sortedPassSet.T != 0, axis=0) # breaks(7,)
+            
+            #breaks = np.any(np.diff(sortedPassSet, axis=0), axis=1) #test_random (4,8)
             #breaks = np.any(np.diff(sortedPassSet, axis=0), axis=0) #test (9,97) 
-            breakIx = np.concatenate(([0], np.where(breaks)[0] + 1, [k1])) #(830,)
+            nonzero_indices = np.nonzero(breaks)[0]
+            breakIx = np.concatenate(([0], nonzero_indices, [k1])) # breakIx(2,)
+            #breakIx = np.concatenate(([0], np.where(breaks)[0] + 1, [k1])) #(18,)
 
-            if np.any(sortedPassSet[0, :] == 0):
+            if np.all(sortedPassSet[0, :] == 0):
                 startIx = 2
             else:
                 startIx = 1
@@ -131,13 +142,15 @@ def normalEqComb(AtA, AtB, PassSet = None):
             for k in range(startIx, len(breakIx) - 1):
                 #cols = np.argsort(sortedPassSet[breakIx[k]:breakIx[k+1], :].T, axis=0)
                 #vars = sortedPassSet[breakIx[k]:breakIx[k+1], cols]
-                cols = sortIx[breakIx[k]:breakIx[k + 1]] #test_random (0, 10)
+                cols = sortIx[breakIx[k]:breakIx[k + 1]] #test_random (0, 10)   #V(1,3)
                 #vars = sortedPassSet[breakIx[k]+1, :].T
-                vars = sortedPassSet[breakIx[k], :] #test_random (10,97)
+                vars = sortedPassSet[breakIx[k], :] #test_random (10,97) #V(1,5)
                 #vars = sortedPassSet[breakIx[k]:breakIx[k + 1]].T
                 
-                Z[vars, cols] = np.linalg.solve(AtA[vars, vars], AtB[vars, cols])
-                #Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
+                #Z[vars, cols] = np.linalg.solve(AtA[vars, vars], AtB[vars, cols])
+                #Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols]) #V(5,8)
+                #Z[vars,:][:,cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
+                Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
                 #Z[np.ix_(vars, cols)] = np.linalg.solve(AtA[np.ix_(vars, vars)], AtB[np.ix_(vars, cols)])
                 numChol += 1
                 #numEq += breakIx[k+1] - breakIx[k]
