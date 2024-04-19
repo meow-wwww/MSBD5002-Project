@@ -1,7 +1,8 @@
 # Author: LUO Zixi
 import numpy as np
-
+import torch.nn.functional as F
 import torch
+
 # added by WANG Xiaoyu
 def matrixFac(A, H,
           lamda, 
