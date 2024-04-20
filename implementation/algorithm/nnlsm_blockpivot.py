@@ -1,4 +1,14 @@
 import numpy as np
+"""
+This is an unsuccessful program for SymANLS_pivot, there are still something wrong for line 106, 139, etc.
+nnlsm_block pivot is an optimization to solve SymANLS since the past version is too slow.
+Refrence:
+1.Jingu Kim and Haesun Park, Toward Faster Nonnegative Matrix Factorization: A New Algorithm and Comparisons,
+ In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining (ICDM'08), 353-362, 2008
+2."M. H. Van Benthem and M. R. Keenan, J. Chemometrics 2004; 18: 441-450"
+
+Check https://github.com/kimjingu/nonnegfac-python/tree/master for a successful implementation.
+"""
 
 def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
     if isInputProd:
