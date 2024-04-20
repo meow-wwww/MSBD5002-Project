@@ -9,6 +9,31 @@ from algorithm.nnlsm_BPP import nnlsm_blockpivot
 
 # Symmetric Alternating Nonnegative Least Squares
 def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
+
+    """ 
+    Symmetric alternating nonnegative least squares
+    
+    Input
+    ----------
+    X : numpy.array, symmetric matrix (n,n) - matrix need factorization
+    U,V : numpy.array or scipy.sparse matrix, shape (n,r) - initialization of the factorization
+    maxiter : integer, max # of iteration
+    lambda_ : penalty for ||U-V||_2^2
+    
+    Optional Parameters
+    -------------------
+    truelabel : np.array (size based on datasets) - truelabel of each element in the dataset
+
+    Output
+    -------
+    tuple: U, V, e, t, diff, NMI, ACC
+    U,V : np.array, shape(n,r) - after SymANLS, factorization of X
+    e : np.array, shape corresponding to iteration - loss ||X-UVT||_2^2 / ||X||_2^2
+    t : np.array, shape corresponding to iteration - time of each iteration
+    diff : np.array, shape corresponding to iteration - difference ||U-V||_2^2
+    NMI : np.array, shape corresponding to iteration - measurement for clustering
+    ACC : np.array, shape corresponding to iteration - measurement for clustering
+    """
     
     # convert V if necessary
     if V.shape[0] < V.shape[1]:
@@ -70,7 +95,7 @@ def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
         #    print("Iteration:", iter, "Error:", e[iter], "NMI:", NMI[iter])
     
     print("last iter", iter, "Error:", e[iter], "NMI:", NMI[iter], "ACC:", ACC[iter])
-    return U, V, e, t, diff, NMI
+    return U, V, e, t, diff, NMI, ACC
 
 
 
