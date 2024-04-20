@@ -7,33 +7,34 @@ import time
 
 
 def nnlsm_blockpivot(A, B, is_input_prod=False, init=None):
-    """ Nonnegativity-constrained least squares with block principal pivoting method and column grouping
-
+    """ 
+    nonnegativity least squares with block principal pivoting method and column grouping
+    An optimization to solve the original SymANLS method
     Solves min ||AX-B||_2^2 s.t. X >= 0 element-wise.
 
-    J. Kim and H. Park, Fast nonnegative matrix factorization: An active-set-like method and comparisons,
-    SIAM Journal on Scientific Computing, 
-    vol. 33, no. 6, pp. 3261-3281, 2011.
-
-    Parameters
+    Reference:
+    Jingu Kim and Haesun Park, Toward Faster Nonnegative Matrix Factorization: A New Algorithm and Comparisons,
+    In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining (ICDM'08), 353-362, 2008
+    
+    Input
     ----------
-    A : numpy.array, shape (m,n)
-    B : numpy.array or scipy.sparse matrix, shape (m,k)
+    A : numpy.array, shape (n+r,r) (corresponding to the symanls_pivot)
+    B : numpy.array or scipy.sparse matrix, shape (n+r,n) (corresponding to the symanls_pivot)
 
     Optional Parameters
     -------------------
     is_input_prod : True/False. -  If True, the A and B arguments are interpreted as
             AtA and AtB, respectively. Default is False.
-    init: numpy.array, shape (n,k). - If provided, init is used as an initial value for the algorithm.
+    init: numpy.array, shape (r,n). - If provided, init is used as an initial value for the algorithm.
             Default is None.
 
-    Returns
+    Output
     -------
-    X, (success, Y, num_cholesky, num_eq, num_backup)
-    X : numpy.array, shape (n,k) - solution
+    tuple: X, (success, Y, num_cholesky, num_eq, num_backup)
+    X : numpy.array, shape (r,n) - solution(need to transpose in SymANLS_pivot)
     success : True/False - True if the solution is found. False if the algorithm did not terminate
             due to numerical errors.
-    Y : numpy.array, shape (n,k) - Y = A.T * A * X - A.T * B
+    Y : numpy.array, shape (r,n) - Y = A.T * A * X - A.T * B
     num_cholesky : int - the number of Cholesky factorizations needed
     num_eq : int - the number of linear systems of equations needed to be solved
     num_backup: int - the number of appearances of the back-up rule. See SISC paper for details.
@@ -42,12 +43,12 @@ def nnlsm_blockpivot(A, B, is_input_prod=False, init=None):
         AtA = A
         AtB = B
     else:
-        AtA = A.T.dot(A)
+        AtA = A.T.dot(A) #(r,r)
         if sps.issparse(B):
             AtB = B.T.dot(A)
             AtB = AtB.T
         else:
-            AtB = A.T.dot(B)
+            AtB = A.T.dot(B) #(r,n)
 
     (n, k) = AtB.shape
     MAX_ITER = n * 5
@@ -137,19 +138,20 @@ def nnlsm_blockpivot(A, B, is_input_prod=False, init=None):
 
 
 def normal_eq_comb(AtA, AtB, PassSet=None):
-    """ Solve many systems of linear equations using combinatorial grouping.
-
+    """ 
+    Solve many systems of linear equations using combinatorial grouping.
+    Reference:
     M. H. Van Benthem and M. R. Keenan, J. Chemometrics 2004; 18: 441-450
 
-    Parameters
+    Input
     ----------
-    AtA : numpy.array, shape (n,n)
-    AtB : numpy.array, shape (n,k)
+    AtA : numpy.array, shape (r,r) if A.T@A
+    AtB : numpy.array, shape (r,n) if A.T@B
 
-    Returns
+    Output
     -------
     (Z,num_cholesky,num_eq)
-    Z : numpy.array, shape (n,k) - solution
+    Z : numpy.array, shape (r,n) - solution
     num_cholesky : int - the number of unique cholesky decompositions done
     num_eq: int - the number of systems of linear equations solved
     """
@@ -197,16 +199,16 @@ def normal_eq_comb(AtA, AtB, PassSet=None):
 
 
 def _column_group_recursive(B):
-    """ Given a binary matrix, find groups of the same columns
-        with a recursive strategy
+    """ 
+    Given a binary matrix, find groups of the same columns with a recursive strategy
 
-    Parameters
-    ----------
+    Input
+    ---------- 
     B : numpy.array, True/False in each element
 
-    Returns
+    Output
     -------
-    A list of arrays - each array contain indices of columns that are the same.
+    a list of arrays - each array contain indices of columns that are the same.
     """
     initial = np.arange(0, B.shape[1])
     return [a for a in column_group_sub(B, 0, initial) if len(a) > 0]
