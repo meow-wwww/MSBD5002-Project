@@ -49,14 +49,10 @@ def nnlsm_blockpivot(A, B, isInputProd=0, init=None):
             P[Cols1] = pbar
             Ninf[Cols1] = NotGood[Cols1]
             PassiveSet[:, Cols1] = (NonOptSet[:, Cols1] | PassiveSet[:, Cols1]) & ~InfeaSet[:, Cols1]
-            #PassiveSet[NonOptSet & np.tile(Cols1, (n, 1))] = True
-            #PassiveSet[InfeaSet & np.tile(Cols1, (n, 1))] = False
         
         if np.any(Cols2):
             P[Cols2] -= 1
             PassiveSet[:, Cols2] = (NonOptSet[:, Cols2] | PassiveSet[:, Cols2]) & ~InfeaSet[:, Cols2]
-            #PassiveSet[NonOptSet & np.tile(Cols2, (n, 1))] = True
-            #PassiveSet[InfeaSet & np.tile(Cols2, (n, 1))] = False
         
         if Cols3Ix.size > 0:
             for i in range(len(Cols3Ix)):
@@ -102,6 +98,7 @@ def normalEqComb(AtA, AtB, PassSet = None):
         if k1 == 1:
             if np.any(PassSet):
                 #Z[PassSet] = np.linalg.solve(AtA[PassSet, PassSet], AtB[PassSet]) #PassSet(5, 1) ##not match dimension
+                print('PassSet:', PassSet.shape)
                 Z[PassSet] = np.linalg.solve(AtA[PassSet][:, PassSet], AtB[PassSet])
                 #Z[PassSet] = np.linalg.solve(AtA[PassSet,:][:,PassSet], AtB[PassSet])
                 numChol = 1
@@ -110,26 +107,14 @@ def normalEqComb(AtA, AtB, PassSet = None):
                 numChol = 0
                 numEq = 0
         else:
-            #sortedPassSet = np.sort(PassSet.T, axis=0)
-            #sortedPassSet, sortIx = np.sort(PassSet.T, axis=0).T
-            #sortIx = np.argsort(PassSet.T, axis=0) #test_random (8, 5)
-            #sortIx = np.argsort(PassSet, axis=0)
-            #sortedPassSet = PassSet.T[sortIx, np.arange(k1)] # test (10,97)
-            #sortedPassSet = PassSet.T[sortIx].T #test_random (5, 5, 8)
-            #sortedPassSet = PassSet.T[sortIx].T
-            #sortedPassSet = PassSet[sortIx, :]
             sorted_indices = np.lexsort(tuple(PassSet.T[:, i] for i in range(PassSet.shape[0]-1, -1, -1)))
             sortIx = sorted_indices #sortIx(8,)
             sortedPassSet = PassSet.T[sortIx] #sortedPassSet(8, 5)
             
             diff_sortedPassSet = np.diff(sortedPassSet, axis=0)
-            breaks = np.any(diff_sortedPassSet.T != 0, axis=0) # breaks(7,)
-            
-            #breaks = np.any(np.diff(sortedPassSet, axis=0), axis=1) #test_random (4,8)
-            #breaks = np.any(np.diff(sortedPassSet, axis=0), axis=0) #test (9,97) 
+            breaks = np.any(diff_sortedPassSet.T != 0, axis=0) 
             nonzero_indices = np.nonzero(breaks)[0]
-            breakIx = np.concatenate(([0], nonzero_indices, [k1])) # breakIx(2,)
-            #breakIx = np.concatenate(([0], np.where(breaks)[0] + 1, [k1])) #(18,)
+            breakIx = np.concatenate(([0], nonzero_indices, [k1])) 
 
             if np.all(sortedPassSet[0, :] == 0):
                 startIx = 2
@@ -137,22 +122,18 @@ def normalEqComb(AtA, AtB, PassSet = None):
                 startIx = 1
 
             numChol = 0
+            print('breaks:', breaks)
+            print('sortedPassSet:', sortedPassSet)
+            print('breakIx:', breakIx)
+            print('startIx:', startIx)
+            print('k1:', k1)
             numEq = k1 - breakIx[startIx]
 
             for k in range(startIx, len(breakIx) - 1):
-                #cols = np.argsort(sortedPassSet[breakIx[k]:breakIx[k+1], :].T, axis=0)
-                #vars = sortedPassSet[breakIx[k]:breakIx[k+1], cols]
                 cols = sortIx[breakIx[k]:breakIx[k + 1]] #test_random (0, 10)   #V(1,3)
-                #vars = sortedPassSet[breakIx[k]+1, :].T
                 vars = sortedPassSet[breakIx[k], :] #test_random (10,97) #V(1,5)
-                #vars = sortedPassSet[breakIx[k]:breakIx[k + 1]].T
-                
-                #Z[vars, cols] = np.linalg.solve(AtA[vars, vars], AtB[vars, cols])
-                #Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols]) #V(5,8)
-                #Z[vars,:][:,cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
-                Z[vars, cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
+                Z[vars,:][:,cols] = np.linalg.solve(AtA[vars][:, vars], AtB[vars][:, cols])
                 #Z[np.ix_(vars, cols)] = np.linalg.solve(AtA[np.ix_(vars, vars)], AtB[np.ix_(vars, cols)])
                 numChol += 1
-                #numEq += breakIx[k+1] - breakIx[k]
 
     return Z, numChol, numEq
