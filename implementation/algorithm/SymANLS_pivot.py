@@ -1,21 +1,15 @@
 import sys
-#sys.path.append('../../eval_metrics')
-sys.path.append('D:/hkust/class/5002Data Mining/project/clone_git/MSBD5002-Project')
+sys.path.append('../../implmentation')
 import numpy as np
-#from sklearn.metrics import normalized_mutual_info_score
 import time
-#import cvxpy as cp
-from implementation.eval_metrics.nmi import nmi
-from implementation.algorithm.nnlsm_blockpivot import nnlsm_blockpivot
+from eval_metrics.nmi import nmi
+from eval_metrics.ac import ac
+from algorithm.nnlsm_BPP import nnlsm_blockpivot
 
-'''
-def ClusteringMeasure(true_labels, pred_labels):
-    nmi_ = normalized_mutual_info_score(true_labels, pred_labels)
-    return [nmi_]
-'''
 
 # Symmetric Alternating Nonnegative Least Squares
 def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
+    
     # convert V if necessary
     if V.shape[0] < V.shape[1]:
         V = V.T
@@ -34,27 +28,27 @@ def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
     t.append(0)
 
     NMI = []
-    #ACC = []
+    ACC = []
     if truelabel is not None:
         label = np.argmax(V, axis=1)
         tempacc = nmi(truelabel, label)
-        #acc = ac(truelabel, label)
+        acc = ac(truelabel, label)
         NMI.append(tempacc)
-        #ACC.append(acc[0])
+        ACC.append(acc)
 
 
     while iter <= maxiter:
         
         # update U
-        A = np.concatenate((V, np.sqrt(lambda_) * np.eye(r))) #test_random (110, 10)
-        B = np.concatenate((X.T, np.sqrt(lambda_) * V.T)) #test_random (110, 100)
-        UT = nnlsm_blockpivot(A, B, 0, U.T)
+        A = np.concatenate((V, np.sqrt(lambda_) * np.eye(r))) #test_random (25, 5)
+        B = np.concatenate((X.T, np.sqrt(lambda_) * V.T)) #test_random (25, 20)
+        UT,_ = nnlsm_blockpivot(A, B, 0, U.T) 
         U = UT.T
 
         # update V
         C = np.concatenate((U, np.sqrt(lambda_) * np.eye(r)))
         D = np.concatenate((X, np.sqrt(lambda_) * U.T))
-        VT = nnlsm_blockpivot(C, D, 0, V.T)
+        VT,_ = nnlsm_blockpivot(C, D, 0, V.T)
         V = VT.T
 
         # evaluation of the error e at time t
@@ -66,13 +60,16 @@ def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
             if truelabel is not None:
                 label = np.argmax(V, axis=1)
                 tempacc = nmi(truelabel, label)
-                NMI.append(tempacc[0])
+                acc = ac(truelabel, label)
+                NMI.append(tempacc)
+                ACC.append(acc)
 
         iter += 1
 
-        if iter % 100 == 0:
-            print("Iteration:", iter, "Error:", e[iter], "NMI:", NMI[iter])
+        #if iter % 100 == 0:
+        #    print("Iteration:", iter, "Error:", e[iter], "NMI:", NMI[iter])
     
+    print("last iter", iter, "Error:", e[iter], "NMI:", NMI[iter], "ACC:", ACC[iter])
     return U, V, e, t, diff, NMI
 
 
