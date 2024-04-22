@@ -10,7 +10,7 @@ NUM_OF_CLASS = 30
 # SAMPLES_PER_CLASS = 72
 FEATURE_DIM = 36771
 
-def read_data_core(top_topics=30):
+def __read_data_core(top_topics=30):
     '''
     Read the reuters21578 dataset and return the matrix and labels.
     The returned data has already been preprocessed, so that the dimensionality matches exactly the one used in the paper.
@@ -41,7 +41,9 @@ def read_data_core(top_topics=30):
     return new_matrix, new_labels.reshape(-1) # data and label are sorted by label
 
 
-def read_data(num_of_class: int = NUM_OF_CLASS, random_choose_class: bool = False, random_shuffle: bool = False) -> typing.Tuple[np.ndarray, np.ndarray]:
+def read_data(num_of_class: int = NUM_OF_CLASS, 
+              random_choose_class: typing.Union[bool, typing.List[int]] = False,
+              random_shuffle: bool = False) -> typing.Tuple[np.ndarray, np.ndarray]:
     '''
     Read the cifar10 dataset and return the matrix and labels.
 
@@ -52,16 +54,23 @@ def read_data(num_of_class: int = NUM_OF_CLASS, random_choose_class: bool = Fals
     '''
     assert 0 < num_of_class <= NUM_OF_CLASS, f'num_of_class should be an integer between 1 and {NUM_OF_CLASS}'
     
-    data, label = read_data_core()
+    data, label = __read_data_core()
     
     # randomly choose some classes
     all_distinct_label = np.unique(label)
     assert all_distinct_label.shape == (NUM_OF_CLASS,)
-    if random_choose_class:
+    if random_choose_class == True:
         label_chosen = np.random.choice(all_distinct_label, num_of_class, replace=False)
         label_chosen.sort()
     else:
-        label_chosen = all_distinct_label[:num_of_class]
+        if isinstance(random_choose_class, list):
+            assert len(random_choose_class) == num_of_class, 'The length of choose_class should be equal to num_of_class'
+            assert np.all(np.isin(random_choose_class, all_distinct_label)), 'choose_class should be a subset of all_distinct_label'
+            label_chosen = np.array(random_choose_class)
+        elif random_choose_class == False:
+            label_chosen = all_distinct_label[:num_of_class]
+        else:
+            raise ValueError('random_choose_class should be a boolean or a list of integers')
     assert np.all(np.diff(label_chosen) > 0)
     
     # cut the corresponding data and label
