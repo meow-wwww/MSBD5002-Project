@@ -27,6 +27,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Train a model for clustering')
 parser.add_argument('--n_clusters', type=int, default=20, help='number of clusters')
+parser.add_argument('--classes', type=str, default=None, help='classes to use')
 parser.add_argument('--loss', type=str, default='reconstruction_loss_without_regularization', help='loss function')
 parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
 parser.add_argument('--lamda', type=float, default=1, help='regularization parameter')
@@ -40,6 +41,10 @@ f = open(args.filename, 'a')
 
 # %%
 CLUSTER_NUM = args.n_clusters
+CLASS_LIST = eval(args.classes) if args.classes is not None else None
+if CLASS_LIST is not None:
+    CLASS_LIST.sort()
+    assert len(CLASS_LIST) == CLUSTER_NUM, 'The length of class list should be equal to n_clusters'
 LOSS_FUNCTION_NAME = args.loss
 LOSS_FUNCTION = getattr(origin, LOSS_FUNCTION_NAME)
 LEARNING_RATE = args.lr
@@ -53,7 +58,7 @@ else:
 # %%
 # read data
 mat, label = coil20.read_data(num_of_class=CLUSTER_NUM, random_shuffle=True, 
-                              random_choose_class=True)
+                              random_choose_class=CLASS_LIST)
 mat = torch.tensor(mat, dtype=torch.float32)
 mat -= torch.mean(mat)
 
@@ -75,15 +80,16 @@ learning_rate = LEARNING_RATE
 H_out, final_loss = GradientDescent.GradientDescent(A=A, H=H, lamda=LAMBDA, 
                                         loss_fn=LOSS_FUNCTION, 
                                         lr=learning_rate, max_iter=1000000,
-                                        tol=learning_rate*1e-4, print_every=1000)
+                                        tol=learning_rate*1e-6, print_every=500)
 
 print(f'final loss without regularization: {final_loss}')
 
 # %%
 H_out = H_out.detach().cpu().numpy()
-pred_labels, centroids = kmeans.kmeans(H_out, CLUSTER_NUM)
+pred_labels, centroids = kmeans.kmeans_optimal(H_out, CLUSTER_NUM)
 acc = eval_metrics.ac.ac(label, pred_labels)
 print(f'[Accuracy] {acc}')
+print()
 
 
 print(f"{CLUSTER_NUM},{'/'.join(list(map(str, np.unique(np.array(label)).tolist())))},{LOSS_FUNCTION.__name__},{LEARNING_RATE},{LAMBDA},{final_loss},{acc}", file=f)

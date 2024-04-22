@@ -5,7 +5,7 @@ import torch.optim as optim
 def GradientDescent(A, H, lamda, 
                      loss_fn,
                      lr,
-                     max_iter=100, tol=1e-4, print_every=100):
+                     max_iter=100, tol=1e-6, print_every=100):
     '''
     A: a symmetric matrix of size n x n
     H: a matrix of size n x k
@@ -18,7 +18,7 @@ def GradientDescent(A, H, lamda,
     
     optimizer.zero_grad()
         
-    loss_last = 0
+    error_last = 0
     for i in range(max_iter):
         loss = loss_fn(A, H, lamda)
         loss.backward()
@@ -27,10 +27,11 @@ def GradientDescent(A, H, lamda,
             optimizer.step()
             optimizer.zero_grad()
         
+        error = torch.norm(A - H @ H.T, p='fro')**2 / torch.norm(A, p='fro')**2
         if i % print_every == 0:
-            print(f'iteration {i}, loss {loss.item()}')
-        if abs(loss - loss_last) < tol:
+            print(f'iteration {i}, error {error.item()}')
+        if abs(error - error_last) < tol:
             break
         else:
-            loss_last = loss
-    return H, loss
+            error_last = error
+    return H, error
