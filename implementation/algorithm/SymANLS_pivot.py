@@ -1,3 +1,5 @@
+# Author: QIN Shiyue
+
 import sys
 sys.path.append('../../implmentation')
 import numpy as np
