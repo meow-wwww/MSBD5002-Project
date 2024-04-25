@@ -1,3 +1,5 @@
+# Author: QIN Shiyue
+
 import numpy as np
 """
 This is an unsuccessful program for SymANLS_pivot, there are still something wrong for line 106, 139, etc.
