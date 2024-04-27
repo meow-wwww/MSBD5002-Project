@@ -24,12 +24,12 @@ do
 
         # 对每个生成的class列表 把所有不同的setting都跑一遍
         # without regularization term
-        python run.py --n_clusters $n_classes --classes $class_list --loss 'reconstruction_loss_without_regularization' --lr 1e-4 --lamda 0 --filename $result_filename >> log_$current_time.txt
+        python run.py --n_clusters $n_classes --classes $class_list --loss 'reconstruction_loss_without_regularization' --lr 1e-4 --tol 1e-10 --lamda 0 --filename $result_filename >> log_$current_time.txt
         echo '--------------------------- with regularization term' >> log_$current_time.txt
         # with regularization term, for different lambda
         for regularization_term in 0.1 0.5 1 1.5 2
         do
-            python run.py --n_clusters $n_classes --classes $class_list --loss 'reconstruction_loss_with_regularization' --lr 1e-4 --lamda $regularization_term --filename $result_filename >> log_$current_time.txt
+            python run.py --n_clusters $n_classes --classes $class_list --loss 'reconstruction_loss_with_regularization' --lr 1e-4 --tol 1e-10 --lamda $regularization_term --filename $result_filename >> log_$current_time.txt
         done
     done
 done

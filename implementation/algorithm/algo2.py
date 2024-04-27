@@ -5,8 +5,9 @@ import torch
 
 # added by WANG Xiaoyu
 def matrixFac(A, H,
-          lamda, 
-          num_iter, print_every=100):
+              tol,
+              lamda=1,
+              max_iter=10000000, print_every=100):
     """Algorithm 2. H \in R^{n x k}, no special constraints on H.
     
     Parameters
@@ -49,49 +50,58 @@ def matrixFac(A, H,
     end
     """
     
-    for iter_num in range(num_iter):
+    error_last = -1
+    
+    for iter_num in range(max_iter):
         loss = torch.norm(M - H @ H.T, p='fro')**2
-        step = 1/(torch.norm(M - H @ H.T, p=2) + 2 * torch.norm(H.T @ H, p=2))
+        step = 1/(torch.linalg.norm(M - H @ H.T, ord=2) + 2 * torch.linalg.norm(H.T @ H, ord=2))
         H = H - step * (H @ H.T @ H - M @ H)
-
+        
+        error = torch.norm(M - H @ H.T, p='fro')**2 / torch.norm(M, p='fro')**2
+        
         if (iter_num+1) % print_every == 0:
-            print(f"iter {iter_num+1} done, loss = {loss.item()}, step = {step}")
+            print(f"iter {iter_num+1} done, loss = {loss.item()}, error = {error}")
+            
+        if abs(error - error_last) < tol:
+            break
+        else:
+            error_last = error
         
     # assert False, "Algorithm 1 did not converge"
     return H
 
 # constraint of non-negative H >= 0^2
 def matrixFacNonNegative(A, H, lamda, K, print_every):
-  '''D = torch.diag(A.sum(dim=1))
-  L = D - A
-  M = A - lamda * L'''
-  M = A
+    '''D = torch.diag(A.sum(dim=1))
+    L = D - A
+    M = A - lamda * L'''
+    M = A
     
-  for iter in range(K):
-    loss = torch.norm(M - H @ H.T, p='fro')**2
-    step = 1/(torch.linalg.norm(M - H @ H.T, ord=2) + 2 * torch.linalg.norm(H.T @ H, ord=2))
-    H = H - step * (H @ H.T @ H - M @ H)
-    H[H < 0] = 0
+    for iter in range(K):
+        loss = torch.norm(M - H @ H.T, p='fro')**2
+        step = 1/(torch.linalg.norm(M - H @ H.T, ord=2) + 2 * torch.linalg.norm(H.T @ H, ord=2))
+        H = H - step * (H @ H.T @ H - M @ H)
+        H[H < 0] = 0
 
-    if (iter+1) % print_every == 0:
-      print(f"iter {iter+1} done, loss = {loss.item()}, step = {step}")
+        if (iter+1) % print_every == 0:
+            print(f"iter {iter+1} done, loss = {loss.item()}, step = {step}")
 
-  return H
+    return H
 
 # constraint of 2-norm of h is 1
 def matrixFacUnit(A, H, lamda, K, print_every):
-  #D = torch.diag(A.sum(dim=1))
-  #L = D - A
-  #M = A - lamda * L
-  M = A
+    #D = torch.diag(A.sum(dim=1))
+    #L = D - A
+    #M = A - lamda * L
+    M = A
 
-  for iter in range(K):
-    loss = torch.linalg.norm(M - H @ H.T, ord='fro')**2
-    step = 1/(torch.linalg.norm(M - H @ H.T, ord=2) + 2 * torch.linalg.norm(H.T @ H, ord=2))
-    H = H - step * (H @ H.T @ H - M @ H)
-    H = F.normalize(H, p=2, dim=1)
+    for iter in range(K):
+        loss = torch.linalg.norm(M - H @ H.T, ord='fro')**2
+        step = 1/(torch.linalg.norm(M - H @ H.T, ord=2) + 2 * torch.linalg.norm(H.T @ H, ord=2))
+        H = H - step * (H @ H.T @ H - M @ H)
+        H = F.normalize(H, p=2, dim=1)
 
-    if (iter+1) % print_every == 0:
-      print(f"iter {iter+1} done, loss = {loss.item()}, step = {step}")
-  
-  return H
+        if (iter+1) % print_every == 0:
+            print(f"iter {iter+1} done, loss = {loss.item()}, step = {step}")
+    
+    return H

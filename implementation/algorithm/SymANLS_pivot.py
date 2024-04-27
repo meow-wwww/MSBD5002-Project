@@ -8,7 +8,7 @@ from algorithm.nnlsm_BPP import nnlsm_blockpivot
 
 
 # Symmetric Alternating Nonnegative Least Squares
-def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
+def SymANLS_pivot(X, U, V, maxiter, lambda_, tol, truelabel = None, print_every=100):
 
     """ 
     Symmetric alternating nonnegative least squares
@@ -90,12 +90,18 @@ def SymANLS_pivot(X, U, V, maxiter, lambda_, truelabel = None):
                 ACC.append(acc)
 
         iter += 1
+        
+        if abs(e[-1] - e[-2]) < tol:
+            break
 
+        if iter % print_every == 0:
+            print(f"iter {iter} done, loss = {e[iter]}, error = {diff[iter]}")
         #if iter % 100 == 0:
         #    print("Iteration:", iter, "Error:", e[iter], "NMI:", NMI[iter])
-    
-    print("last iter", iter, "Error:", e[iter], "NMI:", NMI[iter], "ACC:", ACC[iter])
-    return U, V, e, t, diff, NMI, ACC
+    # iter -= 1
+    # print(iter, len(e), len(t), len(NMI), len(ACC))
+    print("last iter", iter, "Error:", e[iter], "NMI:", NMI[-1], "ACC:", ACC[-1])
+    return U, V, e, t, diff, NMI[-1], ACC[-1]
 
 
 

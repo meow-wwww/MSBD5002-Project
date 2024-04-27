@@ -30,6 +30,7 @@ parser.add_argument('--n_clusters', type=int, default=20, help='number of cluste
 parser.add_argument('--classes', type=str, default=None, help='classes to use')
 parser.add_argument('--loss', type=str, default='reconstruction_loss_without_regularization', help='loss function')
 parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
+parser.add_argument('--tol', type=float, default=1e-6, help='tolerance')
 parser.add_argument('--lamda', type=float, default=1, help='regularization parameter')
 parser.add_argument('--filename', type=str, help='filename to save the result')
 
@@ -48,6 +49,7 @@ if CLASS_LIST is not None:
 LOSS_FUNCTION_NAME = args.loss
 LOSS_FUNCTION = getattr(origin, LOSS_FUNCTION_NAME)
 LEARNING_RATE = args.lr
+TOL = args.tol
 if LOSS_FUNCTION_NAME == 'reconstruction_loss_without_regularization':
     LAMBDA = None
 else:
@@ -75,12 +77,11 @@ N = A.shape[0]
 H = torch.randn(N, CLUSTER_NUM)
 H.to(device)
 H.requires_grad = True
-learning_rate = LEARNING_RATE
 
 H_out, final_loss = GradientDescent.GradientDescent(A=A, H=H, lamda=LAMBDA, 
                                         loss_fn=LOSS_FUNCTION, 
-                                        lr=learning_rate, max_iter=1000000,
-                                        tol=learning_rate*1e-6, print_every=500)
+                                        lr=LEARNING_RATE, max_iter=1000000,
+                                        tol=LEARNING_RATE*TOL, print_every=500)
 
 print(f'final loss without regularization: {final_loss}')
 

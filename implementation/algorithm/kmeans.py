@@ -56,9 +56,9 @@ def kmeans_optimal(X, n_clusters, max_iter=200, tol=1e-4, turns=20):
     minimal_distance = np.inf
     
     for _ in range(turns):
-        labels, centers = kmeans(X, n_clusters, max_iter, tol)
-        if labels is None:
-            continue
+        labels = None
+        while labels is None:
+            labels, centers = kmeans(X, n_clusters, max_iter, tol)
         distance = np.linalg.norm(X - centers[labels])
         if distance < minimal_distance:
             minimal_distance = distance
