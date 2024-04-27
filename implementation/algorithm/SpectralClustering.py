@@ -1,18 +1,18 @@
 # Author: TANG Zhongyi
 
 import numpy as np
+from kmeans import kmeans
+from kmeans import kmeans_optimal
 from sklearn.metrics.pairwise import pairwise_kernels
 from sklearn.neighbors import kneighbors_graph
-from sklearn.cluster import KMeans
 from scipy.sparse import lil_matrix
 from scipy import sparse
 from scipy.sparse.linalg import eigsh, lobpcg
-from sklearn.utils.class_weight import compute_class_weight
 from scipy.sparse.csgraph import laplacian as csgraph_laplacian
 from sklearn.utils.validation import check_random_state, check_array, check_symmetric
 
 
-def spectral_clustering(X, labels, n_clusters, affinity='rbf', gamma=1., n_neighbors=10):
+def spectral_clustering(X, n_clusters, affinity='rbf', gamma=1., n_neighbors=10):
 
     """
     Perform spectral clustering from features or affinity matrix.
@@ -38,12 +38,7 @@ def spectral_clustering(X, labels, n_clusters, affinity='rbf', gamma=1., n_neigh
         Labels of each point
     """
 
-    # Compute class weights
-    unique_labels = np.unique(labels)
-    class_weights = compute_class_weight('balanced', classes=unique_labels, y=labels)
-    class_weights_dict = dict(zip(unique_labels, class_weights))
-
-    def create_affinity_matrix(X, labels, class_weights_dict, affinity, gamma=1., n_neighbors=10, include_self=True):
+    def create_affinity_matrix(X, affinity, gamma=1., n_neighbors=10, include_self=True):
 
         """
         Create an affinity matrix based on the selected method (RBF or nearest neighbors).
@@ -56,13 +51,6 @@ def spectral_clustering(X, labels, n_clusters, affinity='rbf', gamma=1., n_neigh
             affinity_matrix = pairwise_kernels(X, metric=affinity, filter_params=True, gamma=gamma)
 
         affinity_matrix = lil_matrix(affinity_matrix)
-
-        # Apply class weights to the non-diagonal elements of the matrix
-        for i, label_i in enumerate(labels):
-            for j, label_j in enumerate(labels):
-                if i != j:
-                    weight = class_weights_dict.get(label_i, 1) * class_weights_dict.get(label_j, 1)
-                    affinity_matrix[i, j] *= weight
 
         return affinity_matrix.tocsr()
 
@@ -135,11 +123,10 @@ def spectral_clustering(X, labels, n_clusters, affinity='rbf', gamma=1., n_neigh
 
         n_components = n_clusters
         maps = spectral_embedding(affinity, n_components=n_components)
-        kmeans = KMeans(n_clusters=n_clusters).fit(maps)
-        labels = kmeans.labels_
+        labels = kmeans_optimal(maps, n_clusters, max_iter=1000)[0]
         return labels
 
     # Generate the affinity matrix from the input data and labels
-    affinity_matrix = create_affinity_matrix(X, labels, class_weights_dict, affinity, gamma, n_neighbors)
+    affinity_matrix = create_affinity_matrix(X, affinity, gamma, n_neighbors)
     predicted_labels = spectral_clustering_algorithm(affinity_matrix, n_clusters)
     return predicted_labels
