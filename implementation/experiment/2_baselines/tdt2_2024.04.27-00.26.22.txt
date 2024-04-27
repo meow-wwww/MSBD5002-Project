@@ -1,0 +1,307 @@
+#################################### n_classes: 2
+################## using class: [14,21]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[14,21]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [14 21]
+last iter 69 Error: 0.04952448899138021 NMI: 1.0 ACC: 1.0
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [21,6]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[21,6]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 6 21]
+iter 100 done, loss = 0.050643707276715556, error = 0.01535468491435843
+last iter 125 Error: 0.050643698239843944 NMI: 0.6795063138135568 ACC: 0.9503105590062112
+[Accuracy] 0.9503105590062112
+[NMI] 0.6795063138135568
+
+################## using class: [6,14]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[6,14]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 6 14]
+iter 100 done, loss = 0.055774935838938784, error = 0.026229540537738055
+last iter 129 Error: 0.055774923366874535 NMI: 1.0 ACC: 1.0
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [18,30]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[18,30]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [18 30]
+last iter 55 Error: 0.060625841514396754 NMI: 1.0 ACC: 1.0
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [26,12]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,12]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [12 26]
+last iter 55 Error: 0.08256498802254555 NMI: 0.9572024630271347 ACC: 0.9952380952380953
+[Accuracy] 0.9952380952380953
+[NMI] 0.9572024630271347
+
+################## using class: [30,24]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[30,24]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [24 30]
+last iter 46 Error: 0.05501941702175856 NMI: 1.0 ACC: 1.0
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [24,3]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[24,3]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 3 24]
+iter 100 done, loss = 0.04320458646301196, error = 13.84326298542301
+iter 200 done, loss = 0.04320213405296873, error = 0.4543588771018245
+last iter 297 Error: 0.043202059912597804 NMI: 0.009793232377232106 ACC: 0.531322505800464
+[Accuracy] 0.531322505800464
+[NMI] 0.009793232377232106
+
+################## using class: [23,7]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[23,7]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 7 23]
+last iter 78 Error: 0.08108352103554715 NMI: 1.0 ACC: 1.0
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [19,2]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,2]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2 19]
+iter 100 done, loss = 0.03393201284503894, error = 63.29357313092565
+iter 200 done, loss = 0.03392668459796746, error = 6.656290033045469
+iter 300 done, loss = 0.03392611665544541, error = 0.7249473179304109
+iter 400 done, loss = 0.03392605594173522, error = 0.07931533109836644
+last iter 424 Error: 0.03392605286098657 NMI: 0.06973614433924212 ACC: 0.5315734989648033
+[Accuracy] 0.5315734989648033
+[NMI] 0.06973614433924212
+
+################## using class: [19,24]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,24]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [19 24]
+last iter 58 Error: 0.04896635925843355 NMI: 0.9537830234374892 ACC: 0.9942857142857143
+[Accuracy] 0.9942857142857143
+[NMI] 0.9537830234374892
+
+#################################### n_classes: 10
+################## using class: [25,19,24,14,28,30,21,22,18,7]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[25,19,24,14,28,30,21,22,18,7]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 7 14 18 19 21 22 24 25 28 30]
+last iter 87 Error: 0.0694120202241848 NMI: 0.8911160341326307 ACC: 0.8741529525653436
+[Accuracy] 0.8741529525653436
+[NMI] 0.8911160341326307
+
+################## using class: [28,11,14,13,30,20,23,1,24,25]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[28,11,14,13,30,20,23,1,24,25]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1 11 13 14 20 23 24 25 28 30]
+iter 100 done, loss = 0.08666440627216677, error = 2.29935998438304
+iter 200 done, loss = 0.08666201082396958, error = 0.004379573834346526
+last iter 222 Error: 0.08666200635479746 NMI: 0.4783459599412737 ACC: 0.3774981495188749
+[Accuracy] 0.3774981495188749
+[NMI] 0.4783459599412737
+
+################## using class: [2,15,3,17,7,5,18,23,27,28]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[2,15,3,17,7,5,18,23,27,28]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  3  5  7 15 17 18 23 27 28]
+iter 100 done, loss = 0.033872276685549846, error = 216.15509307089846
+iter 200 done, loss = 0.03385527335535838, error = 14.959185545635247
+iter 300 done, loss = 0.033854213615885025, error = 1.1433119601189454
+iter 400 done, loss = 0.0338541339793598, error = 0.08928260229329939
+last iter 422 Error: 0.03385413109741843 NMI: 0.6144732428634034 ACC: 0.49030023094688224
+[Accuracy] 0.49030023094688224
+[NMI] 0.6144732428634034
+
+################## using class: [19,3,12,25,5,22,21,11,15,10]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[19,3,12,25,5,22,21,11,15,10]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 3  5 10 11 12 15 19 21 22 25]
+iter 100 done, loss = 0.037249134130844005, error = 26.52279889205993
+iter 200 done, loss = 0.037243119030865225, error = 0.4470737909850066
+last iter 293 Error: 0.03724302134487232 NMI: 0.5950874444616114 ACC: 0.45707656612529
+[Accuracy] 0.45707656612529
+[NMI] 0.5950874444616114
+
+################## using class: [20,17,23,15,9,26,16,19,1,13]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[20,17,23,15,9,26,16,19,1,13]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  9 13 15 16 17 19 20 23 26]
+iter 100 done, loss = 0.09194860399758681, error = 2.563866318592254
+iter 200 done, loss = 0.08937366729061905, error = 0.06175441121751321
+last iter 273 Error: 0.08898471216891111 NMI: 0.5802254079775914 ACC: 0.4260334813802528
+[Accuracy] 0.4260334813802528
+[NMI] 0.5802254079775914
+
+################## using class: [16,22,11,24,29,7,19,17,8,4]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[16,22,11,24,29,7,19,17,8,4]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 4  7  8 11 16 17 19 22 24 29]
+iter 100 done, loss = 0.08209687103992519, error = 0.023635898007788585
+last iter 131 Error: 0.08209685122565044 NMI: 0.7955571535567917 ACC: 0.7391732283464567
+[Accuracy] 0.7391732283464567
+[NMI] 0.7955571535567917
+
+################## using class: [3,21,24,19,6,2,7,26,17,23]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[3,21,24,19,6,2,7,26,17,23]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  3  6  7 17 19 21 23 24 26]
+iter 100 done, loss = 0.03354096299283348, error = 219.2809847381603
+iter 200 done, loss = 0.033523030753793, error = 15.669947231574437
+iter 300 done, loss = 0.033521850725787054, error = 1.2760598080357106
+iter 400 done, loss = 0.033521761596161305, error = 0.1068327425787705
+last iter 428 Error: 0.03352175765649439 NMI: 0.5433433641282349 ACC: 0.47429245283018867
+[Accuracy] 0.47429245283018867
+[NMI] 0.5433433641282349
+
+################## using class: [8,6,24,21,5,30,4,11,2,7]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[8,6,24,21,5,30,4,11,2,7]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  4  5  6  7  8 11 21 24 30]
+iter 100 done, loss = 0.038208092613572886, error = 166.20689156624147
+iter 200 done, loss = 0.03819236200067202, error = 12.937182656888643
+iter 300 done, loss = 0.038191235973236225, error = 1.0933871929466579
+iter 400 done, loss = 0.03819114478708048, error = 0.09307242202462998
+last iter 431 Error: 0.03819114028955346 NMI: 0.6928419141476091 ACC: 0.639348025711662
+[Accuracy] 0.639348025711662
+[NMI] 0.6928419141476091
+
+################## using class: [26,6,19,25,16,27,1,11,12,15]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[26,6,19,25,16,27,1,11,12,15]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  6 11 12 15 16 19 25 26 27]
+iter 100 done, loss = 0.08996239501578304, error = 2.7852083208018983
+iter 200 done, loss = 0.08996114189422653, error = 0.005499076633659646
+last iter 208 Error: 0.08996114091140686 NMI: 0.568761478401039 ACC: 0.41344916344916344
+[Accuracy] 0.41344916344916344
+[NMI] 0.568761478401039
+
+################## using class: [28,12,13,4,27,3,9,16,5,22]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[28,12,13,4,27,3,9,16,5,22]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 3  4  5  9 12 13 16 22 27 28]
+iter 100 done, loss = 0.0460217747008, error = 30.9674660461645
+iter 200 done, loss = 0.046015716965576214, error = 0.6435577019495772
+last iter 300 Error: 0.04601560116882609 NMI: 0.7090183382345416 ACC: 0.6389225181598063
+[Accuracy] 0.6389225181598063
+[NMI] 0.7090183382345416
+
+#################################### n_classes: 20
+################## using class: [13,30,3,23,7,6,18,28,29,21,19,12,10,8,2,11,9,16,25,15]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[13,30,3,23,7,6,18,28,29,21,19,12,10,8,2,11,9,16,25,15]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  3  6  7  8  9 10 11 12 13 15 16 18 19 21 23 25 28 29 30]
+iter 100 done, loss = 0.0343908419140187, error = 217.3398041003312
+iter 200 done, loss = 0.03389773516377554, error = 12.68249819514006
+iter 300 done, loss = 0.033838954609211824, error = 0.8050277984581539
+iter 400 done, loss = 0.03383889967816633, error = 0.05308918631454879
+last iter 401 Error: 0.0338388995783897 NMI: 0.648079415241555 ACC: 0.5171257062146892
+[Accuracy] 0.5171257062146892
+[NMI] 0.648079415241555
+
+################## using class: [27,13,15,7,28,3,8,19,25,21,9,5,24,4,2,20,11,6,22,16]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[27,13,15,7,28,3,8,19,25,21,9,5,24,4,2,20,11,6,22,16]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  3  4  5  6  7  8  9 11 13 15 16 19 20 21 22 24 25 27 28]
+iter 100 done, loss = 0.03695624486704892, error = 233.58751391794405
+iter 200 done, loss = 0.03694091444213599, error = 13.353409169893999
+iter 300 done, loss = 0.036940160594734824, error = 0.8597336129575492
+last iter 398 Error: 0.03694011252728832 NMI: 0.6880190506282592 ACC: 0.58910741301059
+[Accuracy] 0.58910741301059
+[NMI] 0.6880190506282592
+
+################## using class: [4,22,18,28,1,6,23,13,24,19,8,7,27,14,25,20,2,17,11,21]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[4,22,18,28,1,6,23,13,24,19,8,7,27,14,25,20,2,17,11,21]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  2  4  6  7  8 11 13 14 17 18 19 20 21 22 23 24 25 27 28]
+iter 100 done, loss = 0.050020629854643214, error = 161.52281661068764
+iter 200 done, loss = 0.05000455299352358, error = 9.342631054377035
+iter 300 done, loss = 0.05000382239930553, error = 0.5940557947128746
+last iter 394 Error: 0.050003778745267555 NMI: 0.5977614886053422 ACC: 0.48522021874076265
+[Accuracy] 0.48522021874076265
+[NMI] 0.5977614886053422
+
+################## using class: [16,10,30,29,26,28,20,2,27,9,24,19,7,8,22,23,21,3,15,11]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[16,10,30,29,26,28,20,2,27,9,24,19,7,8,22,23,21,3,15,11]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 2  3  7  8  9 10 11 15 16 19 20 21 22 23 24 26 27 28 29 30]
+iter 100 done, loss = 0.03036450875295477, error = 210.29314759524152
+iter 200 done, loss = 0.030070205433094487, error = 12.133913250461527
+iter 300 done, loss = 0.030069188794297538, error = 0.7866524346984408
+iter 400 done, loss = 0.03006913059051543, error = 0.0524967428115077
+last iter 405 Error: 0.030069130070144424 NMI: 0.6311895259413873 ACC: 0.4499612102404965
+[Accuracy] 0.4499612102404965
+[NMI] 0.6311895259413873
+
+################## using class: [16,4,12,1,11,2,21,19,18,7,13,27,26,20,6,3,17,22,28,15]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[16,4,12,1,11,2,21,19,18,7,13,27,26,20,6,3,17,22,28,15]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  2  3  4  6  7 11 12 13 15 16 17 18 19 20 21 22 26 27 28]
+iter 100 done, loss = 0.047125671229006016, error = 238.92417443153604
+iter 200 done, loss = 0.046652552973595635, error = 14.554601063794781
+iter 300 done, loss = 0.0466517102653543, error = 1.0335867365531535
+iter 400 done, loss = 0.04665166077390181, error = 0.07609851171082786
+last iter 402 Error: 0.046651660576361276 NMI: 0.601318474973766 ACC: 0.4681500317863954
+[Accuracy] 0.4681500317863954
+[NMI] 0.601318474973766
+
+################## using class: [25,2,12,26,24,10,7,18,1,14,28,11,3,15,22,4,20,27,13,21]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[25,2,12,26,24,10,7,18,1,14,28,11,3,15,22,4,20,27,13,21]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  2  3  4  7 10 11 12 13 14 15 18 20 21 22 24 25 26 27 28]
+iter 100 done, loss = 0.04511781149870037, error = 249.52462057454085
+iter 200 done, loss = 0.04510225881160021, error = 15.244290185830337
+iter 300 done, loss = 0.04510144579887081, error = 1.0768593371118695
+iter 400 done, loss = 0.04510138979438866, error = 0.07863318485211318
+last iter 407 Error: 0.04510138905577272 NMI: 0.6077428289287726 ACC: 0.4487552966101695
+[Accuracy] 0.4487552966101695
+[NMI] 0.6077428289287726
+
+################## using class: [14,12,29,4,9,8,28,13,24,6,1,30,10,25,19,21,3,7,5,17]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[14,12,29,4,9,8,28,13,24,6,1,30,10,25,19,21,3,7,5,17]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  3  4  5  6  7  8  9 10 12 13 14 17 19 21 24 25 28 29 30]
+iter 100 done, loss = 0.05628668354277245, error = 59.24088235001219
+iter 200 done, loss = 0.05589097426794234, error = 1.2680006401473618
+last iter 298 Error: 0.05589030528914112 NMI: 0.6667820360612152 ACC: 0.5608108108108109
+[Accuracy] 0.5608108108108109
+[NMI] 0.6667820360612152
+
+################## using class: [14,1,9,29,4,24,27,10,13,6,11,26,2,21,7,16,19,20,8,22]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[14,1,9,29,4,24,27,10,13,6,11,26,2,21,7,16,19,20,8,22]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  2  4  6  7  8  9 10 11 13 14 16 19 20 21 22 24 26 27 29]
+iter 100 done, loss = 0.04954390450579443, error = 163.54914481105473
+iter 200 done, loss = 0.04952985784417412, error = 9.861986454172365
+iter 300 done, loss = 0.04952916556802734, error = 0.6605610401572859
+last iter 395 Error: 0.049529121908351695 NMI: 0.6229133563156168 ACC: 0.48793796668581274
+[Accuracy] 0.48793796668581274
+[NMI] 0.6229133563156168
+
+################## using class: [9,10,5,18,19,30,23,14,6,26,12,8,3,24,7,1,17,4,16,29]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[9,10,5,18,19,30,23,14,6,26,12,8,3,24,7,1,17,4,16,29]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  3  4  5  6  7  8  9 10 12 14 16 17 18 19 23 24 26 29 30]
+iter 100 done, loss = 0.05957364237016561, error = 54.70527013141681
+iter 200 done, loss = 0.05866681890496552, error = 1.1488454790771623
+last iter 297 Error: 0.05866667533807047 NMI: 0.6905218618005227 ACC: 0.5772503358710255
+[Accuracy] 0.5772503358710255
+[NMI] 0.6905218618005227
+
+################## using class: [12,11,8,21,2,5,22,28,10,27,3,1,30,7,6,26,16,23,19,17]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[12,11,8,21,2,5,22,28,10,27,3,1,30,7,6,26,16,23,19,17]', tol=1e-10, filename='tdt2_2024.04.27-00.26.22.csv')
+[Using classes] [ 1  2  3  5  6  7  8 10 11 12 16 17 19 21 22 23 26 27 28 30]
+iter 100 done, loss = 0.041055932843819344, error = 275.86644439847555
+iter 200 done, loss = 0.04103689835096638, error = 16.483550548196707
+iter 300 done, loss = 0.04103600244850797, error = 1.1500777452186624
+iter 400 done, loss = 0.041035936644944225, error = 0.08343593703397065
+last iter 422 Error: 0.04103593389872263 NMI: 0.5927653575840661 ACC: 0.45035837536501194
+[Accuracy] 0.45035837536501194
+[NMI] 0.5927653575840661
+

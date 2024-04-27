@@ -1,0 +1,270 @@
+#################################### n_classes: 3
+################## using class: [0,3,2]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[0,3,2]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 2 3]
+iter 100 done, loss = 0.2817226182538828, error = 2.2531889924019013
+iter 200 done, loss = 0.281722513420386, error = 0.006617155893624199
+iter 300 done, loss = 0.28172251314229224, error = 2.1001132432271432e-05
+last iter 368 Error: 0.2817225131414368 NMI: 0.04972018182080216 ACC: 0.4255555555555556
+[Accuracy] 0.4255555555555556
+[NMI] 0.04972018182080216
+
+################## using class: [5,6,4]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,6,4]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [4 5 6]
+iter 100 done, loss = 0.30092580530231794, error = 0.5577900749849668
+iter 200 done, loss = 0.3009257668279076, error = 0.0005988048771790243
+iter 300 done, loss = 0.30092576678932037, error = 6.705447602592884e-07
+last iter 316 Error: 0.3009257667892919 NMI: 0.017856062914940237 ACC: 0.40444444444444444
+[Accuracy] 0.40444444444444444
+[NMI] 0.017856062914940237
+
+################## using class: [9,2,5]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[9,2,5]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [2 5 9]
+iter 100 done, loss = 0.2810331170881422, error = 0.4795084592660241
+iter 200 done, loss = 0.28103307631467905, error = 0.0002648097948594466
+last iter 300 Error: 0.28103307629304436 NMI: 0.07390571193124247 ACC: 0.4777777777777778
+[Accuracy] 0.4777777777777778
+[NMI] 0.07390571193124247
+
+################## using class: [8,3,9]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[8,3,9]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [3 8 9]
+iter 100 done, loss = 0.23250617851251434, error = 3.3710011057484235
+iter 200 done, loss = 0.2325058908020165, error = 0.014896742987686737
+iter 300 done, loss = 0.2325058896101513, error = 6.637731689734593e-05
+iter 400 done, loss = 0.23250588960486587, error = 2.957871019506436e-07
+last iter 404 Error: 0.2325058896048612 NMI: 0.05675987104526971 ACC: 0.4633333333333333
+[Accuracy] 0.4633333333333333
+[NMI] 0.05675987104526971
+
+################## using class: [2,6,0]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,6,0]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 2 6]
+iter 100 done, loss = 0.2747276022274894, error = 3.791094676291886
+iter 200 done, loss = 0.2747274470436038, error = 0.013968607140243589
+iter 300 done, loss = 0.2747274465294027, error = 5.1603482531128e-05
+last iter 384 Error: 0.2747274465275251 NMI: 0.07940509800969243 ACC: 0.4622222222222222
+[Accuracy] 0.4622222222222222
+[NMI] 0.07940509800969243
+
+################## using class: [7,6,1]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,1]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 6 7]
+iter 100 done, loss = 0.2897510400999635, error = 0.36424411995491185
+iter 200 done, loss = 0.28975100727423536, error = 0.00020089664037071096
+last iter 296 Error: 0.2897510072577983 NMI: 0.027025124609146935 ACC: 0.42
+[Accuracy] 0.42
+[NMI] 0.027025124609146935
+
+################## using class: [0,3,9]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[0,3,9]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 3 9]
+iter 100 done, loss = 0.2579050180807193, error = 1.5571856082377467
+iter 200 done, loss = 0.2579049211818396, error = 0.002894520836901095
+iter 300 done, loss = 0.25790492101497586, error = 5.714057253410388e-06
+last iter 349 Error: 0.2579049210146643 NMI: 0.1013957179133021 ACC: 0.5555555555555556
+[Accuracy] 0.5555555555555556
+[NMI] 0.1013957179133021
+
+################## using class: [8,0,2]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[8,0,2]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 2 8]
+iter 100 done, loss = 0.2416298735488022, error = 2.606673486190752
+iter 200 done, loss = 0.2416297400041778, error = 0.00711887684818781
+iter 300 done, loss = 0.24162973966644463, error = 2.0393667673269753e-05
+last iter 371 Error: 0.24162973966549567 NMI: 0.0699487887548072 ACC: 0.5011111111111111
+[Accuracy] 0.5011111111111111
+[NMI] 0.0699487887548072
+
+################## using class: [2,6,9]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,6,9]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [2 6 9]
+iter 100 done, loss = 0.2643490859076998, error = 1.258658854842456
+iter 200 done, loss = 0.2643490041610717, error = 0.0015601875041799061
+iter 300 done, loss = 0.2643490040660276, error = 1.9394909907366344e-06
+last iter 331 Error: 0.26434900406592443 NMI: 0.08778757420933996 ACC: 0.5233333333333333
+[Accuracy] 0.5233333333333333
+[NMI] 0.08778757420933996
+
+################## using class: [8,6,9]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[8,6,9]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [6 8 9]
+iter 100 done, loss = 0.22366075906159502, error = 3.930590921592068
+iter 200 done, loss = 0.22366042959653284, error = 0.01898493638561183
+iter 300 done, loss = 0.22366042810987638, error = 9.461152207752695e-05
+iter 400 done, loss = 0.2236604281025011, error = 4.7270555087618343e-07
+last iter 414 Error: 0.22366042810248168 NMI: 0.0751550664689897 ACC: 0.4766666666666667
+[Accuracy] 0.4766666666666667
+[NMI] 0.0751550664689897
+
+#################################### n_classes: 6
+################## using class: [3,2,7,5,1,9]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,2,7,5,1,9]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 2 3 5 7 9]
+iter 100 done, loss = 0.27280463016327744, error = 25.4514430832536
+iter 200 done, loss = 0.2725925173608978, error = 0.3110475234619788
+iter 300 done, loss = 0.2725924056080161, error = 0.003994816016643438
+iter 400 done, loss = 0.2725924054064432, error = 5.3130869799639534e-05
+last iter 495 Error: 0.27259240540492036 NMI: 0.05182749102037289 ACC: 0.28
+[Accuracy] 0.28
+[NMI] 0.05182749102037289
+
+################## using class: [2,8,7,0,5,1]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,8,7,0,5,1]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 1 2 5 7 8]
+iter 100 done, loss = 0.25771616210097226, error = 41.2461292364856
+iter 200 done, loss = 0.2576669729821969, error = 0.8224065293441971
+iter 300 done, loss = 0.2576662964775745, error = 0.018373284417037193
+iter 400 done, loss = 0.2576662505042394, error = 0.00042540125348367036
+iter 500 done, loss = 0.25766624487590406, error = 9.993490030583777e-06
+iter 600 done, loss = 0.25766624424318757, error = 2.3691640479103863e-07
+iter 700 done, loss = 0.2576662441893934, error = 5.706885731921533e-09
+iter 800 done, loss = 0.2576662441848434, error = 1.4374861767673144e-10
+last iter 889 Error: 0.25766624418447 NMI: 0.06017424673171409 ACC: 0.30277777777777776
+[Accuracy] 0.30277777777777776
+[NMI] 0.06017424673171409
+
+################## using class: [8,1,9,4,3,7]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,1,9,4,3,7]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 3 4 7 8 9]
+iter 100 done, loss = 0.2509998570821932, error = 40.243885440438156
+iter 200 done, loss = 0.25090511336136184, error = 0.896646622609093
+iter 300 done, loss = 0.2509046977472049, error = 0.022183382612282393
+iter 400 done, loss = 0.25090469277669847, error = 0.0005581161960461172
+iter 500 done, loss = 0.25090469266168425, error = 1.4122720446197937e-05
+iter 600 done, loss = 0.2509046926583161, error = 3.580511613512308e-07
+last iter 637 Error: 0.2509046926582418 NMI: 0.06816405097362684 ACC: 0.2811111111111111
+[Accuracy] 0.2811111111111111
+[NMI] 0.06816405097362684
+
+################## using class: [8,0,2,6,7,3]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,0,2,6,7,3]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 2 3 6 7 8]
+iter 100 done, loss = 0.2653319324875428, error = 48.22034524613414
+iter 200 done, loss = 0.2651518349503683, error = 1.0369134251413756
+iter 300 done, loss = 0.2651514033331786, error = 0.024636820683852517
+iter 400 done, loss = 0.2651513991219721, error = 0.0006051285018228252
+iter 500 done, loss = 0.26515139907672486, error = 1.5115110535089218e-05
+last iter 574 Error: 0.26515139907619484 NMI: 0.06853533685305349 ACC: 0.31222222222222223
+[Accuracy] 0.31222222222222223
+[NMI] 0.06853533685305349
+
+################## using class: [8,6,4,0,3,7]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,6,4,0,3,7]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 3 4 6 7 8]
+iter 100 done, loss = 0.2700608877038615, error = 44.6723324310082
+iter 200 done, loss = 0.2700591597252916, error = 0.8893213324996436
+iter 300 done, loss = 0.27005910258865284, error = 0.018092577354224305
+iter 400 done, loss = 0.27005909812298173, error = 0.00036850486662958463
+iter 500 done, loss = 0.27005909757134855, error = 7.5196242436942146e-06
+iter 600 done, loss = 0.2700590974968087, error = 1.5384441839256511e-07
+iter 700 done, loss = 0.2700590974866958, error = 3.1763078994883374e-09
+iter 800 done, loss = 0.2700590974853257, error = 6.864494267940278e-11
+last iter 871 Error: 0.2700590974851631 NMI: 0.0658025492859955 ACC: 0.2783333333333333
+[Accuracy] 0.2783333333333333
+[NMI] 0.0658025492859955
+
+################## using class: [4,5,3,9,6,7]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,5,3,9,6,7]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [3 4 5 6 7 9]
+iter 100 done, loss = 0.28180939964382773, error = 14.610285350463446
+iter 200 done, loss = 0.28180469849404954, error = 0.1582071488774856
+iter 300 done, loss = 0.2818046625220161, error = 0.0017715448688917993
+iter 400 done, loss = 0.28180466228308154, error = 2.015989005851244e-05
+last iter 497 Error: 0.281804662281035 NMI: 0.0474293877775775 ACC: 0.2761111111111111
+[Accuracy] 0.2761111111111111
+[NMI] 0.0474293877775775
+
+################## using class: [2,8,1,7,4,6]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,8,1,7,4,6]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 2 4 6 7 8]
+iter 100 done, loss = 0.26649659255768593, error = 41.20329170967536
+iter 200 done, loss = 0.26649382460199367, error = 0.7255573783450988
+iter 300 done, loss = 0.2664938028893316, error = 0.01341293460372858
+iter 400 done, loss = 0.2664938025232941, error = 0.0002537532089650604
+iter 500 done, loss = 0.2664938025164223, error = 4.87687517480974e-06
+last iter 542 Error: 0.2664938025163136 NMI: 0.07068338652728678 ACC: 0.2811111111111111
+[Accuracy] 0.2811111111111111
+[NMI] 0.07068338652728678
+
+################## using class: [2,3,7,9,1,4]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,3,7,9,1,4]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 2 3 4 7 9]
+iter 100 done, loss = 0.26657515132545867, error = 30.349752308719424
+iter 200 done, loss = 0.2665608600155645, error = 0.45903529785089653
+iter 300 done, loss = 0.26656055293617126, error = 0.00708460365457718
+iter 400 done, loss = 0.26656053487179626, error = 0.00010981701952021271
+iter 500 done, loss = 0.2665605343762079, error = 1.698987351000989e-06
+iter 600 done, loss = 0.26656053436505306, error = 2.631882563719844e-08
+last iter 660 Error: 0.26656053436480953 NMI: 0.05341582294071803 ACC: 0.26055555555555554
+[Accuracy] 0.26055555555555554
+[NMI] 0.05341582294071803
+
+################## using class: [1,9,4,6,0,3]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,4,6,0,3]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, loss = 0.26293855639252933, error = 53.40323866035492
+iter 200 done, loss = 0.2629217178602484, error = 1.2136298208427436
+iter 300 done, loss = 0.26292087847466983, error = 0.028681674399992283
+iter 400 done, loss = 0.2629206613595879, error = 0.0006910311846640865
+iter 500 done, loss = 0.2629205769323713, error = 1.7627639578464818e-05
+iter 600 done, loss = 0.2629203440337154, error = 7.737392641756616e-06
+iter 700 done, loss = 0.26291603713612, error = 0.00014012200971996042
+iter 800 done, loss = 0.26282383230027134, error = 0.00028710348543346646
+iter 900 done, loss = 0.26282174365175, error = 2.1541027818636303e-09
+last iter 968 Error: 0.26282174363457605 NMI: 0.06569758813803253 ACC: 0.2816666666666667
+[Accuracy] 0.2816666666666667
+[NMI] 0.06569758813803253
+
+################## using class: [2,3,1,4,7,6]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,3,1,4,7,6]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [1 2 3 4 6 7]
+iter 100 done, loss = 0.2810623989846676, error = 27.457789410385637
+iter 200 done, loss = 0.2810615547483559, error = 0.43516366427605474
+iter 300 done, loss = 0.2810615439340371, error = 0.007045233501281213
+iter 400 done, loss = 0.2810615437621328, error = 0.00011507533581903277
+iter 500 done, loss = 0.28106154375934256, error = 1.895281669966507e-06
+last iter 515 Error: 0.2810615437593212 NMI: 0.027832408440896482 ACC: 0.255
+[Accuracy] 0.255
+[NMI] 0.027832408440896482
+
+#################################### n_classes: 10
+################## using class: [8,9,4,1,2,6,3,0,5,7]
+[Using device] cpu
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[8,9,4,1,2,6,3,0,5,7]', tol=1e-15, filename='cifar10_2024.04.26-22.55.16.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, loss = 0.25755985736469117, error = 291.9924042612017
+iter 200 done, loss = 0.25751827922721965, error = 21.61864426165356
+iter 300 done, loss = 0.2575020989709202, error = 1.7763645709414595
+iter 400 done, loss = 0.25750130273289684, error = 0.14752971835161263
+iter 500 done, loss = 0.25750125046457034, error = 0.012412670126703503
+iter 600 done, loss = 0.2575012466269693, error = 0.0010515377121505416
+iter 700 done, loss = 0.25750124629139326, error = 8.966991271725011e-05
+iter 800 done, loss = 0.257501246259853, error = 7.675829320529755e-06
+iter 900 done, loss = 0.2575012462572279, error = 6.586434750377642e-07
+last iter 965 Error: 0.25750124625705223 NMI: 0.055618527327478844 ACC: 0.18433333333333332
+[Accuracy] 0.18433333333333332
+[NMI] 0.055618527327478844
+

@@ -1,0 +1,410 @@
+#################################### n_classes: 2
+################## using class: [8,38]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[8,38]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 8 38]
+iter 100 done, loss = 0.10806424741569584, error = 2.3199623942733186e-08
+iter 200 done, loss = 0.10806423669156447, error = 2.5679636775646375e-12
+last iter 253 Error: 0.10806423669037879 NMI: 0.11047005359349141 ACC: 0.528
+[Accuracy] 0.528
+[NMI] 0.11047005359349141
+
+################## using class: [32,13]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[32,13]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [13 32]
+iter 100 done, loss = 0.03285954170017284, error = 6.6936589892026195e-09
+last iter 193 Error: 0.03285953989604196 NMI: 0.787638939023995 ACC: 0.9743589743589743
+[Accuracy] 0.9743589743589743
+[NMI] 0.787638939023995
+
+################## using class: [1,30]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[1,30]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1 30]
+iter 100 done, loss = 0.016144723900533873, error = 612.3258467133855
+iter 200 done, loss = 0.016144384610827185, error = 318.78324952510627
+iter 300 done, loss = 0.016144243505573776, error = 171.02313263189762
+iter 400 done, loss = 0.01614417432031898, error = 92.87893744115456
+iter 500 done, loss = 0.016144138191274172, error = 50.73526060811006
+iter 600 done, loss = 0.016144118786542663, error = 27.7977713824861
+iter 700 done, loss = 0.01614410825157482, error = 15.25493203800689
+iter 800 done, loss = 0.016144102461891355, error = 8.379128959804643
+iter 900 done, loss = 0.01614409930090546, error = 4.604610584630679
+iter 1000 done, loss = 0.016144097574809824, error = 2.5310327774472334
+iter 1100 done, loss = 0.0161440966300095, error = 1.3914366415296906
+iter 1200 done, loss = 0.01614409611060208, error = 0.765007295766277
+iter 1300 done, loss = 0.016144095825321628, error = 0.42061687841179435
+iter 1400 done, loss = 0.016144095668714758, error = 0.23126909607727222
+iter 1500 done, loss = 0.016144095582705017, error = 0.12716096514513275
+iter 1600 done, loss = 0.016144095535445966, error = 0.06991865976816167
+iter 1700 done, loss = 0.016144095509410167, error = 0.03844469740863175
+iter 1800 done, loss = 0.016144095495100614, error = 0.021138812855713177
+iter 1900 done, loss = 0.016144095487235006, error = 0.011623184990759285
+iter 2000 done, loss = 0.016144095482911118, error = 0.006391016089737442
+iter 2100 done, loss = 0.016144095480534037, error = 0.003514105290027635
+iter 2200 done, loss = 0.01614409547922716, error = 0.0019322337847171704
+iter 2300 done, loss = 0.016144095478508647, error = 0.0010624404288281347
+iter 2400 done, loss = 0.016144095478113588, error = 0.0005841837981018212
+iter 2500 done, loss = 0.01614409547789638, error = 0.00032121396950820336
+last iter 2578 Error: 0.016144095477797472 NMI: 0.0031390560942595822 ACC: 0.7405521307960332
+[Accuracy] 0.7405521307960332
+[NMI] 0.0031390560942595822
+
+################## using class: [31,28]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[31,28]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [28 31]
+last iter 77 Error: 0.08851124993695363 NMI: 0.8496175077344588 ACC: 0.9736842105263158
+[Accuracy] 0.9736842105263158
+[NMI] 0.8496175077344588
+
+################## using class: [12,1]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[12,1]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1 12]
+iter 100 done, loss = 0.01647868545890178, error = 581.8104232180201
+iter 200 done, loss = 0.016478384170683587, error = 307.1415588723199
+iter 300 done, loss = 0.01647824417065635, error = 165.28765960653033
+iter 400 done, loss = 0.016478174872057036, error = 89.83295556062536
+iter 500 done, loss = 0.016478138939321017, error = 49.08181902703646
+iter 600 done, loss = 0.01647811981735885, error = 26.893269258546677
+iter 700 done, loss = 0.016478109458452395, error = 14.758600210890506
+iter 800 done, loss = 0.016478103816704306, error = 8.106167417967095
+iter 900 done, loss = 0.01647810075144417, error = 4.454332862335898
+iter 1000 done, loss = 0.016478099073184066, error = 2.4482791239399115
+iter 1100 done, loss = 0.01647809815486184, error = 1.3458542836632672
+iter 1200 done, loss = 0.016478097651087785, error = 0.7398924750399196
+iter 1300 done, loss = 0.016478097374382304, error = 0.4067783061434737
+iter 1400 done, loss = 0.016478097222505934, error = 0.22364353605250728
+iter 1500 done, loss = 0.016478097139103188, error = 0.12295890570012005
+iter 1600 done, loss = 0.016478097093286886, error = 0.06760305935925669
+iter 1700 done, loss = 0.016478097068112194, error = 0.037168425008709205
+iter 1800 done, loss = 0.01647809705427713, error = 0.020435380397568967
+iter 1900 done, loss = 0.016478097046672965, error = 0.011235481402663875
+iter 2000 done, loss = 0.016478097042493135, error = 0.0061773305240952195
+iter 2100 done, loss = 0.01647809704019544, error = 0.0033963316022288794
+iter 2200 done, loss = 0.016478097038932306, error = 0.0018673226849106478
+iter 2300 done, loss = 0.016478097038237896, error = 0.0010266648051830516
+iter 2400 done, loss = 0.016478097037856132, error = 0.0005644662463079096
+iter 2500 done, loss = 0.01647809703764624, error = 0.00031034680367980427
+last iter 2572 Error: 0.01647809703755655 NMI: 0.00037029685983580016 ACC: 0.7327860169491526
+[Accuracy] 0.7327860169491526
+[NMI] 0.00037029685983580016
+
+################## using class: [24,20]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[24,20]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [20 24]
+last iter 61 Error: 0.15769155890830874 NMI: 0.7781701568684302 ACC: 0.9558823529411765
+[Accuracy] 0.9558823529411765
+[NMI] 0.7781701568684302
+
+################## using class: [36,1]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[36,1]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1 36]
+iter 100 done, loss = 0.016112842414006158, error = 489.48902356224625
+iter 200 done, loss = 0.01611258695462433, error = 259.4790272238561
+iter 300 done, loss = 0.01611246778373772, error = 140.017573012579
+iter 400 done, loss = 0.01611240715967859, error = 76.22751635384705
+iter 500 done, loss = 0.016112375135219174, error = 41.692185267017166
+iter 600 done, loss = 0.016112358231461912, error = 22.85882994269217
+iter 700 done, loss = 0.016112349220175935, error = 12.549234307873164
+iter 800 done, loss = 0.016112344364254544, error = 6.894219764579134
+iter 900 done, loss = 0.016112341727365958, error = 3.7889467909732626
+iter 1000 done, loss = 0.016112340292143378, error = 2.0827651736793142
+iter 1100 done, loss = 0.016112339506729523, error = 1.1450167248080028
+iter 1200 done, loss = 0.016112339076255658, error = 0.6295212822400794
+iter 1300 done, loss = 0.016112338840080547, error = 0.3461176144708051
+iter 1400 done, loss = 0.016112338710417784, error = 0.19030269396103744
+iter 1500 done, loss = 0.01611233863938057, error = 0.10463273844441867
+iter 1600 done, loss = 0.016112338600408622, error = 0.057529598954234464
+iter 1700 done, loss = 0.01611233857899287, error = 0.031631247356513535
+iter 1800 done, loss = 0.016112338567222724, error = 0.017391695622217353
+iter 1900 done, loss = 0.016112338560753083, error = 0.009562420968530612
+iter 2000 done, loss = 0.016112338557196675, error = 0.005257677604481626
+iter 2100 done, loss = 0.016112338555241575, error = 0.0028908138058586544
+iter 2200 done, loss = 0.016112338554166734, error = 0.0015894479822554015
+iter 2300 done, loss = 0.016112338553575804, error = 0.0008739217101555798
+iter 2400 done, loss = 0.01611233855325092, error = 0.00048050591389000913
+iter 2500 done, loss = 0.016112338553072297, error = 0.0002641952115497156
+last iter 2546 Error: 0.01611233855301982 NMI: 0.007847099016782454 ACC: 0.7420134228187919
+[Accuracy] 0.7420134228187919
+[NMI] 0.007847099016782454
+
+################## using class: [29,39]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[29,39]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [29 39]
+last iter 63 Error: 0.2913335458790103 NMI: 0.060963917433576105 ACC: 0.5333333333333333
+[Accuracy] 0.5333333333333333
+[NMI] 0.060963917433576105
+
+################## using class: [16,28]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[16,28]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [16 28]
+last iter 55 Error: 0.12571082280787998 NMI: 0.6218314965910998 ACC: 0.9076923076923077
+[Accuracy] 0.9076923076923077
+[NMI] 0.6218314965910998
+
+################## using class: [25,16]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=2, classes='[25,16]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [16 25]
+last iter 79 Error: 0.2753735890878605 NMI: 0.6858463811181346 ACC: 0.9444444444444444
+[Accuracy] 0.9444444444444444
+[NMI] 0.6858463811181346
+
+#################################### n_classes: 8
+################## using class: [20,24,35,6,15,41,16,33]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[20,24,35,6,15,41,16,33]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 6 15 16 20 24 33 35 41]
+iter 100 done, loss = 0.06121209622917292, error = 6.007532110006093e-06
+iter 200 done, loss = 0.0612107712267621, error = 1.3656390228832463e-07
+iter 300 done, loss = 0.06121072448215943, error = 7.366316094643645e-09
+iter 400 done, loss = 0.06121072217930814, error = 7.249290271873078e-11
+iter 500 done, loss = 0.06121072216743212, error = 2.4074090251553137e-13
+last iter 515 Error: 0.061210722167409914 NMI: 0.48821304127816173 ACC: 0.42278481012658226
+[Accuracy] 0.42278481012658226
+[NMI] 0.48821304127816173
+
+################## using class: [33,26,3,6,4,22,41,34]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[33,26,3,6,4,22,41,34]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  4  6 22 26 33 34 41]
+iter 100 done, loss = 0.056827027706537685, error = 0.00029797111846020796
+iter 200 done, loss = 0.056826969932196755, error = 2.8033846636395954e-10
+last iter 272 Error: 0.05682696992535059 NMI: 0.5436718723277233 ACC: 0.5877862595419847
+[Accuracy] 0.5877862595419847
+[NMI] 0.5436718723277233
+
+################## using class: [27,4,29,1,24,35,3,18]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[27,4,29,1,24,35,3,18]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  3  4 18 24 27 29 35]
+iter 100 done, loss = 0.00379155719241689, error = 3482.0144572869353
+iter 200 done, loss = 0.0037497393145628183, error = 1475.3522737934081
+iter 300 done, loss = 0.0037292007456852655, error = 716.3529219254717
+iter 400 done, loss = 0.0037184741126234347, error = 365.39161465232297
+iter 500 done, loss = 0.0037131333996107477, error = 188.1720285371803
+iter 600 done, loss = 0.0037113072407907147, error = 97.41381623780104
+iter 700 done, loss = 0.0037108763737836135, error = 50.593455244755525
+iter 800 done, loss = 0.0037107433561386675, error = 26.334969896651394
+iter 900 done, loss = 0.003710690807058346, error = 13.72301837670612
+iter 1000 done, loss = 0.0037106664319790867, error = 7.155131745488058
+iter 1100 done, loss = 0.003710654296152529, error = 3.731848045839539
+iter 1200 done, loss = 0.003710648082895269, error = 1.9467366713135295
+iter 1300 done, loss = 0.003710644866540295, error = 1.0156270322727694
+iter 1400 done, loss = 0.003710643196255494, error = 0.529884194331073
+iter 1500 done, loss = 0.003710642325737034, error = 0.2764660021671298
+iter 1600 done, loss = 0.003710641872614607, error = 0.1442453444153515
+iter 1700 done, loss = 0.003710641636491872, error = 0.07525957094642223
+iter 1800 done, loss = 0.0037106415134352047, error = 0.03926626059650568
+iter 1900 done, loss = 0.0037106414492565493, error = 0.02048693556500163
+iter 2000 done, loss = 0.0037106414157989814, error = 0.010688877832135561
+iter 2100 done, loss = 0.0037106413983452333, error = 0.005576832795216742
+iter 2200 done, loss = 0.00371064138923295, error = 0.0029096897122544685
+iter 2300 done, loss = 0.003710641384479962, error = 0.0015181133921780968
+iter 2400 done, loss = 0.0037106413820001604, error = 0.000792066718498525
+iter 2500 done, loss = 0.003710641380706356, error = 0.0004132561597116142
+iter 2600 done, loss = 0.0037106413800313117, error = 0.0002156140294003314
+iter 2700 done, loss = 0.0037106413796791126, error = 0.00011249538062788895
+iter 2800 done, loss = 0.0037106413794953563, error = 5.869381753084616e-05
+last iter 2842 Error: 0.0037106413794474264 NMI: 0.2199563593863535 ACC: 0.46143497757847535
+[Accuracy] 0.46143497757847535
+[NMI] 0.2199563593863535
+
+################## using class: [37,28,4,11,3,15,20,26]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[37,28,4,11,3,15,20,26]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  4 11 15 20 26 28 37]
+iter 100 done, loss = 0.052930861828160716, error = 0.00015068777106959198
+iter 200 done, loss = 0.05293072117694059, error = 9.547949693328151e-08
+iter 300 done, loss = 0.05293069234382393, error = 1.901710430324616e-08
+iter 400 done, loss = 0.05293068726270415, error = 1.5864207524819875e-09
+iter 500 done, loss = 0.052930686970947854, error = 6.71125649064851e-11
+iter 600 done, loss = 0.05293068695881274, error = 2.7068750184689553e-12
+last iter 688 Error: 0.05293068695833296 NMI: 0.4540550332914402 ACC: 0.5414691943127962
+[Accuracy] 0.5414691943127962
+[NMI] 0.4540550332914402
+
+################## using class: [20,8,11,24,40,13,5,4]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[20,8,11,24,40,13,5,4]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  5  8 11 13 20 24 40]
+iter 100 done, loss = 0.055304493431698395, error = 0.00025172089042141627
+iter 200 done, loss = 0.05530445709648428, error = 1.0758054329034354e-08
+iter 300 done, loss = 0.05530445590566718, error = 7.645518268700221e-10
+iter 400 done, loss = 0.05530445581470652, error = 5.2861516914112495e-11
+iter 500 done, loss = 0.05530445580871542, error = 3.358015647363421e-12
+last iter 590 Error: 0.05530445580834147 NMI: 0.5272669924929957 ACC: 0.6201814058956916
+[Accuracy] 0.6201814058956916
+[NMI] 0.5272669924929957
+
+################## using class: [37,35,18,39,2,31,7,5]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[37,35,18,39,2,31,7,5]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  5  7 18 31 35 37 39]
+iter 100 done, loss = 0.0478617163734476, error = 10.985467058413754
+iter 200 done, loss = 0.04785725157334423, error = 0.07706219894718154
+iter 300 done, loss = 0.04785722133259719, error = 0.0005423762085490257
+iter 400 done, loss = 0.04785722112013906, error = 3.815127417378519e-06
+last iter 488 Error: 0.047857221118653585 NMI: 0.23087731485348054 ACC: 0.23286052009456265
+[Accuracy] 0.23286052009456265
+[NMI] 0.23087731485348054
+
+################## using class: [37,26,18,16,39,30,14,35]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[37,26,18,16,39,30,14,35]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [14 16 18 26 30 35 37 39]
+last iter 90 Error: 0.09090937682812464 NMI: 0.5735775477760069 ACC: 0.6513761467889908
+[Accuracy] 0.6513761467889908
+[NMI] 0.5735775477760069
+
+################## using class: [7,4,16,33,15,8,11,25]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[7,4,16,33,15,8,11,25]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  7  8 11 15 16 25 33]
+iter 100 done, loss = 0.06392245730704273, error = 5.02905473789745e-05
+iter 200 done, loss = 0.06392236787018932, error = 1.3534768475665856e-09
+iter 300 done, loss = 0.06392236768865187, error = 2.7179650085318106e-12
+last iter 352 Error: 0.06392236768829783 NMI: 0.49833897551395184 ACC: 0.562015503875969
+[Accuracy] 0.562015503875969
+[NMI] 0.49833897551395184
+
+################## using class: [39,36,12,21,2,5,27,8]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[39,36,12,21,2,5,27,8]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  5  8 12 21 27 36 39]
+iter 100 done, loss = 0.050398273678868684, error = 11.597593579598293
+iter 200 done, loss = 0.050393814779954575, error = 0.08238587568919806
+iter 300 done, loss = 0.05039378453338747, error = 0.0005869262043432072
+iter 400 done, loss = 0.05039378431837079, error = 4.180230074386648e-06
+last iter 488 Error: 0.05039378431684925 NMI: 0.24108677886501903 ACC: 0.22578125
+[Accuracy] 0.22578125
+[NMI] 0.24108677886501903
+
+################## using class: [31,21,4,7,41,26,28,14]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[31,21,4,7,41,26,28,14]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  7 14 21 26 28 31 41]
+iter 100 done, loss = 0.07238574023972327, error = 1.3422300582388057e-05
+iter 200 done, loss = 0.0723855939822401, error = 3.205331573383127e-09
+iter 300 done, loss = 0.07238559323818904, error = 1.202091517892279e-11
+last iter 389 Error: 0.07238559323550066 NMI: 0.524714016143826 ACC: 0.5813953488372093
+[Accuracy] 0.5813953488372093
+[NMI] 0.524714016143826
+
+#################################### n_classes: 15
+################## using class: [9,25,19,39,31,10,32,37,29,33,6,38,3,26,34]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[9,25,19,39,31,10,32,37,29,33,6,38,3,26,34]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  6  9 10 19 25 26 29 31 32 33 34 37 38 39]
+iter 100 done, loss = 0.05313497135822597, error = 1.8823537821444693e-05
+iter 200 done, loss = 0.0531349639627179, error = 9.30616373433248e-13
+last iter 203 Error: 0.05313496396271474 NMI: 0.5427820552848512 ACC: 0.5043196544276458
+[Accuracy] 0.5043196544276458
+[NMI] 0.5427820552848512
+
+################## using class: [19,25,35,41,14,2,37,3,22,6,1,20,30,36,38]
+[Using device] cpu
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[19,25,35,41,14,2,37,3,22,6,1,20,30,36,38]', tol=1e-15, filename='reuters_2024.04.26-23.25.06.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  2  3  6 14 19 20 22 25 30 35 36 37 38 41]
+iter 100 done, loss = 0.0048586890147580995, error = 6349.1460350147845
+iter 200 done, loss = 0.004460758081820567, error = 2434.2072251465197
+iter 300 done, loss = 0.004387888023255461, error = 1110.5356872300304
+iter 400 done, loss = 0.004348301800149306, error = 539.7313500335126
+iter 500 done, loss = 0.004331803096345482, error = 273.53314269096074
+iter 600 done, loss = 0.004327816993399014, error = 142.27242311327802
+iter 700 done, loss = 0.004176141238534901, error = 73.62250474486926
