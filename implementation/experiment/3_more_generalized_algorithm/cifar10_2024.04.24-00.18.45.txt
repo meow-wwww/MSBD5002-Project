@@ -1,0 +1,114 @@
+#################################### n_classes: 3
+################## using class: [7,9,0]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,9,0]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 7 9]
+[Accuracy] 0.49777777777777776
+[NMI] 0.053557371374820674
+
+################## using class: [7,8,2]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,8,2]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [2 7 8]
+[Accuracy] 0.44666666666666666
+[NMI] 0.04636625331066694
+
+################## using class: [1,3,7]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,3,7]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [1 3 7]
+[Accuracy] 0.41888888888888887
+[NMI] 0.03496655871653884
+
+################## using class: [5,0,6]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,0,6]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 5 6]
+[Accuracy] 0.5288888888888889
+[NMI] 0.08785229769485958
+
+################## using class: [9,8,5]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[9,8,5]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [5 8 9]
+[Accuracy] 0.4688888888888889
+[NMI] 0.06752136778664608
+
+################## using class: [5,2,7]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,2,7]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [2 5 7]
+[Accuracy] 0.3977777777777778
+[NMI] 0.023874650765750585
+
+################## using class: [5,2,0]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,2,0]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 2 5]
+[Accuracy] 0.4122222222222222
+[NMI] 0.03694956254817431
+
+################## using class: [7,2,6]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,2,6]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [2 6 7]
+[Accuracy] 0.4588888888888889
+[NMI] 0.036565882543052965
+
+################## using class: [3,9,1]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [1 3 9]
+[Accuracy] 0.43
+[NMI] 0.07282537640392174
+
+################## using class: [1,0,3]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,0,3]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 1 3]
+[Accuracy] 0.47444444444444445
+[NMI] 0.07382402250384969
+
+#################################### n_classes: 6
+################## using class: [4,0,6,2,9,8]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,6,2,9,8]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 2 4 6 8 9]
+iter 100 done, loss = 11258.4013671875, error = 0.032616905868053436
+iter 200 done, loss = 9052.8447265625, error = 0.026476621627807617
+[Accuracy] 0.31166666666666665
+[NMI] 0.09261538606306728
+
+################## using class: [3,9,7,2,6,4]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,9,7,2,6,4]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [2 3 4 6 7 9]
+iter 100 done, loss = 12689.51953125, error = 0.04475051909685135
+iter 200 done, loss = 10889.71484375, error = 0.03860253468155861
+iter 300 done, loss = 10799.3798828125, error = 0.038289062678813934
+[Accuracy] 0.2838888888888889
+[NMI] 0.05647654289690325
+
+################## using class: [5,1,0,8,2,3]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[5,1,0,8,2,3]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, loss = 13169.5693359375, error = 0.042411383241415024
+iter 200 done, loss = 10754.4658203125, error = 0.03478487208485603
+[Accuracy] 0.29388888888888887
+[NMI] 0.07271249247879295
+
+################## using class: [5,3,9,2,6,8]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[5,3,9,2,6,8]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [2 3 5 6 8 9]
+iter 100 done, loss = 11087.7705078125, error = 0.03817228600382805
+iter 200 done, loss = 10699.9853515625, error = 0.03692135587334633
+[Accuracy] 0.315
+[NMI] 0.09176386542199229
+
+################## using class: [7,2,6,3,1,5]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[7,2,6,3,1,5]', tol=1e-06, filename='cifar10_2024.04.24-00.18.45.csv')
+[Using classes] [1 2 3 5 6 7]
+iter 100 done, loss = 12996.42578125, error = 0.049577802419662476
