@@ -1,0 +1,497 @@
+#################################### n_classes: 2
+################## using class: [29,11]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+iter 100 done, update = 3.725290298461914e-07
+difference between H_out and P_out: 0.0627959668636322
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+difference between H_out and P_out: 0.011675580404698849
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+difference between H_out and P_out: 0.0001646844611968845
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+difference between H_out and P_out: 0.0004325816116761416
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+difference between H_out and P_out: 0.0003760139225050807
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,11]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 29]
+difference between H_out and P_out: 0.0002750575076788664
+[Accuracy] 0.9953703703703703
+[NMI] 0.9552641092556697
+
+################## using class: [26,3]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+iter 100 done, update = 0.0009167566895484924
+iter 200 done, update = 0.00013414397835731506
+iter 300 done, update = 1.8242746591567993e-05
+iter 400 done, update = 1.080334186553955e-06
+difference between H_out and P_out: 5.107624053955078
+[Accuracy] 0.5788655788655789
+[NMI] 0.0885332918702063
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+iter 100 done, update = 0.0006943270564079285
+iter 200 done, update = 0.010881442576646805
+difference between H_out and P_out: 1.585524320602417
+[Accuracy] 0.5905205905205905
+[NMI] 0.0916982768589036
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+iter 100 done, update = 7.506459951400757e-06
+difference between H_out and P_out: 0.4977787435054779
+[Accuracy] 0.5936285936285937
+[NMI] 0.09256744803148981
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+difference between H_out and P_out: 0.011891447007656097
+[Accuracy] 0.5928515928515928
+[NMI] 0.09234913107987151
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+difference between H_out and P_out: 0.00762174604460597
+[Accuracy] 0.5928515928515928
+[NMI] 0.09234913107987151
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[26,3]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3 26]
+difference between H_out and P_out: 0.005947905592620373
+[Accuracy] 0.5928515928515928
+[NMI] 0.09234913107987151
+
+################## using class: [9,13]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+iter 100 done, update = 0.001110762357711792
+difference between H_out and P_out: 0.20066504180431366
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+difference between H_out and P_out: 0.1201554387807846
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+difference between H_out and P_out: 0.0011697015725076199
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+difference between H_out and P_out: 3.414940510992892e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+difference between H_out and P_out: 4.732177694677375e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,13]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 13]
+difference between H_out and P_out: 0.0004695333482231945
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [2,29]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+iter 100 done, update = 0.0008814781904220581
+iter 200 done, update = 0.00018170848488807678
+iter 300 done, update = 4.2673200368881226e-05
+iter 400 done, update = 1.1496245861053467e-05
+iter 500 done, update = 3.028661012649536e-06
+iter 600 done, update = 4.209578037261963e-07
+difference between H_out and P_out: 9.008749008178711
+[Accuracy] 0.5185774946921444
+[NMI] 0.0443572428127408
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+iter 100 done, update = 0.0008047372102737427
+iter 200 done, update = 0.0001207105815410614
+iter 300 done, update = 8.683651685714722e-06
+iter 400 done, update = 5.587935447692871e-08
+difference between H_out and P_out: 0.8386552333831787
+[Accuracy] 0.5037154989384289
+[NMI] 0.04725367863631367
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+iter 100 done, update = 0.0003911219537258148
+difference between H_out and P_out: 0.7711953520774841
+[Accuracy] 0.5037154989384289
+[NMI] 0.04725367863631367
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+difference between H_out and P_out: 0.3604656457901001
+[Accuracy] 0.5063694267515924
+[NMI] 0.04761350858854041
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+difference between H_out and P_out: 0.02056836150586605
+[Accuracy] 0.5079617834394905
+[NMI] 0.047831022299359656
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,29]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 2 29]
+difference between H_out and P_out: 0.0730714350938797
+[Accuracy] 0.5069002123142251
+[NMI] 0.04768587765491758
+
+################## using class: [20,11]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+iter 100 done, update = 2.4586915969848633e-07
+difference between H_out and P_out: 0.15754817426204681
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+difference between H_out and P_out: 0.030525507405400276
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+difference between H_out and P_out: 0.002842155285179615
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+difference between H_out and P_out: 6.384243170032278e-05
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+difference between H_out and P_out: 0.0006338149541988969
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[20,11]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [11 20]
+difference between H_out and P_out: 0.0005094248335808516
+[Accuracy] 0.9961240310077519
+[NMI] 0.9659237726572534
+
+################## using class: [25,17]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 0.04850202798843384
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 0.030605366453528404
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 0.000299940089462325
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 3.850941084238002e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 1.393314050801564e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,17]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 25]
+difference between H_out and P_out: 4.643640295398654e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [19,17]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 0.1594836711883545
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 0.008933482691645622
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 0.00013432581909000874
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 0.00015490918303839862
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 4.444075784704182e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,17]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [17 19]
+difference between H_out and P_out: 0.00022512636496685445
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [27,23]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 0.05941036343574524
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 0.0012756272917613387
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 1.963790964509826e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 5.715015049645444e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 3.4756060358631657e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,23]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [23 27]
+difference between H_out and P_out: 9.79363830992952e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [1,15]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+iter 100 done, update = 0.0002544522285461426
+iter 200 done, update = 0.0002445131540298462
+iter 300 done, update = 0.00021235644817352295
+iter 400 done, update = 0.00016464293003082275
+iter 500 done, update = 0.00011080503463745117
+iter 600 done, update = 6.29127025604248e-05
+iter 700 done, update = 2.8505921363830566e-05
+iter 800 done, update = 5.170702934265137e-06
+difference between H_out and P_out: 2.7867166996002197
+[Accuracy] 0.6511392405063291
+[NMI] 0.05465563209664684
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+iter 100 done, update = 0.0003735274076461792
+iter 200 done, update = 0.00043448805809020996
+iter 300 done, update = 0.0002828240394592285
+iter 400 done, update = 6.332993507385254e-07
+difference between H_out and P_out: 1.4172511100769043
+[Accuracy] 0.6511392405063291
+[NMI] 0.05465563209664684
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+iter 100 done, update = 0.0012645572423934937
+difference between H_out and P_out: 0.2778817415237427
+[Accuracy] 0.6511392405063291
+[NMI] 0.05465563209664684
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+iter 100 done, update = 1.3619661331176758e-05
+difference between H_out and P_out: 0.008013248443603516
+[Accuracy] 0.650126582278481
+[NMI] 0.05482839013557267
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+difference between H_out and P_out: 4.789248851011507e-05
+[Accuracy] 0.650126582278481
+[NMI] 0.05482839013557267
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[1,15]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 1 15]
+difference between H_out and P_out: 0.0003819619014393538
+[Accuracy] 0.650126582278481
+[NMI] 0.05482839013557267
+
+################## using class: [9,22]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+iter 100 done, update = 0.00014702975749969482
+difference between H_out and P_out: 0.045580215752124786
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=2.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+difference between H_out and P_out: 0.0544603057205677
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=5.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+difference between H_out and P_out: 0.006895217578858137
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=10.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+difference between H_out and P_out: 0.00037169872666709125
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=15.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+difference between H_out and P_out: 0.00010628358722897246
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[9,22]', tol=1e-15, lamda=20.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 9 22]
+difference between H_out and P_out: 0.00012862926814705133
+[Accuracy] 0.9966666666666667
+[NMI] 0.9651224037986473
+
+#################################### n_classes: 10
+################## using class: [5,10,12,24,17,21,30,9,3,28]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[5,10,12,24,17,21,30,9,3,28]', tol=1e-15, lamda=1.0, filename='tdt2_2024.04.22-20.39.21.csv')
+[Using classes] [ 3  5  9 10 12 17 21 24 28 30]
+iter 100 done, update = 0.00056418776512146
+iter 200 done, update = 0.0001283884048461914
+iter 300 done, update = 8.549541234970093e-05
+iter 400 done, update = 4.1387975215911865e-05
+iter 500 done, update = 1.4755874872207642e-05
+iter 600 done, update = 8.165836334228516e-06
+iter 700 done, update = 8.07642936706543e-06
+iter 800 done, update = 9.320676326751709e-06
+iter 900 done, update = 1.292303204536438e-05
+iter 1000 done, update = 1.2464821338653564e-05
+iter 1100 done, update = 8.322298526763916e-06
+iter 1200 done, update = 6.545335054397583e-06
+iter 1300 done, update = 5.934387445449829e-06
+iter 1400 done, update = 4.936009645462036e-06
+iter 1500 done, update = 3.4943222999572754e-06
+iter 1600 done, update = 2.216547727584839e-06
+iter 1700 done, update = 1.389533281326294e-06
+iter 1800 done, update = 9.015202522277832e-07
+iter 1900 done, update = 7.711350917816162e-07
+iter 2000 done, update = 5.848705768585205e-07
+iter 2100 done, update = 4.6938657760620117e-07
+iter 2200 done, update = 3.427267074584961e-07
+iter 2300 done, update = 3.501772880554199e-07
+iter 2400 done, update = 2.0489096641540527e-07
+iter 2500 done, update = 2.2724270820617676e-07

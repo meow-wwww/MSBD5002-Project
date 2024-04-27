@@ -1,0 +1,1342 @@
+#################################### n_classes: 2
+################## using class: [9,12]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+iter 100 done, update = 2.7008354663848877e-08
+difference between H_out and P_out: 0.21152904629707336
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 0.010768034495413303
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 0.00019629247253760695
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 3.4280533327546436e-06
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 1.0929335076070856e-05
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+################## using class: [3,4]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[3,4]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 4]
+difference between H_out and P_out: 0.12972521781921387
+[Accuracy] 0.9027777777777778
+[NMI] 0.6258023013700279
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[3,4]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 4]
+difference between H_out and P_out: 0.0035881379153579473
+[Accuracy] 0.9027777777777778
+[NMI] 0.6258023013700279
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[3,4]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 4]
+difference between H_out and P_out: 0.00012454685929697007
+[Accuracy] 0.9027777777777778
+[NMI] 0.6258023013700279
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[3,4]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 4]
+difference between H_out and P_out: 6.247556029848056e-06
+[Accuracy] 0.9027777777777778
+[NMI] 0.6258023013700279
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[3,4]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 4]
+difference between H_out and P_out: 2.293995976287988e-06
+[Accuracy] 0.9027777777777778
+[NMI] 0.6258023013700279
+
+################## using class: [12,9]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,9]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 0.14374257624149323
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,9]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 0.019039861857891083
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,9]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 4.350824747234583e-05
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,9]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 0.00033862944110296667
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,9]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 9 12]
+difference between H_out and P_out: 9.57868792283989e-07
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+################## using class: [8,1]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,1]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [1 8]
+difference between H_out and P_out: 0.2608972489833832
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,1]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [1 8]
+difference between H_out and P_out: 0.000217760622035712
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,1]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [1 8]
+difference between H_out and P_out: 0.0008455659844912589
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,1]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [1 8]
+difference between H_out and P_out: 5.354766108212061e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,1]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [1 8]
+difference between H_out and P_out: 0.00010143637337023392
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [15,2]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,2]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 15]
+iter 100 done, update = 2.7939677238464355e-08
+difference between H_out and P_out: 0.2770325541496277
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,2]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 15]
+difference between H_out and P_out: 0.029477911069989204
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,2]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 15]
+difference between H_out and P_out: 0.0016695874510332942
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,2]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 15]
+difference between H_out and P_out: 0.00030744733521714807
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,2]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 15]
+difference between H_out and P_out: 0.0002805909898597747
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [14,16]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[14,16]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 16]
+iter 100 done, update = 4.190951585769653e-09
+difference between H_out and P_out: 0.1610029935836792
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[14,16]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 16]
+difference between H_out and P_out: 0.002710226457566023
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[14,16]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 16]
+difference between H_out and P_out: 8.869745943229645e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[14,16]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 16]
+difference between H_out and P_out: 7.6147848631080706e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[14,16]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 16]
+difference between H_out and P_out: 2.4142580514308065e-05
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [17,14]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[17,14]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 17]
+iter 100 done, update = 1.0710209608078003e-08
+difference between H_out and P_out: 0.13774095475673676
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[17,14]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 17]
+difference between H_out and P_out: 0.0005429101292975247
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[17,14]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 17]
+difference between H_out and P_out: 0.00010882891365326941
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[17,14]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 17]
+difference between H_out and P_out: 0.00011817987251561135
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[17,14]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [14 17]
+difference between H_out and P_out: 1.2607562211996992e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [20,8]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,8]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 8 20]
+iter 100 done, update = 4.190951585769653e-09
+difference between H_out and P_out: 0.0846744179725647
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,8]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 8 20]
+difference between H_out and P_out: 0.008945764042437077
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,8]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 8 20]
+difference between H_out and P_out: 0.0016909324331209064
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,8]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 8 20]
+difference between H_out and P_out: 6.00751991441939e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,8]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 8 20]
+difference between H_out and P_out: 1.655035475778277e-06
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [8,3]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,3]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 8]
+difference between H_out and P_out: 0.12413611263036728
+[Accuracy] 0.9097222222222222
+[NMI] 0.6433147243310053
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,3]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 8]
+difference between H_out and P_out: 0.0021404323633760214
+[Accuracy] 0.9097222222222222
+[NMI] 0.6433147243310053
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,3]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 8]
+difference between H_out and P_out: 0.0001326093333773315
+[Accuracy] 0.9097222222222222
+[NMI] 0.6433147243310053
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,3]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 8]
+difference between H_out and P_out: 1.394170703861164e-05
+[Accuracy] 0.9097222222222222
+[NMI] 0.6433147243310053
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,3]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [3 8]
+difference between H_out and P_out: 1.0605486750137061e-05
+[Accuracy] 0.9097222222222222
+[NMI] 0.6433147243310053
+
+################## using class: [16,2]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[16,2]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 16]
+iter 100 done, update = 1.1175870895385742e-08
+difference between H_out and P_out: 0.3007580041885376
+[Accuracy] 0.8680555555555556
+[NMI] 0.5467855366056172
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[16,2]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 16]
+difference between H_out and P_out: 0.00017766494420357049
+[Accuracy] 0.8680555555555556
+[NMI] 0.5467855366056172
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[16,2]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 16]
+difference between H_out and P_out: 0.001971394522115588
+[Accuracy] 0.8680555555555556
+[NMI] 0.5467855366056172
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[16,2]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 16]
+difference between H_out and P_out: 0.00019500934286043048
+[Accuracy] 0.8680555555555556
+[NMI] 0.5467855366056172
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[16,2]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2 16]
+difference between H_out and P_out: 0.0003542323538567871
+[Accuracy] 0.8680555555555556
+[NMI] 0.5467855366056172
+
+#################################### n_classes: 10
+################## using class: [18,15,10,7,3,8,19,2,11,14]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,15,10,7,3,8,19,2,11,14]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 10 11 14 15 18 19]
+iter 100 done, update = 0.00013591628521680832
+iter 200 done, update = 1.3424083590507507e-05
+iter 300 done, update = 3.6992132663726807e-06
+iter 400 done, update = 5.398411303758621e-06
+iter 500 done, update = 7.151858881115913e-06
+iter 600 done, update = 2.47173011302948e-06
+iter 700 done, update = 1.5385448932647705e-06
+iter 800 done, update = 1.2868549674749374e-06
+iter 900 done, update = 1.1075753718614578e-06
+iter 1000 done, update = 6.416812539100647e-07
+iter 1100 done, update = 3.057066351175308e-07
+iter 1200 done, update = 1.1734664440155029e-07
+iter 1300 done, update = 2.7008354663848877e-08
+iter 1400 done, update = 7.450580596923828e-09
+iter 1500 done, update = 3.026798367500305e-08
+iter 1600 done, update = 1.0477378964424133e-08
+iter 1700 done, update = 6.28642737865448e-09
+iter 1800 done, update = 1.3271346688270569e-08
+iter 1900 done, update = 3.306195139884949e-08
+iter 2000 done, update = 1.5832483768463135e-08
+iter 2100 done, update = 1.6763806343078613e-08
+iter 2200 done, update = 2.8405338525772095e-08
+iter 2300 done, update = 3.9814040064811707e-08
+iter 2400 done, update = 3.655441105365753e-08
+iter 2500 done, update = 4.237517714500427e-08
+iter 2600 done, update = 8.405186235904694e-08
+iter 2700 done, update = 9.313225746154785e-08
+iter 2800 done, update = 1.1757947504520416e-07
+iter 2900 done, update = 2.00001522898674e-07
+iter 3000 done, update = 2.842862159013748e-07
+iter 3100 done, update = 5.692709237337112e-07
+iter 3200 done, update = 1.2051314115524292e-06
+iter 3300 done, update = 2.0496081560850143e-06
+iter 3400 done, update = 2.0760344341397285e-06
+iter 3500 done, update = 3.259629011154175e-09
+difference between H_out and P_out: 1.4439324140548706
+[Accuracy] 0.7
+[NMI] 0.7132086066083233
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,15,10,7,3,8,19,2,11,14]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 10 11 14 15 18 19]
+iter 100 done, update = 5.653314292430878e-05
+iter 200 done, update = 2.343021333217621e-05
+iter 300 done, update = 6.29061833024025e-06
+iter 400 done, update = 5.865003913640976e-06
+iter 500 done, update = 1.6344711184501648e-07
+iter 600 done, update = 3.9674341678619385e-07
+iter 700 done, update = 9.426148608326912e-07
+iter 800 done, update = 2.491287887096405e-07
+iter 900 done, update = 5.075708031654358e-08
+iter 1000 done, update = 4.773028194904327e-09
+difference between H_out and P_out: 0.0003783533757086843
+[Accuracy] 0.7055555555555556
+[NMI] 0.7240450404611651
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,15,10,7,3,8,19,2,11,14]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 10 11 14 15 18 19]
+iter 100 done, update = 6.561214104294777e-05
+iter 200 done, update = 1.0114163160324097e-05
+iter 300 done, update = 1.7157290130853653e-06
+iter 400 done, update = 2.692686393857002e-07
+iter 500 done, update = 8.847564458847046e-09
+difference between H_out and P_out: 0.0002739368937909603
+[Accuracy] 0.7041666666666667
+[NMI] 0.7230433229753049
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,15,10,7,3,8,19,2,11,14]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 10 11 14 15 18 19]
+iter 100 done, update = 0.00010228436440229416
+iter 200 done, update = 0.00013991747982800007
+iter 300 done, update = 9.895302355289459e-08
+iter 400 done, update = 2.561137080192566e-09
+difference between H_out and P_out: 0.00014030215970706195
+[Accuracy] 0.6972222222222222
+[NMI] 0.7153636218078937
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,15,10,7,3,8,19,2,11,14]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 10 11 14 15 18 19]
+iter 100 done, update = 0.00020089978352189064
+iter 200 done, update = 2.004089765250683e-06
+iter 300 done, update = 1.5210825949907303e-06
+iter 400 done, update = 3.189779818058014e-08
+iter 500 done, update = 4.773028194904327e-09
+difference between H_out and P_out: 0.00038403325015679
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7027777777777777
+[NMI] 0.7172496680324331
+
+################## using class: [12,9,5,16,18,19,2,10,20,3]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[12,9,5,16,18,19,2,10,20,3]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  5  9 10 12 16 18 19 20]
+iter 100 done, update = 0.00023075006902217865
+iter 200 done, update = 2.3242086172103882e-05
+iter 300 done, update = 8.24732705950737e-06
+iter 400 done, update = 1.1329539120197296e-06
+iter 500 done, update = 7.087364792823792e-07
+iter 600 done, update = 1.1604279279708862e-06
+iter 700 done, update = 2.080574631690979e-06
+iter 800 done, update = 2.2444874048233032e-06
+iter 900 done, update = 1.425156369805336e-06
+iter 1000 done, update = 8.470378816127777e-07
+iter 1100 done, update = 4.880130290985107e-07
+iter 1200 done, update = 2.4028122425079346e-07
+iter 1300 done, update = 1.1734664440155029e-07
+iter 1400 done, update = 6.123445928096771e-08
+iter 1500 done, update = 3.3993273973464966e-08
+iter 1600 done, update = 5.51808625459671e-08
+iter 1700 done, update = 5.2619725465774536e-08
+iter 1800 done, update = 3.91155481338501e-08
+iter 1900 done, update = 3.608874976634979e-08
+iter 2000 done, update = 6.193295121192932e-08
+iter 2100 done, update = 6.542541086673737e-08
+iter 2200 done, update = 4.7497451305389404e-08
+iter 2300 done, update = 4.98257577419281e-08
+iter 2400 done, update = 6.123445928096771e-08
+iter 2500 done, update = 5.960464477539063e-08
+iter 2600 done, update = 5.448237061500549e-08
+iter 2700 done, update = 4.889443516731262e-08
+iter 2800 done, update = 1.394655555486679e-07
+iter 2900 done, update = 4.1676685214042664e-08
+iter 3000 done, update = 4.842877388000488e-08
+iter 3100 done, update = 8.381903171539307e-08
+iter 3200 done, update = 1.234002411365509e-07
+iter 3300 done, update = 2.4097971618175507e-07
+iter 3400 done, update = 6.007030606269836e-07
+iter 3500 done, update = 2.0563602447509766e-06
+iter 3600 done, update = 7.679685950279236e-06
+iter 3700 done, update = 1.0477378964424133e-08
+difference between H_out and P_out: 1.2486889362335205
+[Accuracy] 0.6847222222222222
+[NMI] 0.7261138692228477
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[12,9,5,16,18,19,2,10,20,3]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  5  9 10 12 16 18 19 20]
+iter 100 done, update = 0.00017915014177560806
+iter 200 done, update = 1.015467569231987e-05
+iter 300 done, update = 5.5716373026371e-06
+iter 400 done, update = 1.1524185538291931e-05
+iter 500 done, update = 1.2838281691074371e-06
+iter 600 done, update = 1.1399388313293457e-06
+iter 700 done, update = 1.1641532182693481e-09
+difference between H_out and P_out: 0.03131246194243431
+[Accuracy] 0.6847222222222222
+[NMI] 0.7253304215927521
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[12,9,5,16,18,19,2,10,20,3]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  5  9 10 12 16 18 19 20]
+iter 100 done, update = 0.0002367692068219185
+iter 200 done, update = 8.301343768835068e-06
+iter 300 done, update = 1.490022987127304e-05
+iter 400 done, update = 8.847564458847046e-09
+difference between H_out and P_out: 0.0004160288372077048
+[Accuracy] 0.6875
+[NMI] 0.7262450175039908
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[12,9,5,16,18,19,2,10,20,3]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  5  9 10 12 16 18 19 20]
+iter 100 done, update = 0.00012962240725755692
+iter 200 done, update = 7.113814353942871e-05
+iter 300 done, update = 2.0954757928848267e-09
+difference between H_out and P_out: 0.00018871133215725422
+[Accuracy] 0.6847222222222222
+[NMI] 0.7253304215927523
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[12,9,5,16,18,19,2,10,20,3]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  5  9 10 12 16 18 19 20]
+iter 100 done, update = 9.022373706102371e-05
+iter 200 done, update = 1.4076940715312958e-06
+difference between H_out and P_out: 0.0004919020575471222
+[Accuracy] 0.6875
+[NMI] 0.7262450175039907
+
+################## using class: [6,11,18,15,12,14,10,2,9,8]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[6,11,18,15,12,14,10,2,9,8]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  6  8  9 10 11 12 14 15 18]
+iter 100 done, update = 6.942823529243469e-05
+iter 200 done, update = 1.7253216356039047e-05
+iter 300 done, update = 1.1032912880182266e-05
+iter 400 done, update = 4.484318196773529e-06
+iter 500 done, update = 5.649402737617493e-06
+iter 600 done, update = 3.114808350801468e-06
+iter 700 done, update = 8.798670023679733e-07
+iter 800 done, update = 2.775341272354126e-07
+iter 900 done, update = 1.334119588136673e-07
+iter 1000 done, update = 7.729977369308472e-08
+iter 1100 done, update = 5.727633833885193e-08
+iter 1200 done, update = 3.003515303134918e-08
+iter 1300 done, update = 2.491287887096405e-08
+iter 1400 done, update = 1.4435499906539917e-08
+iter 1500 done, update = 1.7695128917694092e-08
+iter 1600 done, update = 2.0721927285194397e-08
+iter 1700 done, update = 9.080395102500916e-09
+iter 1800 done, update = 2.561137080192566e-09
+iter 1900 done, update = 8.847564458847046e-09
+iter 2000 done, update = 2.7474015951156616e-08
+iter 2100 done, update = 1.4901161193847656e-08
+iter 2200 done, update = 1.3737007975578308e-08
+iter 2300 done, update = 1.5599653124809265e-08
+iter 2400 done, update = 6.775371730327606e-08
+iter 2500 done, update = 2.9336661100387573e-08
+iter 2600 done, update = 3.026798367500305e-08
+iter 2700 done, update = 5.192123353481293e-08
+iter 2800 done, update = 7.613562047481537e-08
+iter 2900 done, update = 9.173527359962463e-08
+iter 3000 done, update = 1.5459954738616943e-07
+iter 3100 done, update = 2.2188760340213776e-07
+iter 3200 done, update = 4.570465534925461e-07
+iter 3300 done, update = 1.0528601706027985e-06
+iter 3400 done, update = 3.2584648579359055e-06
+iter 3500 done, update = 8.067581802606583e-08
+iter 3600 done, update = 4.190951585769653e-09
+difference between H_out and P_out: 1.5203155279159546
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7597222222222222
+[NMI] 0.7965200536215911
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[6,11,18,15,12,14,10,2,9,8]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  6  8  9 10 11 12 14 15 18]
+iter 100 done, update = 9.575206786394119e-05
+iter 200 done, update = 3.149406984448433e-05
+iter 300 done, update = 9.099021553993225e-07
+iter 400 done, update = 1.0040588676929474e-05
+iter 500 done, update = 3.5767443478107452e-06
+iter 600 done, update = 2.0917505025863647e-06
+iter 700 done, update = 1.2177042663097382e-07
+difference between H_out and P_out: 0.1567964404821396
+[Accuracy] 0.7583333333333333
+[NMI] 0.7955981910973413
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[6,11,18,15,12,14,10,2,9,8]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  6  8  9 10 11 12 14 15 18]
+iter 100 done, update = 0.00010503269731998444
+iter 200 done, update = 1.615704968571663e-05
+iter 300 done, update = 3.571738488972187e-05
+iter 400 done, update = 1.5133991837501526e-09
+difference between H_out and P_out: 0.0006173409637995064
+[Accuracy] 0.7611111111111111
+[NMI] 0.8001738515300127
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[6,11,18,15,12,14,10,2,9,8]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  6  8  9 10 11 12 14 15 18]
+iter 100 done, update = 9.745731949806213e-05
+iter 200 done, update = 2.9591843485832214e-05
+iter 300 done, update = 1.1525116860866547e-08
+difference between H_out and P_out: 0.00018310001178178936
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7597222222222222
+[NMI] 0.7965200536215911
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[6,11,18,15,12,14,10,2,9,8]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  6  8  9 10 11 12 14 15 18]
+iter 100 done, update = 0.00012122746556997299
+iter 200 done, update = 4.3248641304671764e-05
+difference between H_out and P_out: 0.0002173033863073215
+[Accuracy] 0.7597222222222222
+[NMI] 0.7965200536215908
+
+################## using class: [7,14,15,4,3,5,17,13,11,18]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[7,14,15,4,3,5,17,13,11,18]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  4  5  7 11 13 14 15 17 18]
+iter 100 done, update = 7.253279909491539e-05
+iter 200 done, update = 1.2364936992526054e-05
+iter 300 done, update = 3.7511344999074936e-06
+iter 400 done, update = 1.8372666090726852e-06
+iter 500 done, update = 2.712942659854889e-06
+iter 600 done, update = 2.630287781357765e-06
+iter 700 done, update = 1.9833678379654884e-06
+iter 800 done, update = 8.456408977508545e-07
+iter 900 done, update = 3.443565219640732e-07
+iter 1000 done, update = 1.912703737616539e-07
+iter 1100 done, update = 1.2165401130914688e-07
+iter 1200 done, update = 8.544884622097015e-08
+iter 1300 done, update = 4.4354237616062164e-08
+iter 1400 done, update = 1.6530975699424744e-08
+iter 1500 done, update = 1.7462298274040222e-09
+difference between H_out and P_out: 140.65394592285156
+[Accuracy] 0.2611111111111111
+[NMI] 0.25884987242228863
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[7,14,15,4,3,5,17,13,11,18]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  4  5  7 11 13 14 15 17 18]
+iter 100 done, update = 0.00014094775542616844
+iter 200 done, update = 1.6375677660107613e-05
+iter 300 done, update = 1.2257369235157967e-05
+iter 400 done, update = 4.897592589259148e-06
+iter 500 done, update = 1.4451798051595688e-06
+iter 600 done, update = 2.805609256029129e-08
+iter 700 done, update = 2.1730083972215652e-06
+iter 800 done, update = 5.2852556109428406e-08
+difference between H_out and P_out: 0.00104067986831069
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.8569444444444444
+[NMI] 0.8813107805999321
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[7,14,15,4,3,5,17,13,11,18]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  4  5  7 11 13 14 15 17 18]
+iter 100 done, update = 6.964802742004395e-05
+iter 200 done, update = 5.4675620049238205e-06
+iter 300 done, update = 1.050217542797327e-05
+iter 400 done, update = 3.5087577998638153e-07
+iter 500 done, update = 4.773028194904327e-09
+difference between H_out and P_out: 9.303839760832489e-05
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7888888888888889
+[NMI] 0.8341067024303754
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[7,14,15,4,3,5,17,13,11,18]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  4  5  7 11 13 14 15 17 18]
+iter 100 done, update = 8.345721289515495e-05
+iter 200 done, update = 2.242601476609707e-05
+iter 300 done, update = 2.2724270820617676e-07
+iter 400 done, update = 1.3853423297405243e-08
+difference between H_out and P_out: 0.00018968372023664415
+[Accuracy] 0.7916666666666666
+[NMI] 0.8310764163401979
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[7,14,15,4,3,5,17,13,11,18]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  4  5  7 11 13 14 15 17 18]
+iter 100 done, update = 6.667850539088249e-05
+iter 200 done, update = 1.3623503036797047e-05
+iter 300 done, update = 3.3725518733263016e-07
+iter 400 done, update = 1.0814983397722244e-07
+iter 500 done, update = 1.1059455573558807e-08
+difference between H_out and P_out: 0.0001877671602414921
+[Accuracy] 0.8416666666666667
+[NMI] 0.8620371256086746
+
+################## using class: [15,9,18,16,14,5,8,11,3,10]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[15,9,18,16,14,5,8,11,3,10]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  5  8  9 10 11 14 15 16 18]
+iter 100 done, update = 7.467158138751984e-05
+iter 200 done, update = 1.3031065464019775e-05
+iter 300 done, update = 1.084664836525917e-05
+iter 400 done, update = 5.134148523211479e-06
+iter 500 done, update = 1.6600824892520905e-06
+iter 600 done, update = 1.8207356333732605e-06
+iter 700 done, update = 1.1641532182693481e-06
+iter 800 done, update = 5.07105141878128e-07
+iter 900 done, update = 3.400491550564766e-07
+iter 1000 done, update = 2.8510112315416336e-07
+iter 1100 done, update = 2.0652078092098236e-07
+iter 1200 done, update = 1.0896474123001099e-07
+iter 1300 done, update = 4.586763679981232e-08
+iter 1400 done, update = 1.6763806343078613e-08
+iter 1500 done, update = 1.30385160446167e-08
+iter 1600 done, update = 8.96397978067398e-09
+difference between H_out and P_out: 126.53777313232422
+[Accuracy] 0.2652777777777778
+[NMI] 0.22647654566717904
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[15,9,18,16,14,5,8,11,3,10]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  5  8  9 10 11 14 15 16 18]
+iter 100 done, update = 7.367786020040512e-05
+iter 200 done, update = 3.847060725092888e-05
+iter 300 done, update = 3.6365818232297897e-06
+iter 400 done, update = 5.109701305627823e-06
+iter 500 done, update = 1.3364478945732117e-07
+iter 600 done, update = 2.464628778398037e-06
+iter 700 done, update = 4.2514875531196594e-07
+iter 800 done, update = 4.493631422519684e-08
+iter 900 done, update = 2.6891939342021942e-08
+iter 1000 done, update = 1.280568540096283e-08
+iter 1100 done, update = 5.122274160385132e-09
+difference between H_out and P_out: 0.0003822820435743779
+[Accuracy] 0.6972222222222222
+[NMI] 0.7677318827257191
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[15,9,18,16,14,5,8,11,3,10]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  5  8  9 10 11 14 15 16 18]
+iter 100 done, update = 6.77499920129776e-05
+iter 200 done, update = 7.085036486387253e-06
+iter 300 done, update = 4.1835010051727295e-06
+iter 400 done, update = 1.123407855629921e-07
+iter 500 done, update = 9.89530235528946e-09
+iter 600 done, update = 3.958120942115784e-09
+difference between H_out and P_out: 0.00029984518187120557
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6986111111111111
+[NMI] 0.7746019873906034
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[15,9,18,16,14,5,8,11,3,10]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  5  8  9 10 11 14 15 16 18]
+iter 100 done, update = 4.889443516731262e-05
+iter 200 done, update = 2.1256040781736374e-05
+iter 300 done, update = 3.4051481634378433e-07
+iter 400 done, update = 3.530876711010933e-07
+iter 500 done, update = 2.2351741790771484e-08
+iter 600 done, update = 8.265487849712372e-09
+iter 700 done, update = 3.6088749766349792e-09
+iter 800 done, update = 1.7462298274040222e-09
+difference between H_out and P_out: 0.0003039600560441613
+[Accuracy] 0.6763888888888889
+[NMI] 0.7632502683260763
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[15,9,18,16,14,5,8,11,3,10]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 3  5  8  9 10 11 14 15 16 18]
+iter 100 done, update = 6.919726729393005e-05
+iter 200 done, update = 1.6009784303605556e-05
+iter 300 done, update = 4.6566128730773926e-09
+difference between H_out and P_out: 0.0001931061560753733
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6916666666666667
+[NMI] 0.7632619749017882
+
+################## using class: [18,7,8,16,2,14,12,15,20,3]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,7,8,16,2,14,12,15,20,3]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 12 14 15 16 18 20]
+iter 100 done, update = 5.956273525953293e-05
+iter 200 done, update = 1.636054366827011e-05
+iter 300 done, update = 5.618203431367874e-06
+iter 400 done, update = 3.671972081065178e-06
+iter 500 done, update = 2.676853910088539e-06
+iter 600 done, update = 2.4598557502031326e-06
+iter 700 done, update = 5.499459803104401e-07
+iter 800 done, update = 1.8649734556674957e-07
+iter 900 done, update = 3.480818122625351e-08
+iter 1000 done, update = 1.0477378964424133e-08
+iter 1100 done, update = 9.313225746154785e-09
+difference between H_out and P_out: 145.54611206054688
+[Accuracy] 0.2722222222222222
+[NMI] 0.2717893294411577
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,7,8,16,2,14,12,15,20,3]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 12 14 15 16 18 20]
+iter 100 done, update = 8.635828271508217e-05
+iter 200 done, update = 2.36371997743845e-05
+iter 300 done, update = 1.2370292097330093e-06
+iter 400 done, update = 6.128102540969849e-07
+iter 500 done, update = 2.7175992727279663e-06
+iter 600 done, update = 1.123407855629921e-06
+iter 700 done, update = 1.7829006537795067e-06
+iter 800 done, update = 9.778887033462524e-09
+difference between H_out and P_out: 0.0014146823668852448
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7597222222222222
+[NMI] 0.8327876405518487
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,7,8,16,2,14,12,15,20,3]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 12 14 15 16 18 20]
+iter 100 done, update = 3.935163840651512e-05
+iter 200 done, update = 5.8247242122888565e-06
+iter 300 done, update = 8.720671758055687e-06
+iter 400 done, update = 9.4645656645298e-08
+iter 500 done, update = 8.265487849712372e-09
+difference between H_out and P_out: 0.0002305462257936597
+[Accuracy] 0.7833333333333333
+[NMI] 0.8596053710519627
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,7,8,16,2,14,12,15,20,3]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 12 14 15 16 18 20]
+iter 100 done, update = 2.1756161004304886e-05
+iter 200 done, update = 6.460817530751228e-05
+iter 300 done, update = 4.1245948523283005e-07
+iter 400 done, update = 4.4354237616062164e-08
+iter 500 done, update = 6.6356733441352844e-09
+difference between H_out and P_out: 0.000313911703415215
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7388888888888889
+[NMI] 0.8202585833249899
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[18,7,8,16,2,14,12,15,20,3]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 2  3  7  8 12 14 15 16 18 20]
+iter 100 done, update = 0.00010904809460043907
+iter 200 done, update = 2.195127308368683e-06
+iter 300 done, update = 5.9371814131736755e-08
+iter 400 done, update = 1.9907020032405853e-08
+iter 500 done, update = 5.704350769519806e-09
+iter 600 done, update = 2.2118911147117615e-09
+difference between H_out and P_out: 0.00015729146252851933
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7736111111111111
+[NMI] 0.8435522212980824
+
+################## using class: [17,14,15,1,8,18,2,10,9,19]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,14,15,1,8,18,2,10,9,19]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  8  9 10 14 15 17 18 19]
+iter 100 done, update = 8.27079638838768e-05
+iter 200 done, update = 3.8924627006053925e-05
+iter 300 done, update = 6.966991350054741e-06
+iter 400 done, update = 2.4649780243635178e-06
+iter 500 done, update = 3.144843503832817e-06
+iter 600 done, update = 2.6293564587831497e-06
+iter 700 done, update = 8.28644260764122e-07
+iter 800 done, update = 2.1723099052906036e-07
+iter 900 done, update = 5.611218512058258e-08
+iter 1000 done, update = 2.6542693376541138e-08
+iter 1100 done, update = 9.778887033462524e-09
+difference between H_out and P_out: 140.357666015625
+[Accuracy] 0.2763888888888889
+[NMI] 0.23634650431161544
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,14,15,1,8,18,2,10,9,19]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  8  9 10 14 15 17 18 19]
+iter 100 done, update = 4.4788699597120285e-05
+iter 200 done, update = 3.352668136358261e-05
+iter 300 done, update = 4.034489393234253e-06
+iter 400 done, update = 8.49645584821701e-06
+iter 500 done, update = 3.573950380086899e-07
+iter 600 done, update = 5.110632628202438e-07
+iter 700 done, update = 4.849862307310104e-07
+iter 800 done, update = 1.9674189388751984e-08
+iter 900 done, update = 2.9103830456733704e-09
+difference between H_out and P_out: 0.0003925620694644749
+[Accuracy] 0.6888888888888889
+[NMI] 0.7696055712384328
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,14,15,1,8,18,2,10,9,19]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  8  9 10 14 15 17 18 19]
+iter 100 done, update = 9.728316217660904e-05
+iter 200 done, update = 4.1639432311058044e-05
+iter 300 done, update = 3.139255568385124e-05
+iter 400 done, update = 9.289942681789398e-08
+difference between H_out and P_out: 0.0004390747344586998
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7111111111111111
+[NMI] 0.7559939198597873
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,14,15,1,8,18,2,10,9,19]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  8  9 10 14 15 17 18 19]
+iter 100 done, update = 4.8969872295856476e-05
+iter 200 done, update = 4.202406853437424e-05
+iter 300 done, update = 3.480818122625351e-08
+iter 400 done, update = 1.3271346688270569e-08
+difference between H_out and P_out: 0.0005622109165415168
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6902777777777778
+[NMI] 0.7711898234567143
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,14,15,1,8,18,2,10,9,19]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  8  9 10 14 15 17 18 19]
+iter 100 done, update = 7.329322397708893e-05
+iter 200 done, update = 1.1444790288805962e-05
+iter 300 done, update = 7.334165275096893e-09
+difference between H_out and P_out: 0.0004931998555548489
+[Accuracy] 0.6875
+[NMI] 0.7667459535096541
+
+################## using class: [10,12,3,9,18,17,1,20,13,8]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,12,3,9,18,17,1,20,13,8]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  3  8  9 10 12 13 17 18 20]
+iter 100 done, update = 6.828457117080688e-05
+iter 200 done, update = 1.0347925126552582e-05
+iter 300 done, update = 1.5375204384326935e-05
+iter 400 done, update = 7.916241884231567e-06
+iter 500 done, update = 7.62217678129673e-06
+iter 600 done, update = 3.1692907214164734e-06
+iter 700 done, update = 1.1266674846410751e-06
+iter 800 done, update = 4.016328603029251e-07
+iter 900 done, update = 1.2922100722789764e-07
+iter 1000 done, update = 6.542541086673737e-08
+iter 1100 done, update = 3.236345946788788e-08
+iter 1200 done, update = 1.0011717677116394e-08
+iter 1300 done, update = 2.3283064365386963e-09
+difference between H_out and P_out: 144.4263916015625
+[Accuracy] 0.2902777777777778
+[NMI] 0.2871088955897616
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,12,3,9,18,17,1,20,13,8]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  3  8  9 10 12 13 17 18 20]
+iter 100 done, update = 8.082855492830276e-05
+iter 200 done, update = 1.1440366506576538e-05
+iter 300 done, update = 2.5373883545398712e-06
+iter 400 done, update = 3.8046855479478836e-06
+iter 500 done, update = 3.1008385121822357e-06
+iter 600 done, update = 5.51808625459671e-07
+iter 700 done, update = 5.1532406359910965e-06
+difference between H_out and P_out: 0.03266443312168121
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.8
+[NMI] 0.8630042041456358
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,12,3,9,18,17,1,20,13,8]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  3  8  9 10 12 13 17 18 20]
+iter 100 done, update = 0.00011995527893304825
+iter 200 done, update = 1.761806197464466e-05
+iter 300 done, update = 1.2792879715561867e-05
+iter 400 done, update = 2.919812686741352e-06
+difference between H_out and P_out: 0.0002507713215891272
+[Accuracy] 0.8041666666666667
+[NMI] 0.8654925618117956
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,12,3,9,18,17,1,20,13,8]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  3  8  9 10 12 13 17 18 20]
+iter 100 done, update = 5.935179069638252e-05
+iter 200 done, update = 5.0474656745791435e-05
+iter 300 done, update = 4.674075171351433e-07
+iter 400 done, update = 6.738118827342987e-07
+iter 500 done, update = 1.979060471057892e-09
+difference between H_out and P_out: 0.0002316933241672814
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7972222222222223
+[NMI] 0.8629494124514132
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,12,3,9,18,17,1,20,13,8]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  3  8  9 10 12 13 17 18 20]
+iter 100 done, update = 0.00019115721806883812
+iter 200 done, update = 1.622457057237625e-05
+iter 300 done, update = 4.9476511776447296e-08
+difference between H_out and P_out: 0.00025104943779297173
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7847222222222222
+[NMI] 0.8582834818258014
+
+################## using class: [2,4,20,3,1,13,15,8,10,9]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,4,20,3,1,13,15,8,10,9]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  8  9 10 13 15 20]
+iter 100 done, update = 0.00014448072761297226
+iter 200 done, update = 2.0147301256656647e-05
+iter 300 done, update = 3.007706254720688e-06
+iter 400 done, update = 9.210780262947083e-06
+iter 500 done, update = 3.6153942346572876e-06
+iter 600 done, update = 2.8114300221204758e-06
+iter 700 done, update = 1.4605466276407242e-06
+iter 800 done, update = 3.4924596548080444e-07
+iter 900 done, update = 1.1199153959751129e-07
+iter 1000 done, update = 6.356276571750641e-08
+iter 1100 done, update = 3.562308847904205e-08
+iter 1200 done, update = 2.6542693376541138e-08
+iter 1300 done, update = 4.842877388000488e-08
+iter 1400 done, update = 1.6763806343078613e-07
+iter 1500 done, update = 1.203734427690506e-06
+iter 1600 done, update = 7.310882210731506e-07
+iter 1700 done, update = 4.940666258335114e-07
+iter 1800 done, update = 2.0815059542655945e-07
+iter 1900 done, update = 1.1152587831020355e-07
+iter 2000 done, update = 4.6798959374427795e-08
+iter 2100 done, update = 3.585591912269592e-08
+iter 2200 done, update = 4.237517714500427e-08
+iter 2300 done, update = 1.1082738637924194e-07
+iter 2400 done, update = 6.658956408500671e-08
+iter 2500 done, update = 7.660128176212311e-08
+iter 2600 done, update = 1.57160684466362e-07
+iter 2700 done, update = 1.655425876379013e-07
+iter 2800 done, update = 2.507586032152176e-07
+iter 2900 done, update = 3.834720700979233e-07
+iter 3000 done, update = 7.245689630508423e-07
+iter 3100 done, update = 1.5925616025924683e-06
+iter 3200 done, update = 2.4102628231048584e-06
+iter 3300 done, update = 4.866160452365875e-08
+iter 3400 done, update = 3.259629011154175e-09
+difference between H_out and P_out: 1.2457822561264038
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7097222222222223
+[NMI] 0.7729480632065401
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,4,20,3,1,13,15,8,10,9]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  8  9 10 13 15 20]
+iter 100 done, update = 0.00010249577462673187
+iter 200 done, update = 2.1579209715127945e-05
+iter 300 done, update = 3.020046278834343e-06
+iter 400 done, update = 3.6545097827911377e-06
+iter 500 done, update = 1.7369166016578674e-06
+iter 600 done, update = 2.2421590983867645e-07
+iter 700 done, update = 3.298674710094929e-05
+difference between H_out and P_out: 0.11794500797986984
+[Accuracy] 0.7069444444444445
+[NMI] 0.778688080575343
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,4,20,3,1,13,15,8,10,9]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  8  9 10 13 15 20]
+iter 100 done, update = 0.0002085203304886818
+iter 200 done, update = 2.2961758077144623e-06
+iter 300 done, update = 4.2907195165753365e-05
+difference between H_out and P_out: 0.00038512307219207287
+[Accuracy] 0.6986111111111111
+[NMI] 0.7739928792727602
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,4,20,3,1,13,15,8,10,9]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  8  9 10 13 15 20]
+iter 100 done, update = 7.38333910703659e-05
+iter 200 done, update = 6.93958718329668e-05
+iter 300 done, update = 3.462773747742176e-06
+difference between H_out and P_out: 0.000259176071267575
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7055555555555556
+[NMI] 0.7723776166222788
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,4,20,3,1,13,15,8,10,9]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  8  9 10 13 15 20]
+iter 100 done, update = 0.00013696588575839996
+iter 200 done, update = 1.1015217751264572e-06
+iter 300 done, update = 2.752058207988739e-07
+difference between H_out and P_out: 0.00019160209922119975
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6986111111111111
+[NMI] 0.7708655813703995
+
+################## using class: [5,14,15,11,20,7,10,1,17,9]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,14,15,11,20,7,10,1,17,9]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  5  7  9 10 11 14 15 17 20]
+iter 100 done, update = 8.561648428440094e-05
+iter 200 done, update = 1.5369150787591934e-05
+iter 300 done, update = 9.569339454174042e-06
+iter 400 done, update = 2.6833731681108475e-06
+iter 500 done, update = 4.813773557543755e-06
+iter 600 done, update = 2.7171336114406586e-06
+iter 700 done, update = 5.434267222881317e-07
+iter 800 done, update = 5.9138983488082886e-08
+iter 900 done, update = 2.7008354663848877e-08
+iter 1000 done, update = 8.614733815193176e-09
+iter 1100 done, update = 6.984919309616089e-10
+difference between H_out and P_out: 146.6302490234375
+[Accuracy] 0.24027777777777778
+[NMI] 0.21891572019067568
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,14,15,11,20,7,10,1,17,9]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  5  7  9 10 11 14 15 17 20]
+iter 100 done, update = 7.0217065513134e-05
+iter 200 done, update = 1.494353637099266e-05
+iter 300 done, update = 6.002141162753105e-06
+iter 400 done, update = 5.905982106924057e-06
+iter 500 done, update = 5.769543349742889e-07
+iter 600 done, update = 8.03731381893158e-07
+iter 700 done, update = 1.2514647096395493e-07
+difference between H_out and P_out: 0.06180868297815323
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7277777777777777
+[NMI] 0.8011416869038233
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,14,15,11,20,7,10,1,17,9]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  5  7  9 10 11 14 15 17 20]
+iter 100 done, update = 0.0001074192114174366
+iter 200 done, update = 1.0372605174779892e-06
+iter 300 done, update = 3.2188836485147476e-06
+difference between H_out and P_out: 0.003954439889639616
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7291666666666666
+[NMI] 0.8008893139681004
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,14,15,11,20,7,10,1,17,9]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  5  7  9 10 11 14 15 17 20]
+iter 100 done, update = 6.579933688044548e-05
+iter 200 done, update = 5.419272929430008e-05
+difference between H_out and P_out: 0.00041692430386319757
+[Accuracy] 0.7277777777777777
+[NMI] 0.8011416869038233
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,14,15,11,20,7,10,1,17,9]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  5  7  9 10 11 14 15 17 20]
+iter 100 done, update = 0.00020959880203008652
+iter 200 done, update = 1.6333069652318954e-06
+iter 300 done, update = 7.171183824539185e-08
+iter 400 done, update = 5.820766091346741e-10
+difference between H_out and P_out: 0.0001221703423652798
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.7277777777777777
+[NMI] 0.8011416869038233
+
+#################################### n_classes: 20
+################## using class: [8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=20, classes='[8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]', tol=1e-15, lamda=1.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+iter 100 done, update = 0.00014802534133195877
+iter 200 done, update = 2.8359703719615936e-05
+iter 300 done, update = 1.0270625352859497e-05
+iter 400 done, update = 4.698522388935089e-06
+iter 500 done, update = 3.073597326874733e-06
+iter 600 done, update = 2.328655682504177e-06
+iter 700 done, update = 1.3890676200389862e-06
+iter 800 done, update = 9.299255907535553e-07
+iter 900 done, update = 6.309710443019867e-07
+iter 1000 done, update = 3.9674341678619385e-07
+iter 1100 done, update = 2.87545844912529e-07
+iter 1200 done, update = 2.4854671210050583e-07
+iter 1300 done, update = 2.421438694000244e-07
+iter 1400 done, update = 2.577435225248337e-07
+iter 1500 done, update = 2.6496127247810364e-07
+iter 1600 done, update = 2.655433490872383e-07
+iter 1700 done, update = 2.466258592903614e-07
+iter 1800 done, update = 2.1961750462651253e-07
+iter 1900 done, update = 1.9976869225502014e-07
+iter 2000 done, update = 1.8905848264694214e-07
+iter 2100 done, update = 1.7933780327439308e-07
+iter 2200 done, update = 1.701992005109787e-07
+iter 2300 done, update = 1.409207470715046e-07
+iter 2400 done, update = 1.3335375115275383e-07
+iter 2500 done, update = 1.319567672908306e-07
+iter 2600 done, update = 1.417938619852066e-07
+iter 2700 done, update = 1.3952376320958138e-07
+iter 2800 done, update = 1.3923272490501404e-07
+iter 2900 done, update = 1.2613600119948387e-07
+iter 3000 done, update = 1.076841726899147e-07
+iter 3100 done, update = 7.986091077327728e-08
+iter 3200 done, update = 5.6927092373371124e-08
+iter 3300 done, update = 4.6100467443466187e-08
+iter 3400 done, update = 3.771856427192688e-08
+iter 3500 done, update = 2.514570951461792e-08
+iter 3600 done, update = 1.9266735762357712e-08
+iter 3700 done, update = 1.8335413187742233e-08
+iter 3800 done, update = 9.255018085241318e-09
+iter 3900 done, update = 6.6356733441352844e-09
+iter 4000 done, update = 1.0069925338029861e-08
+iter 4100 done, update = 5.762558430433273e-09
+iter 4200 done, update = 3.434251993894577e-09
+iter 4300 done, update = 3.6670826375484467e-09
+iter 4400 done, update = 5.995389074087143e-09
+iter 4500 done, update = 2.852175384759903e-09
+iter 4600 done, update = 5.005858838558197e-09
+iter 4700 done, update = 4.016328603029251e-09
+iter 4800 done, update = 2.6193447411060333e-09
+iter 4900 done, update = 2.153683453798294e-09
+iter 5000 done, update = 2.2118911147117615e-09
+iter 5100 done, update = 2.735760062932968e-09
+iter 5200 done, update = 3.3178366720676422e-09
+difference between H_out and P_out: 291.7396545410156
+[Accuracy] 0.1638888888888889
+[NMI] 0.21198777839810762
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=20, classes='[8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]', tol=1e-15, lamda=5.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+iter 100 done, update = 0.00011772895231842995
+iter 200 done, update = 1.4339108020067215e-05
+iter 300 done, update = 4.94043342769146e-06
+iter 400 done, update = 2.116663381457329e-06
+iter 500 done, update = 8.301576599478722e-07
+iter 600 done, update = 1.0791700333356857e-06
+iter 700 done, update = 1.2455275282263756e-06
+iter 800 done, update = 2.505257725715637e-06
+iter 900 done, update = 8.962815627455711e-07
+iter 1000 done, update = 9.157229214906693e-07
+iter 1100 done, update = 5.554757080972195e-07
+iter 1200 done, update = 8.489005267620087e-07
+iter 1300 done, update = 9.643263183534145e-07
+iter 1400 done, update = 2.553570084273815e-07
+iter 1500 done, update = 7.266644388437271e-07
+iter 1600 done, update = 1.519802026450634e-07
+iter 1700 done, update = 3.2776733860373497e-07
+iter 1800 done, update = 1.100124791264534e-07
+iter 1900 done, update = 1.6886042430996895e-07
+iter 2000 done, update = 3.166496753692627e-08
+iter 2100 done, update = 5.413312464952469e-08
+iter 2200 done, update = 7.584458217024803e-08
+iter 2300 done, update = 3.064633347094059e-07
+iter 2400 done, update = 1.4554825611412525e-06
+iter 2500 done, update = 3.503519110381603e-07
+iter 2600 done, update = 6.359186954796314e-08
+iter 2700 done, update = 6.897607818245888e-09
+iter 2800 done, update = 1.5978002920746803e-08
+iter 2900 done, update = 1.728767529129982e-08
+iter 3000 done, update = 7.596099749207497e-09
+iter 3100 done, update = 2.764863893389702e-09
+difference between H_out and P_out: 0.00034880972816608846
+[Accuracy] 0.6569444444444444
+[NMI] 0.7766456604304255
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=20, classes='[8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]', tol=1e-15, lamda=10.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+iter 100 done, update = 0.00016799196600914001
+iter 200 done, update = 2.9209069907665253e-05
+iter 300 done, update = 6.780959665775299e-06
+iter 400 done, update = 4.598172381520271e-06
+iter 500 done, update = 5.5264681577682495e-06
+iter 600 done, update = 2.3386674001812935e-06
+iter 700 done, update = 1.4310935512185097e-06
+iter 800 done, update = 2.6721972972154617e-06
+iter 900 done, update = 6.514019332826138e-07
+iter 1000 done, update = 7.118214853107929e-07
+iter 1100 done, update = 3.7462450563907623e-07
+iter 1200 done, update = 1.3703247532248497e-06
+iter 1300 done, update = 8.40227585285902e-07
+iter 1400 done, update = 2.8093927539885044e-07
+iter 1500 done, update = 3.215973265469074e-08
+iter 1600 done, update = 4.307366907596588e-09
+difference between H_out and P_out: 0.0005046993610449135
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6256944444444444
+[NMI] 0.7558885440170465
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=20, classes='[8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]', tol=1e-15, lamda=15.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+iter 100 done, update = 0.00021884124726057053
+iter 200 done, update = 1.8230639398097992e-05
+iter 300 done, update = 1.838826574385166e-05
+iter 400 done, update = 4.89864032715559e-06
+iter 500 done, update = 1.0202638804912567e-06
+iter 600 done, update = 1.2010568752884865e-06
+iter 700 done, update = 2.978951670229435e-06
+iter 800 done, update = 3.3831456676125526e-06
+iter 900 done, update = 2.489774487912655e-06
+iter 1000 done, update = 3.3146352507174015e-07
+iter 1100 done, update = 1.4281249605119228e-07
+iter 1200 done, update = 9.051291272044182e-09
+iter 1300 done, update = 5.1513779908418655e-09
+iter 1400 done, update = 9.022187441587448e-10
+iter 1500 done, update = 5.820766091346741e-10
+difference between H_out and P_out: 0.0002328515547560528
+K-means algorithm did not converge in 200 iterations
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.6493055555555556
+[NMI] 0.7697937760523025
+
+[Using device] cuda
+[args] Namespace(dataset='coil20', n_clusters=20, classes='[8,17,3,1,7,9,18,2,16,10,13,4,14,6,15,12,11,5,20,19]', tol=1e-15, lamda=20.0, filename='coil20_2024.04.22-19.01.43.csv')
+[Using classes] [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+iter 100 done, update = 0.0002672690898180008
+iter 200 done, update = 3.026612102985382e-05
+iter 300 done, update = 1.2203119695186615e-05

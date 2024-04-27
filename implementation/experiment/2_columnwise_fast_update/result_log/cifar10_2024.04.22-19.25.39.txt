@@ -1,0 +1,1306 @@
+#################################### n_classes: 3
+################## using class: [1,6,2]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,6,2]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 6]
+iter 100 done, update = 2.5890767574310303e-05
+iter 200 done, update = 4.614889621734619e-05
+iter 300 done, update = 7.955729961395264e-05
+iter 400 done, update = 0.00011792033910751343
+iter 500 done, update = 0.00012845546007156372
+iter 600 done, update = 7.586553692817688e-05
+iter 700 done, update = 1.3478100299835205e-05
+difference between H_out and P_out: 1.8899043798446655
+[Accuracy] 0.4633333333333333
+[NMI] 0.03782439078283923
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,6,2]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 6]
+iter 100 done, update = 3.421306610107422e-05
+iter 200 done, update = 0.00019335001707077026
+iter 300 done, update = 5.587935447692871e-08
+difference between H_out and P_out: 0.19263851642608643
+[Accuracy] 0.46555555555555556
+[NMI] 0.03869259397993291
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,6,2]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 6]
+iter 100 done, update = 0.000339508056640625
+difference between H_out and P_out: 0.004849986173212528
+[Accuracy] 0.4666666666666667
+[NMI] 0.0392360449104438
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,6,2]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 6]
+iter 100 done, update = 0.0068255141377449036
+difference between H_out and P_out: 0.0077314660884439945
+[Accuracy] 0.4666666666666667
+[NMI] 0.0392360449104438
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,6,2]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 6]
+iter 100 done, update = 1.4901161193847656e-08
+difference between H_out and P_out: 0.0008513097418472171
+[Accuracy] 0.4666666666666667
+[NMI] 0.0392360449104438
+
+################## using class: [3,9,1]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 9]
+iter 100 done, update = 0.0001561194658279419
+iter 200 done, update = 0.0002100616693496704
+iter 300 done, update = 0.00019297748804092407
+iter 400 done, update = 0.00011322647333145142
+iter 500 done, update = 5.395710468292236e-05
+iter 600 done, update = 2.0541250705718994e-05
+iter 700 done, update = 2.0042061805725098e-06
+difference between H_out and P_out: 2.4368245601654053
+[Accuracy] 0.43444444444444447
+[NMI] 0.0736091780930162
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 9]
+iter 100 done, update = 0.0002868473529815674
+iter 200 done, update = 0.0004550069570541382
+iter 300 done, update = 5.587935447692871e-08
+difference between H_out and P_out: 0.1887742131948471
+[Accuracy] 0.43
+[NMI] 0.07282537640392174
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 9]
+iter 100 done, update = 0.0007301121950149536
+difference between H_out and P_out: 0.030568981543183327
+[Accuracy] 0.43
+[NMI] 0.07282537640392174
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 9]
+iter 100 done, update = 0.017619919031858444
+difference between H_out and P_out: 0.0049937996082007885
+[Accuracy] 0.4288888888888889
+[NMI] 0.07154391285935602
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[3,9,1]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 9]
+iter 100 done, update = 1.1175870895385742e-08
+difference between H_out and P_out: 0.005368217825889587
+[Accuracy] 0.4288888888888889
+[NMI] 0.07154391285935603
+
+################## using class: [6,5,3]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,3]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [3 5 6]
+iter 100 done, update = 3.203749656677246e-06
+iter 200 done, update = 6.571412086486816e-06
+iter 300 done, update = 1.4528632164001465e-05
+iter 400 done, update = 3.7357211112976074e-05
+iter 500 done, update = 0.00011610984802246094
+iter 600 done, update = 0.000356525182723999
+iter 700 done, update = 0.00019890069961547852
+iter 800 done, update = 0.0005106702446937561
+difference between H_out and P_out: 2.035505533218384
+[Accuracy] 0.3988888888888889
+[NMI] 0.01958727300808715
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,3]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [3 5 6]
+iter 100 done, update = 9.432435035705566e-06
+iter 200 done, update = 0.00014868378639221191
+difference between H_out and P_out: 0.3408619463443756
+[Accuracy] 0.39555555555555555
+[NMI] 0.017698647009164528
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,3]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [3 5 6]
+iter 100 done, update = 0.00010086596012115479
+difference between H_out and P_out: 0.23834693431854248
+[Accuracy] 0.39666666666666667
+[NMI] 0.017677134755195858
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,3]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [3 5 6]
+iter 100 done, update = 1.0021030902862549e-06
+difference between H_out and P_out: 0.07759418338537216
+[Accuracy] 0.39666666666666667
+[NMI] 0.017231453371224097
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,3]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [3 5 6]
+difference between H_out and P_out: 0.014554696157574654
+[Accuracy] 0.39666666666666667
+[NMI] 0.017231453371224097
+
+################## using class: [6,5,9]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,9]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [5 6 9]
+iter 100 done, update = 6.908178329467773e-05
+iter 200 done, update = 0.00011886656284332275
+iter 300 done, update = 0.0001808851957321167
+iter 400 done, update = 0.00020096451044082642
+iter 500 done, update = 0.0001451447606086731
+iter 600 done, update = 8.101761341094971e-05
+iter 700 done, update = 3.79905104637146e-05
+iter 800 done, update = 1.249462366104126e-05
+iter 900 done, update = 1.1548399925231934e-07
+difference between H_out and P_out: 3.1183769702911377
+[Accuracy] 0.4922222222222222
+[NMI] 0.08330966906576243
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,9]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [5 6 9]
+iter 100 done, update = 0.00012482702732086182
+iter 200 done, update = 0.0005208253860473633
+iter 300 done, update = 1.1920928955078125e-06
+difference between H_out and P_out: 0.3735879957675934
+[Accuracy] 0.54
+[NMI] 0.10535839013109956
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,9]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [5 6 9]
+iter 100 done, update = 0.0006916671991348267
+difference between H_out and P_out: 0.12498942762613297
+[Accuracy] 0.5388888888888889
+[NMI] 0.10447499733371403
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,9]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [5 6 9]
+iter 100 done, update = 4.4330954551696777e-07
+difference between H_out and P_out: 0.02255435660481453
+[Accuracy] 0.54
+[NMI] 0.10456410876751182
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,5,9]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [5 6 9]
+difference between H_out and P_out: 0.029654376208782196
+[Accuracy] 0.5377777777777778
+[NMI] 0.10321359882903834
+
+################## using class: [7,6,4]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,4]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 6 7]
+iter 100 done, update = 5.0961971282958984e-06
+iter 200 done, update = 9.328126907348633e-06
+iter 300 done, update = 2.0712614059448242e-05
+iter 400 done, update = 5.7190656661987305e-05
+iter 500 done, update = 0.00019772350788116455
+iter 600 done, update = 0.00040791183710098267
+iter 700 done, update = 5.5670738220214844e-05
+difference between H_out and P_out: 2.317500114440918
+[Accuracy] 0.4255555555555556
+[NMI] 0.02478890656160863
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,4]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 6 7]
+iter 100 done, update = 6.705522537231445e-06
+iter 200 done, update = 8.566677570343018e-05
+difference between H_out and P_out: 0.1384342908859253
+[Accuracy] 0.43
+[NMI] 0.023902400100102982
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,4]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 6 7]
+iter 100 done, update = 8.022785186767578e-05
+difference between H_out and P_out: 0.005039406009018421
+[Accuracy] 0.4311111111111111
+[NMI] 0.024196296360615724
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,4]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 6 7]
+iter 100 done, update = 5.821138620376587e-05
+difference between H_out and P_out: 0.007500546984374523
+[Accuracy] 0.4311111111111111
+[NMI] 0.024196296360615724
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[7,6,4]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 6 7]
+difference between H_out and P_out: 0.0011709016980603337
+[Accuracy] 0.4311111111111111
+[NMI] 0.024196296360615724
+
+################## using class: [6,4,5]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,4,5]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 6]
+iter 100 done, update = 9.5367431640625e-06
+iter 200 done, update = 2.072751522064209e-05
+iter 300 done, update = 4.857778549194336e-05
+iter 400 done, update = 0.00012218952178955078
+iter 500 done, update = 0.00023978203535079956
+iter 600 done, update = 0.0002154037356376648
+iter 700 done, update = 5.3375959396362305e-05
+iter 800 done, update = 8.419156074523926e-07
+difference between H_out and P_out: 2.1593844890594482
+[Accuracy] 0.40444444444444444
+[NMI] 0.01852239724390598
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,4,5]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 6]
+iter 100 done, update = 1.290440559387207e-05
+iter 200 done, update = 0.0001242607831954956
+iter 300 done, update = 1.862645149230957e-08
+difference between H_out and P_out: 0.017832797020673752
+[Accuracy] 0.4011111111111111
+[NMI] 0.017910444803937074
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,4,5]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 6]
+iter 100 done, update = 0.0001188516616821289
+difference between H_out and P_out: 0.010410591028630733
+[Accuracy] 0.4011111111111111
+[NMI] 0.017910444803937074
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,4,5]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 6]
+iter 100 done, update = 0.0021242350339889526
+difference between H_out and P_out: 0.0032983249984681606
+[Accuracy] 0.4011111111111111
+[NMI] 0.017910444803937074
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[6,4,5]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 6]
+iter 100 done, update = 1.4901161193847656e-08
+difference between H_out and P_out: 0.0016538456548005342
+[Accuracy] 0.4011111111111111
+[NMI] 0.01816298233994303
+
+################## using class: [5,7,4]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,7,4]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 7]
+iter 100 done, update = 7.972121238708496e-06
+iter 200 done, update = 1.4379620552062988e-05
+iter 300 done, update = 2.79843807220459e-05
+iter 400 done, update = 6.301701068878174e-05
+iter 500 done, update = 0.00016467273235321045
+iter 600 done, update = 0.00041732192039489746
+iter 700 done, update = 0.0002266019582748413
+iter 800 done, update = 1.564621925354004e-07
+difference between H_out and P_out: 1.7166030406951904
+[Accuracy] 0.41333333333333333
+[NMI] 0.013945432788128235
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,7,4]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 7]
+iter 100 done, update = 9.715557098388672e-06
+iter 200 done, update = 5.173683166503906e-05
+iter 300 done, update = 1.125037670135498e-06
+difference between H_out and P_out: 0.24194873869419098
+[Accuracy] 0.41
+[NMI] 0.013085903737776773
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,7,4]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 7]
+iter 100 done, update = 4.903972148895264e-05
+difference between H_out and P_out: 0.054175760596990585
+[Accuracy] 0.41
+[NMI] 0.01279355451299288
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,7,4]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 7]
+iter 100 done, update = 0.05186176300048828
+difference between H_out and P_out: 0.006786428391933441
+[Accuracy] 0.4111111111111111
+[NMI] 0.013034453506347224
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[5,7,4]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [4 5 7]
+iter 100 done, update = 3.3527612686157227e-08
+difference between H_out and P_out: 0.0010198438540101051
+[Accuracy] 0.4077777777777778
+[NMI] 0.012320823012144108
+
+################## using class: [1,4,2]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,4,2]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 4]
+iter 100 done, update = 2.358853816986084e-05
+iter 200 done, update = 4.8317015171051025e-05
+iter 300 done, update = 0.00010064244270324707
+iter 400 done, update = 0.0001750662922859192
+iter 500 done, update = 0.00018189102411270142
+iter 600 done, update = 9.232014417648315e-05
+iter 700 done, update = 2.012401819229126e-05
+iter 800 done, update = 1.862645149230957e-08
+difference between H_out and P_out: 1.595741868019104
+[Accuracy] 0.4411111111111111
+[NMI] 0.036369697982607335
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,4,2]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 4]
+iter 100 done, update = 5.061924457550049e-05
+iter 200 done, update = 0.0003781169652938843
+difference between H_out and P_out: 0.24420176446437836
+[Accuracy] 0.44
+[NMI] 0.03582523978787081
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,4,2]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 4]
+iter 100 done, update = 0.0001614689826965332
+difference between H_out and P_out: 0.032120294868946075
+[Accuracy] 0.4411111111111111
+[NMI] 0.03562801414054359
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,4,2]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 4]
+iter 100 done, update = 0.008320875465869904
+difference between H_out and P_out: 0.009707123972475529
+[Accuracy] 0.44222222222222224
+[NMI] 0.03666862347990514
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,4,2]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 2 4]
+difference between H_out and P_out: 0.0028968462720513344
+[Accuracy] 0.44222222222222224
+[NMI] 0.03666862347990514
+
+################## using class: [2,5,8]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,5,8]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [2 5 8]
+iter 100 done, update = 0.00014041364192962646
+iter 200 done, update = 0.0002377331256866455
+iter 300 done, update = 0.000267617404460907
+iter 400 done, update = 0.0001699700951576233
+iter 500 done, update = 7.831305265426636e-05
+iter 600 done, update = 2.98917293548584e-05
+iter 700 done, update = 7.875263690948486e-06
+iter 800 done, update = 6.705522537231445e-08
+difference between H_out and P_out: 2.309009075164795
+[Accuracy] 0.5033333333333333
+[NMI] 0.0768773649517318
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,5,8]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [2 5 8]
+iter 100 done, update = 0.0002928823232650757
+iter 200 done, update = 0.0007046833634376526
+iter 300 done, update = 2.2351741790771484e-08
+difference between H_out and P_out: 0.13715453445911407
+[Accuracy] 0.5022222222222222
+[NMI] 0.08278680905805894
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,5,8]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [2 5 8]
+iter 100 done, update = 0.0008061081171035767
+difference between H_out and P_out: 0.016804460436105728
+[Accuracy] 0.5022222222222222
+[NMI] 0.08301784053193223
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,5,8]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [2 5 8]
+iter 100 done, update = 0.004945933818817139
+difference between H_out and P_out: 0.029609451070427895
+[Accuracy] 0.5044444444444445
+[NMI] 0.08204267472896312
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[2,5,8]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [2 5 8]
+iter 100 done, update = 3.3527612686157227e-08
+difference between H_out and P_out: 0.0019901085179299116
+[Accuracy] 0.5011111111111111
+[NMI] 0.08253069337997236
+
+################## using class: [1,7,8]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,7,8]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 7 8]
+iter 100 done, update = 0.0001728534698486328
+iter 200 done, update = 0.00022716820240020752
+iter 300 done, update = 0.00019770115613937378
+iter 400 done, update = 0.00011068582534790039
+iter 500 done, update = 5.2228569984436035e-05
+iter 600 done, update = 2.370774745941162e-05
+iter 700 done, update = 8.03917646408081e-06
+iter 800 done, update = 2.7194619178771973e-07
+difference between H_out and P_out: 3.7601640224456787
+[Accuracy] 0.4022222222222222
+[NMI] 0.024012575338462856
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,7,8]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 7 8]
+iter 100 done, update = 0.00036346912384033203
+iter 200 done, update = 0.00047091394662857056
+difference between H_out and P_out: 0.4743100106716156
+[Accuracy] 0.39555555555555555
+[NMI] 0.02706309376401763
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,7,8]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 7 8]
+iter 100 done, update = 0.0006535202264785767
+difference between H_out and P_out: 0.0335518941283226
+[Accuracy] 0.4
+[NMI] 0.027627998189293682
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,7,8]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 7 8]
+iter 100 done, update = 8.689612150192261e-05
+difference between H_out and P_out: 0.01650807075202465
+[Accuracy] 0.4011111111111111
+[NMI] 0.027624118554960133
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=3, classes='[1,7,8]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 7 8]
+difference between H_out and P_out: 0.1027374118566513
+[Accuracy] 0.4011111111111111
+[NMI] 0.027868943465332214
+
+#################################### n_classes: 6
+################## using class: [0,9,7,1,2,3]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[0,9,7,1,2,3]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 7 9]
+iter 100 done, update = 4.054605960845947e-05
+iter 200 done, update = 5.5868178606033325e-05
+iter 300 done, update = 1.2429431080818176e-05
+iter 400 done, update = 2.518296241760254e-06
+iter 500 done, update = 3.1851232051849365e-07
+iter 600 done, update = 9.499490261077881e-08
+iter 700 done, update = 4.0978193283081055e-08
+iter 800 done, update = 4.6566128730773926e-08
+iter 900 done, update = 5.21540641784668e-08
+iter 1000 done, update = 5.960464477539063e-08
+iter 1100 done, update = 3.166496753692627e-08
+iter 1200 done, update = 4.6566128730773926e-08
+iter 1300 done, update = 4.6566128730773926e-08
+iter 1400 done, update = 3.5390257835388184e-08
+iter 1500 done, update = 3.91155481338501e-08
+iter 1600 done, update = 4.470348358154297e-08
+iter 1700 done, update = 7.636845111846924e-08
+iter 1800 done, update = 5.960464477539063e-08
+iter 1900 done, update = 7.264316082000732e-08
+iter 2000 done, update = 8.195638656616211e-08
+iter 2100 done, update = 8.940696716308594e-08
+iter 2200 done, update = 8.009374141693115e-08
+iter 2300 done, update = 1.1548399925231934e-07
+iter 2400 done, update = 1.0617077350616455e-07
+iter 2500 done, update = 9.685754776000977e-08
+iter 2600 done, update = 1.1175870895385742e-07
+iter 2700 done, update = 1.4901161193847656e-07
+iter 2800 done, update = 1.6205012798309326e-07
+iter 2900 done, update = 1.6577541828155518e-07
+iter 3000 done, update = 2.1606683731079102e-07
+iter 3100 done, update = 2.2165477275848389e-07
+iter 3200 done, update = 2.6263296604156494e-07
+iter 3300 done, update = 2.980232238769531e-07
+iter 3400 done, update = 3.2782554626464844e-07
+iter 3500 done, update = 4.172325134277344e-07
+iter 3600 done, update = 5.029141902923584e-07
+iter 3700 done, update = 6.463378667831421e-07
+iter 3800 done, update = 8.177012205123901e-07
+iter 3900 done, update = 9.778887033462524e-07
+iter 4000 done, update = 1.3280659914016724e-06
+iter 4100 done, update = 1.7881393432617188e-06
+iter 4200 done, update = 2.477318048477173e-06
+iter 4300 done, update = 4.071742296218872e-06
+iter 4400 done, update = 7.342547178268433e-06
+iter 4500 done, update = 1.4029443264007568e-05
+iter 4600 done, update = 1.7151236534118652e-05
+iter 4700 done, update = 6.705522537231445e-08
+difference between H_out and P_out: 3.7765960693359375
+[Accuracy] 0.27944444444444444
+[NMI] 0.05745517969383954
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[0,9,7,1,2,3]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 7 9]
+iter 100 done, update = 3.0074268579483032e-05
+iter 200 done, update = 4.648230969905853e-05
+iter 300 done, update = 6.530433893203735e-06
+iter 400 done, update = 2.644956111907959e-07
+iter 500 done, update = 5.21540641784668e-08
+difference between H_out and P_out: 176.5064239501953
+[Accuracy] 0.22333333333333333
+[NMI] 0.022406974161590484
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[0,9,7,1,2,3]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 7 9]
+iter 100 done, update = 8.586794137954712e-05
+iter 200 done, update = 1.948326826095581e-06
+difference between H_out and P_out: 180.04562377929688
+[Accuracy] 0.22
+[NMI] 0.017514547421373886
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[0,9,7,1,2,3]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 7 9]
+iter 100 done, update = 5.98318874835968e-05
+iter 200 done, update = 2.353079617023468e-05
+iter 300 done, update = 1.642853021621704e-06
+difference between H_out and P_out: 145.85130310058594
+[Accuracy] 0.22055555555555556
+[NMI] 0.02002342526246706
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[0,9,7,1,2,3]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 7 9]
+iter 100 done, update = 0.0006075836718082428
+iter 200 done, update = 2.849847078323364e-07
+iter 300 done, update = 5.774199962615967e-07
+iter 400 done, update = 2.2165477275848389e-07
+difference between H_out and P_out: 0.0024534319527447224
+[Accuracy] 0.28
+[NMI] 0.061867915956235454
+
+################## using class: [1,9,3,0,6,4]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,3,0,6,4]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, update = 0.0005591735243797302
+iter 200 done, update = 3.339722752571106e-05
+iter 300 done, update = 2.8187409043312073e-05
+iter 400 done, update = 3.073364496231079e-06
+iter 500 done, update = 3.632158041000366e-07
+iter 600 done, update = 1.5273690223693848e-07
+iter 700 done, update = 6.705522537231445e-08
+iter 800 done, update = 5.587935447692871e-08
+iter 900 done, update = 6.51925802230835e-08
+iter 1000 done, update = 6.332993507385254e-08
+iter 1100 done, update = 8.568167686462402e-08
+iter 1200 done, update = 7.636845111846924e-08
+iter 1300 done, update = 6.332993507385254e-08
+iter 1400 done, update = 6.332993507385254e-08
+iter 1500 done, update = 7.078051567077637e-08
+iter 1600 done, update = 8.754432201385498e-08
+iter 1700 done, update = 1.043081283569336e-07
+iter 1800 done, update = 9.313225746154785e-08
+iter 1900 done, update = 9.872019290924072e-08
+iter 2000 done, update = 1.0803341865539551e-07
+iter 2100 done, update = 1.0617077350616455e-07
+iter 2200 done, update = 1.1175870895385742e-07
+iter 2300 done, update = 1.4901161193847656e-07
+iter 2400 done, update = 1.3969838619232178e-07
+iter 2500 done, update = 1.7136335372924805e-07
+iter 2600 done, update = 1.7695128917694092e-07
+iter 2700 done, update = 1.9371509552001953e-07
+iter 2800 done, update = 2.1420419216156006e-07
+iter 2900 done, update = 2.4028122425079346e-07
+iter 3000 done, update = 2.421438694000244e-07
+iter 3100 done, update = 2.8870999813079834e-07
+iter 3200 done, update = 3.3527612686157227e-07
+iter 3300 done, update = 3.725290298461914e-07
+iter 3400 done, update = 4.116445779800415e-07
+iter 3500 done, update = 4.880130290985107e-07
+iter 3600 done, update = 5.662441253662109e-07
+iter 3700 done, update = 6.873160600662231e-07
+iter 3800 done, update = 8.177012205123901e-07
+iter 3900 done, update = 9.55536961555481e-07
+iter 4000 done, update = 1.1939555406570435e-06
+iter 4100 done, update = 1.5962868928909302e-06
+iter 4200 done, update = 2.1923333406448364e-06
+iter 4300 done, update = 3.3918768167495728e-06
+iter 4400 done, update = 5.8319419622421265e-06
+iter 4500 done, update = 1.105479896068573e-05
+iter 4600 done, update = 1.0669231414794922e-05
+difference between H_out and P_out: 1.619542121887207
+[Accuracy] 0.2811111111111111
+[NMI] 0.06621500201594958
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,3,0,6,4]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, update = 0.00020773336291313171
+iter 200 done, update = 5.816109478473663e-05
+iter 300 done, update = 7.301568984985352e-07
+iter 400 done, update = 8.568167686462402e-08
+iter 500 done, update = 4.284083843231201e-08
+iter 600 done, update = 7.264316082000732e-08
+iter 700 done, update = 1.2479722499847412e-07
+iter 800 done, update = 9.313225746154785e-08
+iter 900 done, update = 1.4156103134155273e-07
+iter 1000 done, update = 2.477318048477173e-07
+iter 1100 done, update = 2.868473529815674e-07
+iter 1200 done, update = 4.3213367462158203e-07
+iter 1300 done, update = 7.320195436477661e-07
+iter 1400 done, update = 1.8384307622909546e-06
+iter 1500 done, update = 7.47833400964737e-05
+difference between H_out and P_out: 0.07958485186100006
+[Accuracy] 0.2827777777777778
+[NMI] 0.06755853007877866
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,3,0,6,4]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, update = 0.0003340691328048706
+iter 200 done, update = 3.8508325815200806e-05
+iter 300 done, update = 7.953494787216187e-07
+iter 400 done, update = 8.195638656616211e-07
+iter 500 done, update = 5.029141902923584e-08
+iter 600 done, update = 3.855675458908081e-07
+iter 700 done, update = 6.94766640663147e-07
+iter 800 done, update = 1.3597309589385986e-05
+difference between H_out and P_out: 0.0034479477908462286
+[Accuracy] 0.2838888888888889
+[NMI] 0.06690321114485233
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,3,0,6,4]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, update = 0.00015033408999443054
+iter 200 done, update = 3.3155083656311035e-05
+iter 300 done, update = 7.152557373046875e-07
+difference between H_out and P_out: 151.64602661132812
+[Accuracy] 0.22722222222222221
+[NMI] 0.028586112249449097
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,9,3,0,6,4]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 6 9]
+iter 100 done, update = 0.0003794431686401367
+iter 200 done, update = 7.972121238708496e-07
+iter 300 done, update = 3.501772880554199e-07
+iter 400 done, update = 2.4959444999694824e-07
+difference between H_out and P_out: 0.008283151313662529
+[Accuracy] 0.2811111111111111
+[NMI] 0.06635926508751702
+
+################## using class: [1,6,9,5,3,4]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,6,9,5,3,4]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 4 5 6 9]
+iter 100 done, update = 0.00027517974376678467
+iter 200 done, update = 0.00017215684056282043
+iter 300 done, update = 1.0058283805847168e-07
+difference between H_out and P_out: 210.38803100585938
+[Accuracy] 0.20666666666666667
+[NMI] 0.011836857040558356
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,6,9,5,3,4]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 4 5 6 9]
+iter 100 done, update = 0.0006848201155662537
+iter 200 done, update = 9.663403034210205e-06
+iter 300 done, update = 1.825392246246338e-07
+iter 400 done, update = 6.705522537231445e-08
+iter 500 done, update = 6.705522537231445e-08
+iter 600 done, update = 1.0058283805847168e-07
+iter 700 done, update = 1.2665987014770508e-07
+iter 800 done, update = 1.7508864402770996e-07
+iter 900 done, update = 2.0489096641540527e-07
+iter 1000 done, update = 2.7567148208618164e-07
+iter 1100 done, update = 3.501772880554199e-07
+iter 1200 done, update = 5.736947059631348e-07
+iter 1300 done, update = 9.052455425262451e-07
+iter 1400 done, update = 2.0675361156463623e-06
+iter 1500 done, update = 3.213435411453247e-05
+difference between H_out and P_out: 0.03099837154150009
+[Accuracy] 0.2644444444444444
+[NMI] 0.05884083605213615
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,6,9,5,3,4]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 4 5 6 9]
+iter 100 done, update = 4.9076974391937256e-05
+iter 200 done, update = 5.441531538963318e-05
+iter 300 done, update = 4.842877388000488e-08
+difference between H_out and P_out: 175.2245635986328
+[Accuracy] 0.21722222222222223
+[NMI] 0.016386525699717578
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,6,9,5,3,4]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 4 5 6 9]
+iter 100 done, update = 0.0009090825915336609
+iter 200 done, update = 1.1548399925231934e-07
+difference between H_out and P_out: 180.9663848876953
+[Accuracy] 0.2038888888888889
+[NMI] 0.01175193948451861
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,6,9,5,3,4]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [1 3 4 5 6 9]
+iter 100 done, update = 5.7406723499298096e-05
+iter 200 done, update = 2.292543649673462e-05
+iter 300 done, update = 2.5331974029541016e-07
+iter 400 done, update = 1.296401023864746e-06
+difference between H_out and P_out: 0.0015021294821053743
+[Accuracy] 0.2644444444444444
+[NMI] 0.058634937699178435
+
+################## using class: [1,5,0,3,7,6]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,5,0,3,7,6]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 5 6 7]
+iter 100 done, update = 0.0003989674150943756
+iter 200 done, update = 4.213303327560425e-06
+iter 300 done, update = 8.381903171539307e-08
+difference between H_out and P_out: 211.26336669921875
+[Accuracy] 0.20833333333333334
+[NMI] 0.015607060236830984
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,5,0,3,7,6]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 5 6 7]
+iter 100 done, update = 6.469711661338806e-05
+iter 200 done, update = 3.60049307346344e-06
+difference between H_out and P_out: 198.87564086914062
+[Accuracy] 0.21333333333333335
+[NMI] 0.011316293399100237
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,5,0,3,7,6]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 5 6 7]
+iter 100 done, update = 0.00017531588673591614
+iter 200 done, update = 2.2388994693756104e-06
+difference between H_out and P_out: 176.07667541503906
+[Accuracy] 0.21555555555555556
+[NMI] 0.019554149695678556
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,5,0,3,7,6]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 5 6 7]
+iter 100 done, update = 0.00030529871582984924
+iter 200 done, update = 2.565421164035797e-05
+iter 300 done, update = 1.6856938600540161e-06
+difference between H_out and P_out: 145.3595428466797
+[Accuracy] 0.22333333333333333
+[NMI] 0.0243172840347292
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,5,0,3,7,6]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 5 6 7]
+iter 100 done, update = 0.0003340691328048706
+difference between H_out and P_out: 177.0251007080078
+[Accuracy] 0.22111111111111112
+[NMI] 0.016613575011624006
+
+################## using class: [1,0,5,3,8,2]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,5,3,8,2]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, update = 0.0006706304848194122
+iter 200 done, update = 4.186481237411499e-05
+iter 300 done, update = 1.2230128049850464e-05
+iter 400 done, update = 3.7066638469696045e-07
+difference between H_out and P_out: 203.34593200683594
+[Accuracy] 0.21388888888888888
+[NMI] 0.013819855627991593
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,5,3,8,2]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, update = 0.0004366971552371979
+iter 200 done, update = 2.3126602172851562e-05
+iter 300 done, update = 5.533918738365173e-06
+iter 400 done, update = 4.675239324569702e-07
+difference between H_out and P_out: 184.9716339111328
+[Accuracy] 0.2238888888888889
+[NMI] 0.022670975512022577
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,5,3,8,2]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, update = 0.0005014427006244659
+iter 200 done, update = 2.7941539883613586e-05
+iter 300 done, update = 3.6694109439849854e-07
+difference between H_out and P_out: 165.51014709472656
+[Accuracy] 0.21333333333333335
+[NMI] 0.016458508361487177
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,5,3,8,2]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, update = 0.0004197321832180023
+iter 200 done, update = 1.3029202818870544e-05
+iter 300 done, update = 6.668269634246826e-07
+difference between H_out and P_out: 152.8715057373047
+[Accuracy] 0.23277777777777778
+[NMI] 0.023657207823182636
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,5,3,8,2]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 5 8]
+iter 100 done, update = 8.71904194355011e-05
+iter 200 done, update = 2.1072104573249817e-05
+iter 300 done, update = 3.6135315895080566e-07
+iter 400 done, update = 4.5821070671081543e-07
+difference between H_out and P_out: 0.008114216849207878
+[Accuracy] 0.2922222222222222
+[NMI] 0.07179342136377481
+
+################## using class: [4,0,8,3,2,1]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,8,3,2,1]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 8]
+iter 100 done, update = 0.0007445402443408966
+iter 200 done, update = 7.76052474975586e-05
+iter 300 done, update = 6.716698408126831e-06
+iter 400 done, update = 3.378838300704956e-06
+iter 500 done, update = 1.0691583156585693e-06
+iter 600 done, update = 3.855675458908081e-07
+iter 700 done, update = 1.1175870895385742e-07
+iter 800 done, update = 6.332993507385254e-08
+iter 900 done, update = 2.0489096641540527e-08
+difference between H_out and P_out: 195.35726928710938
+[Accuracy] 0.20777777777777778
+[NMI] 0.016442284273850798
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,8,3,2,1]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 8]
+iter 100 done, update = 0.00041603296995162964
+iter 200 done, update = 2.3055821657180786e-05
+iter 300 done, update = 1.5720725059509277e-06
+iter 400 done, update = 2.086162567138672e-07
+difference between H_out and P_out: 186.6555633544922
+[Accuracy] 0.235
+[NMI] 0.021862596030702144
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,8,3,2,1]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 8]
+iter 100 done, update = 0.000207582488656044
+iter 200 done, update = 7.506459951400757e-07
+iter 300 done, update = 1.3969838619232178e-07
+iter 400 done, update = 1.4156103134155273e-07
+difference between H_out and P_out: 150.27481079101562
+[Accuracy] 0.2222222222222222
+[NMI] 0.02645678686512475
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,8,3,2,1]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 8]
+iter 100 done, update = 0.00018621236085891724
+iter 200 done, update = 6.165355443954468e-07
+iter 300 done, update = 4.3585896492004395e-07
+iter 400 done, update = 1.8458813428878784e-06
+difference between H_out and P_out: 96.32962799072266
+[Accuracy] 0.25722222222222224
+[NMI] 0.03661731397933248
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[4,0,8,3,2,1]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 8]
+iter 100 done, update = 0.00013446807861328125
+iter 200 done, update = 9.313225746154785e-07
+iter 300 done, update = 4.917383193969727e-07
+iter 400 done, update = 4.544854164123535e-07
+difference between H_out and P_out: 0.01636863313615322
+[Accuracy] 0.28055555555555556
+[NMI] 0.06964552071772571
+
+################## using class: [3,1,7,0,6,2]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,1,7,0,6,2]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 6 7]
+iter 100 done, update = 0.0003088340163230896
+iter 200 done, update = 2.243742346763611e-05
+iter 300 done, update = 2.1420419216156006e-07
+difference between H_out and P_out: 208.26315307617188
+[Accuracy] 0.205
+[NMI] 0.0108749030917611
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,1,7,0,6,2]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 6 7]
+iter 100 done, update = 8.759275078773499e-05
+iter 200 done, update = 1.8326565623283386e-05
+iter 300 done, update = 2.905726432800293e-07
+iter 400 done, update = 6.51925802230835e-08
+difference between H_out and P_out: 182.10891723632812
+[Accuracy] 0.23055555555555557
+[NMI] 0.021932667543509886
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,1,7,0,6,2]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 6 7]
+iter 100 done, update = 0.00016206130385398865
+iter 200 done, update = 6.746500730514526e-06
+difference between H_out and P_out: 178.20819091796875
+[Accuracy] 0.21833333333333332
+[NMI] 0.022807137132624423
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,1,7,0,6,2]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 6 7]
+iter 100 done, update = 0.0005486942827701569
+iter 200 done, update = 1.7564743757247925e-06
+iter 300 done, update = 3.7997961044311523e-07
+iter 400 done, update = 1.952052116394043e-06
+iter 500 done, update = 1.1175870895385742e-07
+difference between H_out and P_out: 0.025808364152908325
+[Accuracy] 0.25555555555555554
+[NMI] 0.045070429268489254
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[3,1,7,0,6,2]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 6 7]
+iter 100 done, update = 4.7009438276290894e-05
+iter 200 done, update = 5.5091455578804016e-05
+iter 300 done, update = 6.631016731262207e-07
+iter 400 done, update = 4.153698682785034e-07
+difference between H_out and P_out: 0.004250625614076853
+[Accuracy] 0.2544444444444444
+[NMI] 0.04590627519232732
+
+################## using class: [1,0,3,4,7,5]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,3,4,7,5]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 5 7]
+iter 100 done, update = 0.0008485987782478333
+iter 200 done, update = 9.245052933692932e-05
+iter 300 done, update = 3.4980475902557373e-06
+iter 400 done, update = 1.9371509552001953e-07
+difference between H_out and P_out: 206.91990661621094
+[Accuracy] 0.2061111111111111
+[NMI] 0.009595354778631071
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,3,4,7,5]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 5 7]
+iter 100 done, update = 7.439777255058289e-05
+iter 200 done, update = 2.5290995836257935e-05
+iter 300 done, update = 1.5087425708770752e-06
+iter 400 done, update = 1.825392246246338e-07
+difference between H_out and P_out: 190.52813720703125
+[Accuracy] 0.2088888888888889
+[NMI] 0.013469802933300865
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,3,4,7,5]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 5 7]
+iter 100 done, update = 9.311363101005554e-05
+iter 200 done, update = 5.669891834259033e-06
+iter 300 done, update = 2.1606683731079102e-07
+difference between H_out and P_out: 166.5652618408203
+[Accuracy] 0.21666666666666667
+[NMI] 0.018218947308025146
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,3,4,7,5]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 5 7]
+iter 100 done, update = 0.000620473176240921
+iter 200 done, update = 8.471310138702393e-06
+iter 300 done, update = 1.1175870895385742e-06
+difference between H_out and P_out: 154.38507080078125
+[Accuracy] 0.2127777777777778
+[NMI] 0.020977824368381744
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[1,0,3,4,7,5]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 3 4 5 7]
+iter 100 done, update = 0.00016858801245689392
+iter 200 done, update = 1.166015863418579e-06
+difference between H_out and P_out: 155.6324005126953
+[Accuracy] 0.20666666666666667
+[NMI] 0.017093454756671716
+
+################## using class: [8,7,0,3,4,9]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,7,0,3,4,9]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 3 4 7 8 9]
+iter 100 done, update = 0.0004671066999435425
+iter 200 done, update = 3.0025839805603027e-06
+iter 300 done, update = 1.993030309677124e-07
+difference between H_out and P_out: 206.3140106201172
+[Accuracy] 0.21611111111111111
+[NMI] 0.01631560053804767
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,7,0,3,4,9]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 3 4 7 8 9]
+iter 100 done, update = 0.0009801387786865234
+iter 200 done, update = 4.159286618232727e-06
+iter 300 done, update = 4.991888999938965e-07
+iter 400 done, update = 1.7881393432617188e-07
+iter 500 done, update = 7.078051567077637e-08
+difference between H_out and P_out: 173.58551025390625
+[Accuracy] 0.23277777777777778
+[NMI] 0.027293702854754624
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,7,0,3,4,9]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 3 4 7 8 9]
+iter 100 done, update = 8.301064372062683e-05
+iter 200 done, update = 1.3615936040878296e-06
+difference between H_out and P_out: 178.46633911132812
+[Accuracy] 0.22
+[NMI] 0.02074782233088856
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,7,0,3,4,9]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 3 4 7 8 9]
+iter 100 done, update = 0.0009233690798282623
+iter 200 done, update = 3.1422823667526245e-06
+iter 300 done, update = 8.23289155960083e-07
+difference between H_out and P_out: 153.78233337402344
+[Accuracy] 0.22611111111111112
+[NMI] 0.031490585704332386
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[8,7,0,3,4,9]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 3 4 7 8 9]
+iter 100 done, update = 0.0001628100872039795
+iter 200 done, update = 2.603977918624878e-06
+difference between H_out and P_out: 153.46514892578125
+[Accuracy] 0.22444444444444445
+[NMI] 0.026339965763165767
+
+################## using class: [2,5,3,4,0,1]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,5,3,4,0,1]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5]
+iter 100 done, update = 6.030872464179993e-05
+iter 200 done, update = 3.0444934964179993e-05
+iter 300 done, update = 1.5031546354293823e-06
+iter 400 done, update = 8.009374141693115e-08
+difference between H_out and P_out: 205.59292602539062
+[Accuracy] 0.21611111111111111
+[NMI] 0.016401284590003597
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,5,3,4,0,1]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5]
+iter 100 done, update = 0.0007840953767299652
+iter 200 done, update = 1.2559816241264343e-05
+iter 300 done, update = 1.1548399925231934e-06
+iter 400 done, update = 2.6635825634002686e-07
+iter 500 done, update = 7.264316082000732e-08
+difference between H_out and P_out: 181.35398864746094
+[Accuracy] 0.21611111111111111
+[NMI] 0.019099482743661394
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,5,3,4,0,1]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5]
+iter 100 done, update = 2.703070640563965e-05
+iter 200 done, update = 4.958733916282654e-05
+iter 300 done, update = 8.957460522651672e-06
+iter 400 done, update = 3.6694109439849854e-07
+difference between H_out and P_out: 151.94712829589844
+[Accuracy] 0.22
+[NMI] 0.019172613595295172
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,5,3,4,0,1]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5]
+iter 100 done, update = 0.000568833202123642
+iter 200 done, update = 7.420778274536133e-06
+iter 300 done, update = 1.1976808309555054e-06
+difference between H_out and P_out: 151.11839294433594
+[Accuracy] 0.22277777777777777
+[NMI] 0.021616284144864686
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=6, classes='[2,5,3,4,0,1]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5]
+iter 100 done, update = 5.766749382019043e-05
+iter 200 done, update = 3.203749656677246e-07
+iter 300 done, update = 5.047768354415894e-07
+iter 400 done, update = 5.699694156646729e-07
+iter 500 done, update = 1.30385160446167e-08
+difference between H_out and P_out: 0.00042891965131275356
+[Accuracy] 0.25666666666666665
+[NMI] 0.046447021602136346
+
+#################################### n_classes: 10
+################## using class: [5,9,4,7,6,1,2,8,0,3]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[5,9,4,7,6,1,2,8,0,3]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00017574429512023926
+iter 200 done, update = 0.00012039393186569214
+iter 300 done, update = 1.399405300617218e-05
+iter 400 done, update = 1.3854354619979858e-05
+iter 500 done, update = 1.4052726328372955e-05
+iter 600 done, update = 1.453794538974762e-05
+iter 700 done, update = 5.427747964859009e-06
+iter 800 done, update = 3.0882656574249268e-06
+iter 900 done, update = 1.578591763973236e-06
+iter 1000 done, update = 1.2507662177085876e-06
+iter 1100 done, update = 1.125037670135498e-06
+iter 1200 done, update = 9.583309292793274e-07
+iter 1300 done, update = 8.409842848777771e-07
+iter 1400 done, update = 5.774199962615967e-07
+iter 1500 done, update = 3.390014171600342e-07
+iter 1600 done, update = 1.862645149230957e-07
+iter 1700 done, update = 9.220093488693237e-08
+difference between H_out and P_out: 347.77838134765625
+[Accuracy] 0.14266666666666666
+[NMI] 0.02115755739859623
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[5,9,4,7,6,1,2,8,0,3]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00028921663761138916
+iter 200 done, update = 5.840696394443512e-05
+iter 300 done, update = 5.986541509628296e-06
+iter 400 done, update = 7.938593626022339e-06
+iter 500 done, update = 2.1338462829589844e-05
+iter 600 done, update = 1.4126300811767578e-05
+iter 700 done, update = 8.757226169109344e-06
+iter 800 done, update = 3.7550926208496094e-06
+iter 900 done, update = 1.6158446669578552e-06
+iter 1000 done, update = 1.064501702785492e-06
+iter 1100 done, update = 7.35744833946228e-07
+iter 1200 done, update = 4.7404319047927856e-07
+iter 1300 done, update = 2.9243528842926025e-07
+iter 1400 done, update = 2.0489096641540527e-07
+iter 1500 done, update = 2.3748725652694702e-07
+iter 1600 done, update = 1.210719347000122e-07
+iter 1700 done, update = 5.4016709327697754e-08
+iter 1800 done, update = 2.7008354663848877e-08
+difference between H_out and P_out: 296.302978515625
+[Accuracy] 0.146
+[NMI] 0.022018440460399608
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[5,9,4,7,6,1,2,8,0,3]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00030973926186561584
+iter 200 done, update = 7.860176265239716e-05
+iter 300 done, update = 1.4243647456169128e-05
+iter 400 done, update = 1.4878809452056885e-05
+iter 500 done, update = 5.869194865226746e-06
+iter 600 done, update = 1.1521391570568085e-05
+iter 700 done, update = 1.1118128895759583e-05
+iter 800 done, update = 4.166737198829651e-06
+iter 900 done, update = 1.4593824744224548e-06
+iter 1000 done, update = 4.76837158203125e-07
+iter 1100 done, update = 1.9371509552001953e-07
+iter 1200 done, update = 4.563480615615845e-08
+difference between H_out and P_out: 273.18548583984375
+[Accuracy] 0.156
+[NMI] 0.029244001773212833
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[5,9,4,7,6,1,2,8,0,3]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.0002613849937915802
+iter 200 done, update = 4.804693162441254e-05
+iter 300 done, update = 1.7112120985984802e-05
+iter 400 done, update = 2.1986663341522217e-05
+iter 500 done, update = 2.482440322637558e-05
+iter 600 done, update = 4.715286195278168e-06
+iter 700 done, update = 5.355104804039001e-07
+iter 800 done, update = 3.045424818992615e-07
+iter 900 done, update = 3.632158041000366e-08
+iter 1000 done, update = 3.632158041000366e-08
+difference between H_out and P_out: 257.13592529296875
+[Accuracy] 0.15066666666666667
+[NMI] 0.027803884858337395
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[5,9,4,7,6,1,2,8,0,3]', tol=1e-15, lamda=10.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00010271184146404266
+iter 200 done, update = 4.49642539024353e-05
+iter 300 done, update = 2.9554590582847595e-05
+iter 400 done, update = 3.801751881837845e-05
+iter 500 done, update = 5.6782737374305725e-06
+iter 600 done, update = 1.0337680578231812e-06
+iter 700 done, update = 3.380700945854187e-07
+iter 800 done, update = 1.7695128917694092e-08
+difference between H_out and P_out: 245.5728759765625
+[Accuracy] 0.16133333333333333
+[NMI] 0.030739858797070304
+
+################## using class: [0,4,5,7,8,3,6,2,1,9]
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[0,4,5,7,8,3,6,2,1,9]', tol=1e-15, lamda=1.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00020374730229377747
+iter 200 done, update = 7.24010169506073e-05
+iter 300 done, update = 1.0712072253227234e-05
+iter 400 done, update = 1.4582648873329163e-05
+iter 500 done, update = 1.5042722225189209e-05
+iter 600 done, update = 1.4523044228553772e-05
+iter 700 done, update = 5.599111318588257e-06
+iter 800 done, update = 2.2202730178833008e-06
+iter 900 done, update = 6.463378667831421e-07
+iter 1000 done, update = 2.6635825634002686e-07
+iter 1100 done, update = 1.816079020500183e-07
+iter 1200 done, update = 9.406358003616333e-08
+difference between H_out and P_out: 361.06689453125
+[Accuracy] 0.134
+[NMI] 0.016092375451205416
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[0,4,5,7,8,3,6,2,1,9]', tol=1e-15, lamda=3.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00023679062724113464
+iter 200 done, update = 7.740408182144165e-05
+iter 300 done, update = 1.3748183846473694e-05
+iter 400 done, update = 1.4901161193847656e-05
+iter 500 done, update = 1.7049722373485565e-05
+iter 600 done, update = 1.0252930223941803e-05
+iter 700 done, update = 5.906447768211365e-06
+iter 800 done, update = 2.2202730178833008e-06
+iter 900 done, update = 1.0561197996139526e-06
+iter 1000 done, update = 5.932524800300598e-07
+iter 1100 done, update = 2.784654498100281e-07
+iter 1200 done, update = 8.66129994392395e-08
+iter 1300 done, update = 6.332993507385254e-08
+difference between H_out and P_out: 321.00390625
+[Accuracy] 0.14333333333333334
+[NMI] 0.021835280499656315
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[0,4,5,7,8,3,6,2,1,9]', tol=1e-15, lamda=6.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.00025408342480659485
+iter 200 done, update = 5.8474019169807434e-05
+iter 300 done, update = 1.1013820767402649e-05
+iter 400 done, update = 2.499110996723175e-05
+iter 500 done, update = 1.8241815268993378e-05
+iter 600 done, update = 7.188878953456879e-06
+iter 700 done, update = 2.203509211540222e-06
+iter 800 done, update = 8.530914783477783e-07
+iter 900 done, update = 3.9674341678619385e-07
+iter 1000 done, update = 2.1979212760925293e-07
+iter 1100 done, update = 1.126900315284729e-07
+difference between H_out and P_out: 269.8603210449219
+[Accuracy] 0.15366666666666667
+[NMI] 0.029142047515918437
+
+[Using device] cuda
+[args] Namespace(dataset='cifar10', n_clusters=10, classes='[0,4,5,7,8,3,6,2,1,9]', tol=1e-15, lamda=8.0, filename='cifar10_2024.04.22-19.25.39.csv')
+[Using classes] [0 1 2 3 4 5 6 7 8 9]
+iter 100 done, update = 0.0002851039171218872
+iter 200 done, update = 5.054846405982971e-05
+iter 300 done, update = 3.5507604479789734e-05
+iter 400 done, update = 2.1267682313919067e-05

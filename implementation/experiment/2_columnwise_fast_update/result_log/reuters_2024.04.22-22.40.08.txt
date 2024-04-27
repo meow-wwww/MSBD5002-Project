@@ -1,0 +1,848 @@
+#################################### n_classes: 8
+################## using class: [28,18,21,27,4,40,41,6]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[28,18,21,27,4,40,41,6]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  6 18 21 27 28 40 41]
+iter 100 done, update = 0.002102203667163849
+iter 200 done, update = 0.0001054219901561737
+iter 300 done, update = 3.155320882797241e-06
+difference between H_out and P_out: 0.002226321492344141
+[Accuracy] 0.42229199372056514
+[NMI] 0.4901044997088621
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[28,18,21,27,4,40,41,6]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  6 18 21 27 28 40 41]
+iter 100 done, update = 0.00015285611152648926
+iter 200 done, update = 4.384666681289673e-06
+iter 300 done, update = 7.450580596923828e-09
+difference between H_out and P_out: 0.0016302188159897923
+[Accuracy] 0.42229199372056514
+[NMI] 0.4812236041296546
+
+################## using class: [22,39,9,18,26,12,34,15]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[22,39,9,18,26,12,34,15]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 9 12 15 18 22 26 34 39]
+iter 100 done, update = 0.0005806833505630493
+iter 200 done, update = 9.96515154838562e-06
+difference between H_out and P_out: 0.0005555481184273958
+[Accuracy] 0.5491329479768786
+[NMI] 0.6385319699603119
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[22,39,9,18,26,12,34,15]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 9 12 15 18 22 26 34 39]
+iter 100 done, update = 0.012872189283370972
+difference between H_out and P_out: 0.00020176320686005056
+[Accuracy] 0.5346820809248555
+[NMI] 0.6382937116298647
+
+################## using class: [19,26,18,28,41,39,12,7]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[19,26,18,28,41,39,12,7]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 7 12 18 19 26 28 39 41]
+iter 100 done, update = 0.00014619529247283936
+iter 200 done, update = 6.064772605895996e-06
+iter 300 done, update = 3.5762786865234375e-07
+difference between H_out and P_out: 0.0013334323884919286
+[Accuracy] 0.6142857142857143
+[NMI] 0.6435275856237559
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[19,26,18,28,41,39,12,7]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 7 12 18 19 26 28 39 41]
+iter 100 done, update = 0.0053497180342674255
+iter 200 done, update = 2.4512410163879395e-06
+difference between H_out and P_out: 0.0012477822601795197
+[Accuracy] 0.6142857142857143
+[NMI] 0.6435275856237558
+
+################## using class: [5,39,29,11,3,17,13,26]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[5,39,29,11,3,17,13,26]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  5 11 13 17 26 29 39]
+iter 100 done, update = 0.0009607374668121338
+iter 200 done, update = 0.00010256469249725342
+iter 300 done, update = 1.3850629329681396e-05
+iter 400 done, update = 0.0015187114477157593
+difference between H_out and P_out: 0.0007004066719673574
+[Accuracy] 0.561035758323058
+[NMI] 0.5444824824226645
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[5,39,29,11,3,17,13,26]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  5 11 13 17 26 29 39]
+iter 100 done, update = 0.004429712891578674
+iter 200 done, update = 0.00011551752686500549
+difference between H_out and P_out: 0.0022646132856607437
+[Accuracy] 0.5647348951911221
+[NMI] 0.5484524033868531
+
+################## using class: [37,36,17,21,23,40,7,20]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[37,36,17,21,23,40,7,20]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 7 17 20 21 23 36 37 40]
+iter 100 done, update = 0.002879425883293152
+iter 200 done, update = 6.4373016357421875e-06
+difference between H_out and P_out: 0.0010493143927305937
+[Accuracy] 0.44648318042813456
+[NMI] 0.47178766914036124
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[37,36,17,21,23,40,7,20]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 7 17 20 21 23 36 37 40]
+iter 100 done, update = 0.0008734315633773804
+difference between H_out and P_out: 0.0014026238350197673
+[Accuracy] 0.5076452599388379
+[NMI] 0.46917785553767505
+
+################## using class: [1,6,33,32,14,38,8,16]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[1,6,33,32,14,38,8,16]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  6  8 14 16 32 33 38]
+iter 100 done, update = 7.897522300481796e-05
+iter 200 done, update = 4.295026883482933e-05
+iter 300 done, update = 3.3820979297161102e-06
+iter 400 done, update = 2.9923394322395325e-06
+iter 500 done, update = 2.2551976144313812e-06
+iter 600 done, update = 2.1094456315040588e-07
+iter 700 done, update = 1.1874362826347351e-07
+iter 800 done, update = 3.864988684654236e-08
+iter 900 done, update = 3.725290298461914e-09
+iter 1000 done, update = 2.474989742040634e-07
+iter 1100 done, update = 6.193295121192932e-08
+iter 1200 done, update = 6.146728992462158e-08
+iter 1300 done, update = 1.1292286217212677e-07
+iter 1400 done, update = 1.394655555486679e-07
+iter 1500 done, update = 2.421438694000244e-07
+iter 1600 done, update = 3.979075700044632e-07
+iter 1700 done, update = 9.851064532995224e-07
+iter 1800 done, update = 5.198875442147255e-06
+iter 1900 done, update = 2.0023435354232788e-08
+difference between H_out and P_out: 1.498407244682312
+[Accuracy] 0.2320614350851932
+[NMI] 0.18478100688470753
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[1,6,33,32,14,38,8,16]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  6  8 14 16 32 33 38]
+iter 100 done, update = 0.00018836557865142822
+iter 200 done, update = 1.7717014998197556e-05
+iter 300 done, update = 2.902466803789139e-06
+iter 400 done, update = 4.753470420837402e-06
+iter 500 done, update = 2.421438694000244e-08
+difference between H_out and P_out: 281.9811706542969
+[Accuracy] 0.20398368130549557
+[NMI] 0.05122766919090859
+
+################## using class: [15,1,20,37,7,10,13,18]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[15,1,20,37,7,10,13,18]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  7 10 13 15 18 20 37]
+iter 100 done, update = 7.026083767414093e-05
+iter 200 done, update = 5.441717803478241e-06
+iter 300 done, update = 1.1774245649576187e-05
+iter 400 done, update = 3.5064294934272766e-06
+iter 500 done, update = 3.929249942302704e-06
+iter 600 done, update = 1.4167744666337967e-06
+iter 700 done, update = 3.394670784473419e-07
+iter 800 done, update = 8.475035429000854e-08
+iter 900 done, update = 2.7474015951156616e-08
+iter 1000 done, update = 5.029141902923584e-08
+iter 1100 done, update = 4.260800778865814e-08
+iter 1200 done, update = 4.889443516731262e-09
+difference between H_out and P_out: 245.79319763183594
+[Accuracy] 0.2016421154310553
+[NMI] 0.06000381632998349
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[15,1,20,37,7,10,13,18]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  7 10 13 15 18 20 37]
+iter 100 done, update = 0.00012089777737855911
+iter 200 done, update = 1.1065509170293808e-05
+iter 300 done, update = 1.3327691704034805e-05
+iter 400 done, update = 5.980487912893295e-06
+iter 500 done, update = 3.6461278796195984e-07
+iter 600 done, update = 2.7939677238464355e-08
+iter 700 done, update = 1.7369166016578674e-07
+difference between H_out and P_out: 210.98683166503906
+[Accuracy] 0.20864525476937937
+[NMI] 0.08177690616852895
+
+################## using class: [21,11,27,23,10,7,5,8]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[21,11,27,23,10,7,5,8]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 5  7  8 10 11 21 23 27]
+iter 100 done, update = 0.0006507188081741333
+iter 200 done, update = 0.0003552958369255066
+iter 300 done, update = 1.3537704944610596e-05
+difference between H_out and P_out: 0.002467530546709895
+[Accuracy] 0.6511024643320363
+[NMI] 0.5782424892426844
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[21,11,27,23,10,7,5,8]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 5  7  8 10 11 21 23 27]
+iter 100 done, update = 0.005099773406982422
+iter 200 done, update = 0.0005420297384262085
+difference between H_out and P_out: 0.001309607527218759
+[Accuracy] 0.6498054474708171
+[NMI] 0.5771529340878154
+
+################## using class: [5,28,12,30,15,39,10,14]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[5,28,12,30,15,39,10,14]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 5 10 12 14 15 28 30 39]
+iter 100 done, update = 0.0009591132402420044
+iter 200 done, update = 0.00026683509349823
+iter 300 done, update = 6.109476089477539e-07
+difference between H_out and P_out: 0.00012728103320114315
+[Accuracy] 0.5247706422018349
+[NMI] 0.6066264819561356
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[5,28,12,30,15,39,10,14]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 5 10 12 14 15 28 30 39]
+iter 100 done, update = 0.00033508241176605225
+iter 200 done, update = 2.987682819366455e-06
+difference between H_out and P_out: 0.0008770793792791665
+[Accuracy] 0.5247706422018349
+[NMI] 0.6066264819561356
+
+################## using class: [35,41,12,1,21,23,40,33]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[35,41,12,1,21,23,40,33]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1 12 21 23 33 35 40 41]
+iter 100 done, update = 0.00016052089631557465
+iter 200 done, update = 7.867813110351562e-06
+iter 300 done, update = 1.0335352271795273e-05
+iter 400 done, update = 5.158362910151482e-06
+iter 500 done, update = 8.773058652877808e-07
+iter 600 done, update = 2.0186416804790497e-07
+iter 700 done, update = 1.2363307178020477e-07
+iter 800 done, update = 8.614733815193176e-08
+iter 900 done, update = 7.450580596923828e-08
+iter 1000 done, update = 9.42964106798172e-08
+iter 1100 done, update = 4.0046870708465576e-08
+iter 1200 done, update = 2.2188760340213776e-07
+iter 1300 done, update = 1.1245720088481903e-07
+iter 1400 done, update = 2.2491440176963806e-07
+iter 1500 done, update = 3.1548552215099335e-07
+iter 1600 done, update = 7.057096809148788e-07
+iter 1700 done, update = 2.3103784769773483e-06
+iter 1800 done, update = 7.520429790019989e-08
+difference between H_out and P_out: 1.8744304180145264
+[Accuracy] 0.2091889117043121
+[NMI] 0.09026012630874712
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=8, classes='[35,41,12,1,21,23,40,33]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1 12 21 23 33 35 40 41]
+iter 100 done, update = 0.00010144989937543869
+iter 200 done, update = 1.0634306818246841e-05
+iter 300 done, update = 9.695068001747131e-06
+iter 400 done, update = 7.867347449064255e-07
+iter 500 done, update = 4.644971340894699e-07
+iter 600 done, update = 1.2130476534366608e-07
+iter 700 done, update = 1.5227124094963074e-07
+iter 800 done, update = 5.0361268222332e-07
+iter 900 done, update = 3.728782758116722e-06
+iter 1000 done, update = 1.792795956134796e-08
+difference between H_out and P_out: 0.24565830826759338
+[Accuracy] 0.2045687885010267
+[NMI] 0.08990339735776268
+
+#################################### n_classes: 15
+################## using class: [19,22,25,24,21,41,14,33,3,36,13,32,12,29,16]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[19,22,25,24,21,41,14,33,3,36,13,32,12,29,16]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3 12 13 14 16 19 21 22 24 25 29 32 33 36 41]
+iter 100 done, update = 0.0015332847833633423
+iter 200 done, update = 0.0001894533634185791
+iter 300 done, update = 8.006393909454346e-05
+iter 400 done, update = 2.8714537620544434e-05
+iter 500 done, update = 1.3109296560287476e-05
+iter 600 done, update = 5.219131708145142e-06
+iter 700 done, update = 5.850940942764282e-05
+iter 800 done, update = 7.897615432739258e-07
+difference between H_out and P_out: 0.0016357606509700418
+[Accuracy] 0.44203821656050957
+[NMI] 0.5044524944245514
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[19,22,25,24,21,41,14,33,3,36,13,32,12,29,16]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3 12 13 14 16 19 21 22 24 25 29 32 33 36 41]
+iter 100 done, update = 0.0012759864330291748
+iter 200 done, update = 0.0004993230104446411
+iter 300 done, update = 0.0013588443398475647
+iter 400 done, update = 0.00016236305236816406
+iter 500 done, update = 7.82310962677002e-08
+difference between H_out and P_out: 0.0014595603570342064
+[Accuracy] 0.46496815286624205
+[NMI] 0.5097290627521279
+
+################## using class: [15,13,20,34,10,37,14,3,29,41,23,8,24,22,16]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[15,13,20,34,10,37,14,3,29,41,23,8,24,22,16]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  8 10 13 14 15 16 20 22 23 24 29 34 37 41]
+iter 100 done, update = 0.0016210079193115234
+iter 200 done, update = 0.0002723187208175659
+iter 300 done, update = 8.367002010345459e-05
+iter 400 done, update = 3.045797348022461e-05
+iter 500 done, update = 2.0116567611694336e-05
+iter 600 done, update = 4.242360591888428e-05
+iter 700 done, update = 5.736947059631348e-06
+iter 800 done, update = 1.773238182067871e-05
+iter 900 done, update = 8.594244718551636e-06
+iter 1000 done, update = 1.825392246246338e-07
+difference between H_out and P_out: 0.0013549657305702567
+[Accuracy] 0.48043478260869565
+[NMI] 0.5607751672396702
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[15,13,20,34,10,37,14,3,29,41,23,8,24,22,16]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  8 10 13 14 15 16 20 22 23 24 29 34 37 41]
+iter 100 done, update = 0.002222016453742981
+iter 200 done, update = 0.0002821609377861023
+iter 300 done, update = 3.8236379623413086e-05
+iter 400 done, update = 1.6205012798309326e-05
+iter 500 done, update = 0.014113709330558777
+iter 600 done, update = 6.780028343200684e-07
+difference between H_out and P_out: 0.0018804662395268679
+[Accuracy] 0.45217391304347826
+[NMI] 0.5431335938494068
+
+################## using class: [34,9,35,28,21,10,22,11,29,13,36,37,41,31,3]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[34,9,35,28,21,10,22,11,29,13,36,37,41,31,3]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  9 10 11 13 21 22 28 29 31 34 35 36 37 41]
+iter 100 done, update = 0.0013835281133651733
+iter 200 done, update = 0.0001903250813484192
+iter 300 done, update = 6.488710641860962e-05
+iter 400 done, update = 5.428493022918701e-05
+iter 500 done, update = 1.9222497940063477e-05
+iter 600 done, update = 7.856637239456177e-06
+difference between H_out and P_out: 121.51932525634766
+[Accuracy] 0.2558139534883721
+[NMI] 0.31506747745849656
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[34,9,35,28,21,10,22,11,29,13,36,37,41,31,3]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  9 10 11 13 21 22 28 29 31 34 35 36 37 41]
+iter 100 done, update = 0.002200976014137268
+iter 200 done, update = 0.00014586001634597778
+iter 300 done, update = 4.9915164709091187e-05
+iter 400 done, update = 7.820501923561096e-05
+iter 500 done, update = 1.7352402210235596e-05
+iter 600 done, update = 2.5704503059387207e-07
+difference between H_out and P_out: 0.0013596516801044345
+[Accuracy] 0.4476744186046512
+[NMI] 0.5237950684659222
+
+################## using class: [11,37,35,3,9,8,27,4,24,38,2,41,29,23,16]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[11,37,35,3,9,8,27,4,24,38,2,41,29,23,16]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  3  4  8  9 11 16 23 24 27 29 35 37 38 41]
+iter 100 done, update = 0.0026337355375289917
+iter 200 done, update = 0.00041528046131134033
+iter 300 done, update = 0.00017017126083374023
+iter 400 done, update = 8.040666580200195e-05
+iter 500 done, update = 4.953891038894653e-05
+iter 600 done, update = 3.758817911148071e-05
+iter 700 done, update = 1.5892088413238525e-05
+iter 800 done, update = 1.1261552572250366e-05
+iter 900 done, update = 8.333474397659302e-06
+iter 1000 done, update = 6.1355531215667725e-06
+iter 1100 done, update = 4.295259714126587e-06
+iter 1200 done, update = 4.421919584274292e-06
+iter 1300 done, update = 7.249414920806885e-06
+iter 1400 done, update = 4.019588232040405e-06
+iter 1500 done, update = 4.2244791984558105e-06
+iter 1600 done, update = 6.0461461544036865e-06
+iter 1700 done, update = 1.0240823030471802e-05
+iter 1800 done, update = 5.3532421588897705e-06
+iter 1900 done, update = 1.8440186977386475e-06
+iter 2000 done, update = 2.6263296604156494e-06
+iter 2100 done, update = 7.7858567237854e-07
+iter 2200 done, update = 9.164214134216309e-07
+iter 2300 done, update = 6.07222318649292e-07
+iter 2400 done, update = 6.295740604400635e-07
+iter 2500 done, update = 1.12093985080719e-05
+iter 2600 done, update = 5.923211574554443e-07
+iter 2700 done, update = 6.034970283508301e-07
+iter 2800 done, update = 1.2889504432678223e-06
+iter 2900 done, update = 3.2372772693634033e-06
+difference between H_out and P_out: 82.73136138916016
+[Accuracy] 0.31436655139893116
+[NMI] 0.3843558870562186
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[11,37,35,3,9,8,27,4,24,38,2,41,29,23,16]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  3  4  8  9 11 16 23 24 27 29 35 37 38 41]
+iter 100 done, update = 0.0028338730335235596
+iter 200 done, update = 0.0003798827528953552
+iter 300 done, update = 0.0001758188009262085
+iter 400 done, update = 6.64740800857544e-05
+iter 500 done, update = 3.487244248390198e-05
+iter 600 done, update = 2.913549542427063e-05
+iter 700 done, update = 2.29664146900177e-05
+iter 800 done, update = 4.76837158203125e-05
+iter 900 done, update = 9.36165452003479e-06
+iter 1000 done, update = 7.204711437225342e-06
+iter 1100 done, update = 7.4766576290130615e-06
+iter 1200 done, update = 3.818422555923462e-06
+iter 1300 done, update = 9.424984455108643e-07
+difference between H_out and P_out: 236.3084716796875
+[Accuracy] 0.18673373153096512
+[NMI] 0.1791814797009716
+
+################## using class: [33,35,10,24,6,27,17,31,16,14,4,38,22,11,9]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[33,35,10,24,6,27,17,31,16,14,4,38,22,11,9]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  6  9 10 11 14 16 17 22 24 27 31 33 35 38]
+iter 100 done, update = 0.0018075555562973022
+iter 200 done, update = 0.0003077089786529541
+iter 300 done, update = 9.033083915710449e-05
+iter 400 done, update = 4.3742358684539795e-05
+iter 500 done, update = 8.020922541618347e-05
+iter 600 done, update = 1.5173107385635376e-05
+iter 700 done, update = 4.250556230545044e-06
+iter 800 done, update = 3.082677721977234e-05
+iter 900 done, update = 1.6275793313980103e-05
+iter 1000 done, update = 2.8058886528015137e-05
+iter 1100 done, update = 8.52346420288086e-06
+iter 1200 done, update = 1.1175870895385742e-08
+difference between H_out and P_out: 0.0006053587421774864
+[Accuracy] 0.5065298507462687
+[NMI] 0.5685954978394352
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[33,35,10,24,6,27,17,31,16,14,4,38,22,11,9]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  6  9 10 11 14 16 17 22 24 27 31 33 35 38]
+iter 100 done, update = 0.0015498995780944824
+iter 200 done, update = 0.00022551417350769043
+iter 300 done, update = 4.7929584980010986e-05
+iter 400 done, update = 1.8104910850524902e-06
+iter 500 done, update = 3.577396273612976e-05
+iter 600 done, update = 1.2557953596115112e-05
+iter 700 done, update = 4.842877388000488e-08
+difference between H_out and P_out: 0.000367061176802963
+[Accuracy] 0.4962686567164179
+[NMI] 0.5724493998312904
+
+################## using class: [9,40,1,41,20,18,17,34,14,7,12,36,15,5,6]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[9,40,1,41,20,18,17,34,14,7,12,36,15,5,6]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  5  6  7  9 12 14 15 17 18 20 34 36 40 41]
+iter 100 done, update = 0.0002311859279870987
+iter 200 done, update = 2.638343721628189e-05
+iter 300 done, update = 1.3295095413923264e-05
+iter 400 done, update = 1.186830922961235e-05
+iter 500 done, update = 4.460802301764488e-06
+iter 600 done, update = 2.0561274141073227e-06
+iter 700 done, update = 1.171603798866272e-06
+iter 800 done, update = 1.1776573956012726e-06
+iter 900 done, update = 1.4069955796003342e-06
+iter 1000 done, update = 1.0707881301641464e-06
+iter 1100 done, update = 7.273629307746887e-07
+iter 1200 done, update = 4.7171488404273987e-07
+iter 1300 done, update = 2.6728957891464233e-07
+iter 1400 done, update = 1.555308699607849e-07
+iter 1500 done, update = 1.334119588136673e-07
+iter 1600 done, update = 1.6507692635059357e-07
+iter 1700 done, update = 2.2817403078079224e-07
+iter 1800 done, update = 3.264285624027252e-07
+iter 1900 done, update = 2.9383227229118347e-07
+iter 2000 done, update = 2.3492611944675446e-07
+iter 2100 done, update = 2.2677704691886902e-07
+iter 2200 done, update = 3.30386683344841e-07
+iter 2300 done, update = 4.3725594878196716e-07
+iter 2400 done, update = 3.6670826375484467e-07
+iter 2500 done, update = 1.855660229921341e-07
+iter 2600 done, update = 2.2631138563156128e-07
+iter 2700 done, update = 7.194466888904572e-08
+iter 2800 done, update = 4.377216100692749e-08
+iter 2900 done, update = 1.0454095900058746e-07
+iter 3000 done, update = 3.073364496231079e-08
+difference between H_out and P_out: 347.92120361328125
+[Accuracy] 0.14138003798269677
+[NMI] 0.12426109717902002
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[9,40,1,41,20,18,17,34,14,7,12,36,15,5,6]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  5  6  7  9 12 14 15 17 18 20 34 36 40 41]
+iter 100 done, update = 0.0002810172736644745
+iter 200 done, update = 3.607338294386864e-05
+iter 300 done, update = 9.4585120677948e-06
+iter 400 done, update = 4.488509148359299e-06
+iter 500 done, update = 1.0596821084618568e-05
+iter 600 done, update = 1.5499535948038101e-06
+iter 700 done, update = 9.471550583839417e-07
+iter 800 done, update = 1.1506490409374237e-06
+iter 900 done, update = 1.8849968910217285e-06
+iter 1000 done, update = 1.4491379261016846e-06
+iter 1100 done, update = 4.6659260988235474e-07
+iter 1200 done, update = 4.838220775127411e-07
+iter 1300 done, update = 5.715992301702499e-07
+iter 1400 done, update = 4.782341420650482e-07
+iter 1500 done, update = 4.800967872142792e-07
+iter 1600 done, update = 9.685754776000977e-07
+iter 1700 done, update = 3.948807716369629e-07
+iter 1800 done, update = 1.5576370060443878e-07
+iter 1900 done, update = 3.003515303134918e-08
+iter 2000 done, update = 6.088521331548691e-07
+iter 2100 done, update = 3.762543201446533e-07
+difference between H_out and P_out: 209.18336486816406
+[Accuracy] 0.1464443975522262
+[NMI] 0.17618613895847224
+
+################## using class: [7,5,35,25,30,31,4,34,3,22,16,40,12,10,13]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[7,5,35,25,30,31,4,34,3,22,16,40,12,10,13]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  4  5  7 10 12 13 16 22 25 30 31 34 35 40]
+iter 100 done, update = 0.003862038254737854
+iter 200 done, update = 0.00043542683124542236
+iter 300 done, update = 0.00019091367721557617
+iter 400 done, update = 7.15404748916626e-05
+iter 500 done, update = 2.9377639293670654e-05
+iter 600 done, update = 2.7842819690704346e-05
+iter 700 done, update = 1.9647181034088135e-05
+iter 800 done, update = 1.2192875146865845e-05
+iter 900 done, update = 1.7836689949035645e-05
+iter 1000 done, update = 8.881092071533203e-06
+iter 1100 done, update = 8.307397365570068e-07
+iter 1200 done, update = 9.160488843917847e-06
+iter 1300 done, update = 2.5741755962371826e-06
+iter 1400 done, update = 6.545335054397583e-06
+difference between H_out and P_out: 0.001857319031842053
+[Accuracy] 0.4600570613409415
+[NMI] 0.5612075417689986
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[7,5,35,25,30,31,4,34,3,22,16,40,12,10,13]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 3  4  5  7 10 12 13 16 22 25 30 31 34 35 40]
+iter 100 done, update = 0.002424284815788269
+iter 200 done, update = 0.0003166273236274719
+iter 300 done, update = 0.00018177181482315063
+iter 400 done, update = 2.6673078536987305e-05
+iter 500 done, update = 2.27317214012146e-05
+iter 600 done, update = 1.3392418622970581e-05
+iter 700 done, update = 0.00029940903186798096
+iter 800 done, update = 3.241002559661865e-07
+difference between H_out and P_out: 0.0003193711454514414
+[Accuracy] 0.4572039942938659
+[NMI] 0.5609984959897761
+
+################## using class: [6,25,20,37,15,22,4,5,38,7,41,27,26,36,31]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[6,25,20,37,15,22,4,5,38,7,41,27,26,36,31]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  5  6  7 15 20 22 25 26 27 31 36 37 38 41]
+iter 100 done, update = 0.0027322322130203247
+iter 200 done, update = 0.0002615228295326233
+iter 300 done, update = 0.00010067969560623169
+iter 400 done, update = 4.83393669128418e-05
+iter 500 done, update = 2.1480023860931396e-05
+iter 600 done, update = 1.5657395124435425e-05
+iter 700 done, update = 3.0454248189926147e-05
+iter 800 done, update = 7.051974534988403e-06
+iter 900 done, update = 1.73225998878479e-05
+iter 1000 done, update = 8.221715688705444e-06
+iter 1100 done, update = 3.236904740333557e-05
+iter 1200 done, update = 6.332993507385254e-08
+difference between H_out and P_out: 0.001085461932234466
+[Accuracy] 0.405452946350044
+[NMI] 0.5110342724702883
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[6,25,20,37,15,22,4,5,38,7,41,27,26,36,31]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 4  5  6  7 15 20 22 25 26 27 31 36 37 38 41]
+iter 100 done, update = 0.0023584961891174316
+iter 200 done, update = 0.0002195015549659729
+iter 300 done, update = 9.15825366973877e-05
+iter 400 done, update = 2.333521842956543e-05
+iter 500 done, update = 0.00024276599287986755
+iter 600 done, update = 9.912997484207153e-06
+iter 700 done, update = 1.1920928955078125e-07
+difference between H_out and P_out: 0.0007094833999872208
+[Accuracy] 0.405452946350044
+[NMI] 0.5071659218060756
+
+################## using class: [40,19,8,6,13,12,36,31,21,29,22,38,1,7,37]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[40,19,8,6,13,12,36,31,21,29,22,38,1,7,37]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  6  7  8 12 13 19 21 22 29 31 36 37 38 40]
+iter 100 done, update = 0.0003190021961927414
+iter 200 done, update = 4.0156301110982895e-05
+iter 300 done, update = 1.4050863683223724e-05
+iter 400 done, update = 7.4803829193115234e-06
+iter 500 done, update = 3.396766260266304e-06
+iter 600 done, update = 2.477085217833519e-06
+iter 700 done, update = 2.2314488887786865e-06
+iter 800 done, update = 1.2433156371116638e-06
+iter 900 done, update = 6.968621164560318e-07
+iter 1000 done, update = 6.027985364198685e-07
+iter 1100 done, update = 5.781184881925583e-07
+iter 1200 done, update = 4.384201020002365e-07
+iter 1300 done, update = 3.2852403819561005e-07
+iter 1400 done, update = 1.7671845853328705e-07
+iter 1500 done, update = 1.4295801520347595e-07
+iter 1600 done, update = 1.3154931366443634e-07
+iter 1700 done, update = 2.577435225248337e-07
+iter 1800 done, update = 2.2351741790771484e-07
+iter 1900 done, update = 3.210734575986862e-07
+iter 2000 done, update = 4.1746534407138824e-07
+iter 2100 done, update = 4.2654573917388916e-07
+iter 2200 done, update = 3.4389086067676544e-07
+iter 2300 done, update = 2.521555870771408e-07
+iter 2400 done, update = 2.2747553884983063e-07
+iter 2500 done, update = 1.371372491121292e-07
+iter 2600 done, update = 5.3551048040390015e-08
+iter 2700 done, update = 4.4354237616062164e-08
+iter 2800 done, update = 5.4016709327697754e-08
+iter 2900 done, update = 1.501757651567459e-08
+iter 3000 done, update = 8.614733815193176e-09
+iter 3100 done, update = 3.655441105365753e-08
+difference between H_out and P_out: 309.56658935546875
+[Accuracy] 0.12318678866324481
+[NMI] 0.10829636760364054
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[40,19,8,6,13,12,36,31,21,29,22,38,1,7,37]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 1  6  7  8 12 13 19 21 22 29 31 36 37 38 40]
+iter 100 done, update = 0.00026935525238513947
+iter 200 done, update = 5.73527067899704e-05
+iter 300 done, update = 1.1247582733631134e-05
+iter 400 done, update = 7.645459845662117e-06
+iter 500 done, update = 4.381872713565826e-06
+iter 600 done, update = 2.4659093469381332e-06
+iter 700 done, update = 2.028420567512512e-06
+iter 800 done, update = 8.07223841547966e-07
+iter 900 done, update = 7.324852049350739e-07
+iter 1000 done, update = 5.417969077825546e-07
+iter 1100 done, update = 3.6675482988357544e-06
+iter 1200 done, update = 2.896413207054138e-07
+iter 1300 done, update = 4.6193599700927734e-07
+iter 1400 done, update = 5.967449396848679e-07
+iter 1500 done, update = 4.3259933590888977e-07
+iter 1600 done, update = 1.648440957069397e-07
+iter 1700 done, update = 2.400483936071396e-07
+iter 1800 done, update = 6.693881005048752e-08
+iter 1900 done, update = 3.2584648579359055e-07
+iter 2000 done, update = 5.889451131224632e-07
+iter 2100 done, update = 1.6775447875261307e-07
+iter 2200 done, update = 9.988434612751007e-08
+iter 2300 done, update = 5.296897143125534e-08
+iter 2400 done, update = 3.14321368932724e-09
+difference between H_out and P_out: 0.0021744046825915575
+[Accuracy] 0.1981700513278286
+[NMI] 0.258594129557114
+
+################## using class: [35,40,10,37,5,17,28,13,24,7,38,27,41,2,22]
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[35,40,10,37,5,17,28,13,24,7,38,27,41,2,22]', tol=1e-15, lamda=8.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  5  7 10 13 17 22 24 27 28 35 37 38 40 41]
+iter 100 done, update = 0.0029180049896240234
+iter 200 done, update = 0.00039830803871154785
+iter 300 done, update = 0.00011609122157096863
+iter 400 done, update = 5.9582293033599854e-05
+iter 500 done, update = 4.476681351661682e-05
+iter 600 done, update = 2.146512269973755e-05
+iter 700 done, update = 1.290440559387207e-05
+iter 800 done, update = 1.0833144187927246e-05
+iter 900 done, update = 9.272247552871704e-06
+iter 1000 done, update = 3.4123659133911133e-06
+iter 1100 done, update = 2.380460500717163e-06
+iter 1200 done, update = 1.5236437320709229e-06
+iter 1300 done, update = 1.2852251529693604e-06
+iter 1400 done, update = 2.551823854446411e-06
+iter 1500 done, update = 4.809349775314331e-06
+iter 1600 done, update = 4.027038812637329e-06
+iter 1700 done, update = 1.646578311920166e-06
+iter 1800 done, update = 2.592802047729492e-06
+iter 1900 done, update = 3.166496753692627e-07
+iter 2000 done, update = 1.4118850231170654e-06
+iter 2100 done, update = 2.2351741790771484e-06
+difference between H_out and P_out: 214.5806427001953
+[Accuracy] 0.16244198500535523
+[NMI] 0.13897096841571446
+
+[Using device] cuda
+[args] Namespace(dataset='reuters', n_clusters=15, classes='[35,40,10,37,5,17,28,13,24,7,38,27,41,2,22]', tol=1e-15, lamda=15.0, filename='reuters_2024.04.22-22.40.08.csv')
+Reading reuters21578 dataset...
+Counting the number of occurrences of each topic...
+Checking documents with topics that occur less than 10 times...
+Removing documents with topics that occur less than 10 times...
+[Using classes] [ 2  5  7 10 13 17 22 24 27 28 35 37 38 40 41]
+iter 100 done, update = 0.002733185887336731
+iter 200 done, update = 0.00036360323429107666
+iter 300 done, update = 0.00028889626264572144
+iter 400 done, update = 5.0906091928482056e-05
+iter 500 done, update = 3.1694769859313965e-05
+iter 600 done, update = 2.401694655418396e-05
+iter 700 done, update = 1.5217810869216919e-05
+iter 800 done, update = 9.737908840179443e-06
+iter 900 done, update = 4.004687070846558e-06
+iter 1000 done, update = 1.989305019378662e-06
+iter 1100 done, update = 3.2745301723480225e-06
+iter 1200 done, update = 7.37607479095459e-06
+difference between H_out and P_out: 166.9589385986328
+[Accuracy] 0.17922170653338093
+[NMI] 0.186926348927858
+
