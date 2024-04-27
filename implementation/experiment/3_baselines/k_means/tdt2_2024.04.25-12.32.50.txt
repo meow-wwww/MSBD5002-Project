@@ -1,0 +1,65 @@
+#################################### n_classes: 2
+################## using class: [19,13]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,13]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.5591836734693878
+[NMI] 0.1524159982233858
+
+################## using class: [8,7]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[8,7]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.7509803921568627
+[NMI] 0.33173239046052194
+
+################## using class: [27,28]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,28]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.8099173553719008
+[NMI] 0.4321698097156884
+
+################## using class: [19,28]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[19,28]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.8703703703703703
+[NMI] 0.5093582895117017
+
+################## using class: [10,27]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[10,27]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.717391304347826
+[NMI] 0.008783615260496827
+
+################## using class: [16,4]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[16,4]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.5096359743040685
+[NMI] 0.12276470224316845
+
+################## using class: [27,6]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[27,6]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.6957446808510638
+[NMI] 0.06364860407049289
+
+################## using class: [5,11]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[5,11]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.5174708818635607
+[NMI] 0.16124391929950513
+
+################## using class: [2,18]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[2,18]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.7114989733059548
+[NMI] 0.042869970044691307
+
+################## using class: [28,12]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[28,12]', filename='tdt2_2024.04.25-12.32.50.csv')
+[Accuracy] 0.5123152709359606
+[NMI] 0.156820076068417
+
+#################################### n_classes: 10
+################## using class: [23,18,30,7,13,22,15,2,21,4]
+[Using device] cpu
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[23,18,30,7,13,22,15,2,21,4]', filename='tdt2_2024.04.25-12.32.50.csv')

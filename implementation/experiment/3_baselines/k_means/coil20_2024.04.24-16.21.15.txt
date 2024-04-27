@@ -1,0 +1,123 @@
+#################################### n_classes: 2
+################## using class: [11,13]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[11,13]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [2,10]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[2,10]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7013888888888888
+[NMI] 0.2764787162387528
+
+################## using class: [15,13]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,13]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [20,9]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[20,9]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [15,6]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[15,6]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.9444444444444444
+[NMI] 0.7427610701225345
+
+################## using class: [4,7]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[4,7]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [1,7]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[1,7]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.5
+[NMI] 0.0
+
+################## using class: [9,12]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[9,12]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.9236111111111112
+[NMI] 0.6804738111820045
+
+################## using class: [8,14]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[8,14]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+################## using class: [12,1]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=2, classes='[12,1]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 1.0
+[NMI] 1.0
+
+#################################### n_classes: 10
+################## using class: [16,4,7,1,5,12,17,8,15,6]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[16,4,7,1,5,12,17,8,15,6]', filename='coil20_2024.04.24-16.21.15.csv')
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.8097222222222222
+[NMI] 0.876827162606502
+
+################## using class: [5,10,9,7,8,14,1,17,2,3]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[5,10,9,7,8,14,1,17,2,3]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7097222222222223
+[NMI] 0.7489310776193092
+
+################## using class: [17,9,3,18,7,10,8,20,11,5]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[17,9,3,18,7,10,8,20,11,5]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7138888888888889
+[NMI] 0.8177094356595738
+
+################## using class: [9,7,13,15,12,11,17,14,16,3]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[9,7,13,15,12,11,17,14,16,3]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.8472222222222222
+[NMI] 0.9006206567062432
+
+################## using class: [10,8,4,12,14,15,6,1,18,16]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[10,8,4,12,14,15,6,1,18,16]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7416666666666667
+[NMI] 0.8564374587112049
+
+################## using class: [9,4,7,10,3,8,6,17,15,14]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[9,4,7,10,3,8,6,17,15,14]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.8513888888888889
+[NMI] 0.8557544647825309
+
+################## using class: [1,8,17,7,4,9,5,16,12,10]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[1,8,17,7,4,9,5,16,12,10]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7319444444444444
+[NMI] 0.8297664347254676
+
+################## using class: [11,1,8,14,5,13,19,16,15,7]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[11,1,8,14,5,13,19,16,15,7]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7055555555555556
+[NMI] 0.7972621040691173
+
+################## using class: [2,7,10,18,8,12,13,16,5,3]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[2,7,10,18,8,12,13,16,5,3]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.7736111111111111
+[NMI] 0.8097231949752268
+
+################## using class: [13,10,14,2,11,1,7,15,19,18]
+[Using device] cpu
+[args] Namespace(dataset='coil20', n_clusters=10, classes='[13,10,14,2,11,1,7,15,19,18]', filename='coil20_2024.04.24-16.21.15.csv')
+[Accuracy] 0.6930555555555555
+[NMI] 0.7692863557849275
+

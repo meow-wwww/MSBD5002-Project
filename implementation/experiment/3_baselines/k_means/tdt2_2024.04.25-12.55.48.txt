@@ -1,0 +1,191 @@
+#################################### n_classes: 2
+################## using class: [30,22]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[30,22]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([126, 36771])
+[Label] tensor([22, 30], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.6666666666666666
+[NMI] 0.15743532701476032
+
+################## using class: [25,20]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,20]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([164, 36771])
+[Label] tensor([20, 25], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.5853658536585366
+[NMI] 0.18738584250729906
+
+################## using class: [25,7]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[25,7]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([338, 36771])
+[Label] tensor([ 7, 25], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.5384615384615384
+[NMI] 0.12796102096124515
+
+################## using class: [17,23]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[17,23]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([195, 36771])
+[Label] tensor([17, 23], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.5282051282051282
+[NMI] 0.1493099888278626
+
+################## using class: [16,1]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[16,1]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([1967, 36771])
+[Label] tensor([ 1, 16], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.71021860701576
+[NMI] 0.04345146436706776
+
+################## using class: [29,27]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[29,27]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([119, 36771])
+[Label] tensor([27, 29], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.6974789915966386
+[NMI] 0.25536828866527583
+
+################## using class: [28,20]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[28,20]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([156, 36771])
+[Label] tensor([20, 28], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.5641025641025641
+[NMI] 0.17852066741150835
+
+################## using class: [21,30]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[21,30]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([128, 36771])
+[Label] tensor([21, 30], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.7421875
+[NMI] 0.27989301666895045
+
+################## using class: [17,23]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[17,23]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([195, 36771])
+[Label] tensor([17, 23], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.5435897435897435
+[NMI] 0.16207516202993444
+
+################## using class: [28,13]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=2, classes='[28,13]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([199, 36771])
+[Label] tensor([13, 28], device='cuda:0', dtype=torch.uint8)
+[Accuracy] 0.6432160804020101
+[NMI] 0.05547791040638397
+
+#################################### n_classes: 10
+################## using class: [15,18,23,19,14,25,4,28,16,10]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[15,18,23,19,14,25,4,28,16,10]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([1792, 36771])
+[Label] tensor([ 4, 10, 14, 15, 16, 18, 19, 23, 25, 28], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.35379464285714285
+[NMI] 0.32987697477183003
+
+################## using class: [1,18,16,29,13,20,21,28,5,4]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[1,18,16,29,13,20,21,28,5,4]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([3768, 36771])
+[Label] tensor([ 1,  4,  5, 13, 16, 18, 20, 21, 28, 29], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.46682590233545646
+[NMI] 0.3845508815678712
+
+################## using class: [10,13,3,15,12,25,14,28,17,22]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[10,13,3,15,12,25,14,28,17,22]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([2267, 36771])
+[Label] tensor([ 3, 10, 12, 13, 14, 15, 17, 22, 25, 28], device='cuda:0',
+       dtype=torch.uint8)
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.3775915306572563
+[NMI] 0.2853929248367027
+
+################## using class: [18,16,15,17,5,8,4,11,19,30]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[18,16,15,17,5,8,4,11,19,30]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([2303, 36771])
+[Label] tensor([ 4,  5,  8, 11, 15, 16, 17, 18, 19, 30], device='cuda:0',
+       dtype=torch.uint8)
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.3999131567520625
+[NMI] 0.3625657679611891
+
+################## using class: [27,2,1,26,9,8,4,24,7,29]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[27,2,1,26,9,8,4,24,7,29]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([5474, 36771])
+[Label] tensor([ 1,  2,  4,  7,  8,  9, 24, 26, 27, 29], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.46328096455973694
+[NMI] 0.4124390910096204
+
+################## using class: [26,16,2,29,15,30,3,12,25,17]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[26,16,2,29,15,30,3,12,25,17]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([3811, 36771])
+[Label] tensor([ 2,  3, 12, 15, 16, 17, 25, 26, 29, 30], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.34610338493833637
+[NMI] 0.27786105945451445
+
+################## using class: [1,2,11,23,26,25,13,15,5,18]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[1,2,11,23,26,25,13,15,5,18]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([4868, 36771])
+[Label] tensor([ 1,  2,  5, 11, 13, 15, 18, 23, 25, 26], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.39338537387017253
+[NMI] 0.32856800982923556
+
+################## using class: [9,22,19,25,15,18,1,6,20,30]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[9,22,19,25,15,18,1,6,20,30]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([3122, 36771])
+[Label] tensor([ 1,  6,  9, 15, 18, 19, 20, 22, 25, 30], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.39814221652786674
+[NMI] 0.2725381065247815
+
+################## using class: [14,12,21,15,2,22,4,29,24,7]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[14,12,21,15,2,22,4,29,24,7]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([3604, 36771])
+[Label] tensor([ 2,  4,  7, 12, 14, 15, 21, 22, 24, 29], device='cuda:0',
+       dtype=torch.uint8)
+K-means algorithm did not converge in 200 iterations
+[Accuracy] 0.38235294117647056
+[NMI] 0.34823074908578466
+
+################## using class: [3,24,15,9,17,12,5,27,16,7]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=10, classes='[3,24,15,9,17,12,5,27,16,7]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([2817, 36771])
+[Label] tensor([ 3,  5,  7,  9, 12, 15, 16, 17, 24, 27], device='cuda:0',
+       dtype=torch.uint8)
+[Accuracy] 0.41675541356052537
+[NMI] 0.36778053725908794
+
+#################################### n_classes: 20
+################## using class: [2,27,1,22,8,28,25,30,13,19,14,7,6,23,10,17,20,5,21,9]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[2,27,1,22,8,28,25,30,13,19,14,7,6,23,10,17,20,5,21,9]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([6490, 36771])
+[Label] tensor([ 1,  2,  5,  6,  7,  8,  9, 10, 13, 14, 17, 19, 20, 21, 22, 23, 25, 27,
+        28, 30], device='cuda:0', dtype=torch.uint8)
+################## using class: [5,10,30,25,8,9,23,14,2,22,3,28,12,26,17,1,24,6,11,20]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[5,10,30,25,8,9,23,14,2,22,3,28,12,26,17,1,24,6,11,20]', filename='tdt2_2024.04.25-12.55.48.csv')
+[Data shape] torch.Size([7497, 36771])
+[Label] tensor([ 1,  2,  3,  5,  6,  8,  9, 10, 11, 12, 14, 17, 20, 22, 23, 24, 25, 26,
+        28, 30], device='cuda:0', dtype=torch.uint8)
+################## using class: [22,7,18,14,3,17,2,9,10,16,13,27,5,19,6,26,20,24,23,4]
+[Using device] cuda
+[args] Namespace(dataset='tdt2', n_clusters=20, classes='[22,7,18,14,3,17,2,9,10,16,13,27,5,19,6,26,20,24,23,4]', filename='tdt2_2024.04.25-12.55.48.csv')
